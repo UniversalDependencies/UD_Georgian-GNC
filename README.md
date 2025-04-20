@@ -8,20 +8,20 @@ UD_Georgian-GNC is a treebank based on texts from the Georgian National Corpus, 
 
 The sentences are analysed using a finite state morphological analyser, and Constraint Grammar rules for disambiguation and dependency parsing. Both disambiguation and dependency analyses are corrected manually in a tool specifically developed for that purpose.
 
-## Annotation principles
+# Annotation principles
 
 The lexicon of the morphological analyser is based on Kita Tschenkéli’s Georgisch-Deutsches Wörterbuch; in this dictionary, verbs are listed according to verbal root and, inside each root article, by Verbal Noun (Masdar). Consequently, the Verbal Noun is chosen as the lemma form of inflected finite verbs, and also of participles.
 
-# Arguments of finite verbs
+## Arguments of finite verbs
 
 Georgian argument and case syntax is quite complex.
 
 Finite verbs may have up to four actants, two of which may be cross-referenced by affixes in the verb. Depending on verb class and tense, subject and object dependents are marked by Nominative, Ergative or Dative case.
 Specifically, indirect objects of active verbs are cross-referenced by nominals in the Dative in the Present and Aorist tense series, but in the Perfect series, they are demoted to obliques marked by the postposition -თვის. For these oblique dependents, the relation label `obl:iobj` is used.
 
-# Verbal noun and participles
+## Verbal noun and participles
 
-# Verbal nouns (VN)
+### Verbal nouns (VN)
 
 Verbal nouns are treated as nominals (pos = `NOUN`). In many constructions however, VNs retain their verbal force and and are accompanied by arguments. Those arguments are coded differently from arguments of finite verbs.
 
@@ -43,11 +43,11 @@ Inverted verbs are in some sense weakly transitive, as there are very few subjec
 
 Here, both the experiencer and the theme role can be coded with the genitive (not simultaneously, of course), and again the label `nmod` is chosen in both cases to cover this vagueness.
 
-# Participles
+### Participles
 
 If participles occur in a periphrastic tense construction with an auxiliary, they are treated as verbs. Otherwise, they are treated as adjectives.
 
-# Person names
+## Person names
 
 In Georgian compound person names (e.g., first + last name), the last element is clearly marked as the head of the noun phrase, as it alone has full case morphology, whereas the preceding elements behave similarly to attributive adjectives. Therefore, names are not analysed as a flat structure, rather, the elements preceding the last one are treated as dependents of the last element, with the relation label `nmod:name`.
 
@@ -55,7 +55,7 @@ In Georgian compound person names (e.g., first + last name), the last element is
 
 The Georgian treebank and the tools used to create it have been developed by Paul Meurer.
 
-## References
+# References
 
 * Paul Meurer. [The Morphosyntactic Analysis of Georgian](https://clarino.uib.no/gnc/doc/Morphosyntactic-analysis-of-Georgian.pdf).
 
