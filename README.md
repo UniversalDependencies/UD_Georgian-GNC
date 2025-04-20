@@ -37,7 +37,7 @@ For the A role, the label `nmod:agent` is chosen.
 
 Indirect objects are labeled `nmod:iobj`.
 
-For the class of inverted verbs (often verbs of sensation: love, hate, but also hear, have), where the subject is marked by the dative and the (direct) object by the nominative, this marking scheme doesn’t fully apply. (We fully adopt Tschenkéli’s classification; in his system, many verbs are classified as inverted that e.g. Rayfield’s dictionary treats as (non-inverted) intransitive verbs with animate indirect object and often inanimate subject.)
+For the class of inverted verbs (often verbs of sensation: _love_, _hate_, but also _hear_, _have_), where the subject is marked by the dative and the (direct) object by the nominative, this marking scheme doesn’t fully apply. (We fully adopt Tschenkéli’s classification; in his system, many verbs are classified as inverted that e.g. Rayfield’s dictionary treats as (non-inverted) intransitive verbs with animate indirect object and inanimate subject.)
 
 Inverted verbs are in some sense weakly transitive, as there are very few subject tests that apply, and translations to other languages can go both ways (მომწონს: _ich mag/mir gefällt_ in German). Their verbal nouns are often irregular and have a much more nominal feel to them than those of the more regular verbs.
 
@@ -51,6 +51,10 @@ If participles occur in a periphrastic tense construction with an auxiliary, the
 
 In Georgian compound person names (e.g., first + last name), the last element is clearly marked as the head of the noun phrase, as it alone has full case morphology, whereas the preceding elements behave similarly to attributive adjectives. Therefore, names are not analysed as a flat structure, rather, the elements preceding the last one are treated as dependents of the last element, with the relation label `nmod:name`.
 
+## Compatibility with the GNC
+
+In the Georgian National Corpus, a proprietary annotation scheme for lemma forms and morpho-syntactic features is used. The GNC annotations, from which the UD annotations are derived, are are kept in the UD analyses: the original lemma form can be found in the MISC column as value of the LMSeg attribute; the morpho-syntactic features are available in the XPOS column.
+
 # Acknowledgments
 
 The Georgian treebank and the tools used to create it have been developed by Paul Meurer.
@@ -62,7 +66,7 @@ The Georgian treebank and the tools used to create it have been developed by Pau
 # Changelog
 
 * 2025-05-15 v2.16
-  * Initial release in Universal Dependencies.
+  * Initial release in Universal Dependencies, 1531 sentences
 
 
 <pre>
@@ -70,14 +74,14 @@ The Georgian treebank and the tools used to create it have been developed by Pau
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction
-Lemmas: automatic
-UPOS: automatic
-XPOS: not available
-Features: automatic with manual corrections
-Relations: automatic with manual corrections
+Genre: fiction news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: manual native
 Contributors: Meurer, Paul
-Contributing: here
+Contributing: elsewhere
 Contact: paul.meurer@uib.no
 ===============================================================================
 </pre>
