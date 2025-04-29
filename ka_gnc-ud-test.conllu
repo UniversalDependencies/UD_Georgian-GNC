@@ -3257,7 +3257,7 @@
 17	აღმოჩნდება	აღმოჩენა	VERB	V_Pass_Fut_Pv_S:3Sg	Number[subj]=Sing|Person[subj]=3|Tense=Fut	21	advcl	_	LMSeg:აღმო·ჩენ[ა]/ჩნ|SpaceAfter=No
 18	,	,	PUNCT	Punct_Comma	_	21	punct	_	LMSeg:,
 19	განაჩენის	განაჩენი	ADJ	A_Gen_Sg_Old	Case=Gen|Number=Sing	20	nmod	_	LMSeg:განაჩენ·ი
-20	გამოტანისას	გამოტანა	NOUN	N_VN_DGen_DSg_Pv_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	21	advcl	_	LMSeg:გამო·ტან[ა]/ტან
+20	გამოტანისას	გამოტანა	VERB	N_VN_Converb	VerbForm=Conv	21	advcl	_	LMSeg:გამო·ტან[ა]/ტან
 21	მიიღებს	მიღება	VERB	V_Act_Fut_Pv_SV_S:3Sg_DO:3	Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Fut	10	conj	_	LMSeg:მი·ღებ[ა]/ღ
 22	მხედველობა	მხედველობა	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	21	obl	_	LMSeg:მხედველობ[ა]|SpaceAfter=No
 23	ში	_ში	ADP	Pp	_	22	case	_	LMSeg:_ში|SpaceAfter=No
@@ -4320,7 +4320,7 @@
 4	სასაფლაოს	სასაფლაო	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	5	nmod	_	LMSeg:სასაფლაო
 5	მიდამო	მიდამო	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	8	obl	_	LMSeg:მიდამო|SpaceAfter=No
 6	ში	_ში	ADP	Pp	_	5	case	_	LMSeg:_ში
-7	შეღამებისას	შეღამება	NOUN	N_VN_DGen_DSg_Pv_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	8	advcl	_	LMSeg:შე·ღამებ[ა]/ღამ
+7	შეღამებისას	შეღამება	VERB	N_VN_Converb	VerbForm=Conv	8	advcl	_	LMSeg:შე·ღამებ[ა]/ღამ
 8	გამოჩნდა	გამოჩენა	VERB	V_Pass_Aor_Pv_S:3Sg	Number[subj]=Sing|Person[subj]=3|Tense=Past	0	root	_	LMSeg:გამო·ჩენ[ა]/ჩნ|SpaceAfter=No
 9	.	.	PUNCT	Punct_Period	_	8	punct	_	LMSeg:.
 
@@ -9414,7 +9414,7 @@
 5	ამ	ეს	PRON	Pron_Dem_Dat_Att	Case=Dat|PronType=Dem	6	det	_	LMSeg:ეს
 6	ოთახ	ოთახი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	8	obl	_	LMSeg:ოთახ·ი|SpaceAfter=No
 7	ში	_ში	ADP	Pp	_	6	case	_	LMSeg:_ში
-8	შესვლისას	შესვლა	NOUN	N_VN_DGen_DSg_Pv_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	11	advcl	_	LMSeg:შე·სვლ[ა]/სვლ
+8	შესვლისას	შესვლა	VERB	N_VN_Converb	VerbForm=Conv	11	advcl	_	LMSeg:შე·სვლ[ა]/სვლ
 9	თავ	თავი	PRON	Pron_Refl_Dat_PP_PP:ში	Case=Dat	11	obl	_	LMSeg:თავ·ი|SpaceAfter=No
 10	ში	_ში	ADP	Pp	_	9	case	_	LMSeg:_ში
 11	გამიელვა	გაელვება	VERB	V_Act_Aor_Pv_OV_S:3Sg_DO:3_IO:1Sg	Number[io]=Sing|Number[subj]=Sing|Person[io]=1|Person[obj]=3|Person[subj]=3|Tense=Past	2	acl:relcl	_	LMSeg:გა·ელვებ[ა]/ელვ|SpaceAfter=No
@@ -15255,7 +15255,7 @@
 # text-transcription = saposṭo q̇utis gaxsnisas sopis guliscemam umaṭa.
 1	საფოსტო	საფოსტო	ADJ	A_Gen_Att	Case=Gen	2	amod	_	LMSeg:საფოსტო
 2	ყუთის	ყუთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	3	nmod	_	LMSeg:ყუთ·ი
-3	გახსნისას	გახსნა	NOUN	N_VN_DGen_DSg_Pv_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	6	advcl	_	LMSeg:გა·ხსნ[ა]/ხსნ
+3	გახსნისას	გახსნა	VERB	N_VN_Converb	VerbForm=Conv	6	advcl	_	LMSeg:გა·ხსნ[ა]/ხსნ
 4	სოფის	სოფი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	6	iobj	_	LMSeg:სოფი
 5	გულისცემამ	გულისცემა	NOUN	N_Erg_Sg	Case=Erg|Number=Sing	6	nsubj	_	LMSeg:გულისცემ[ა]
 6	უმატა	მატება	VERB	V_Act_Aor_Imperfective_OV_S:3Sg_DO:3_IO:3	Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past	0	root	_	LMSeg:*·მატებ[ა]/მატ|SpaceAfter=No
@@ -17052,7 +17052,7 @@
 2	,	,	PUNCT	Punct_Comma	_	8	punct	_	LMSeg:,
 3	ტყე	ტყე	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	5	obl	_	LMSeg:ტყ[ე]|SpaceAfter=No
 4	ში	_ში	ADP	Pp	_	3	case	_	LMSeg:_ში
-5	სეირნობისას	სეირნობა	VERB	N_VN_Converb	VerbForm=Vnoun	8	advcl	_	LMSeg:სეირნობ[ა]/სეირნ|SpaceAfter=No
+5	სეირნობისას	სეირნობა	VERB	N_VN_Converb	VerbForm=Conv	8	advcl	_	LMSeg:სეირნობ[ა]/სეირნ|SpaceAfter=No
 6	,	,	PUNCT	Punct_Comma	_	8	punct	_	LMSeg:,
 7	უეცრად	უეცრად	ADV	A_Advb_Sg	_	8	advmod	_	LMSeg:უეცრად
 8	შეჩერდები	შეჩერება	VERB	V_Pass_Fut_Pv_S:2Sg	Number[subj]=Sing|Person[subj]=2|Tense=Fut	0	root	_	LMSeg:შე·ჩერებ[ა]/ჩერ
