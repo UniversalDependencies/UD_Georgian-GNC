@@ -71,7 +71,7 @@ The Georgian treebank and the tools used to create it have been developed by Pau
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.15
+Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: fiction news
