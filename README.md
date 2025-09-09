@@ -74,6 +74,7 @@ The Georgian treebank and the tools used to create it have been developed by Pau
 Data available since: UD v2.16
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction news
 Lemmas: converted from manual
 UPOS: converted from manual
