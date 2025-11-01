@@ -5499,6 +5499,73 @@
 6	დავიდარაბა	დავიდარაბა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	conj	_	LMSeg:დავიდარაბ[ა]|SpaceAfter=No
 7	.	.	PUNCT	Punct_Period	_	1	punct	_	LMSeg:.
 
+# sent_id = dumbadze-n+me-vxedav-mzes+w63
+# text = ჩხართვი გაბმულად სტვენდა.
+# text-transcription = čxartvi gabmulad sṭvenda.
+1	ჩხართვი	ჩხართვი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	3	nsubj	_	LMSeg:ჩხართვ·ი
+2	გაბმულად	გაბმულად	ADV	A_Part_PastPart_Pv_Advb_Sg	_	3	advmod	_	LMSeg:გაბმულად
+3	სტვენდა	დასტვენა	VERB	V_MedAct_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:და·სტვენ[ა]/სტვენ|SpaceAfter=No
+4	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dumbadze-n+me-vxedav-mzes+w67
+# text = იშვიათად თუ შეჩერდებოდა და ისევ განაგრძობდა სტვენას.
+# text-transcription = išviatad tu šečerdeboda da isev ganagrʒobda sṭvenas.
+1	იშვიათად	იშვიათად	ADV	A_Advb_Sg	_	3	advmod	_	LMSeg:იშვიათად
+2	თუ	თუ	ADV	Adv	_	3	advmod	_	LMSeg:თუ
+3	შეჩერდებოდა	შეჩერება	VERB	V_Pass_Cond_Pv_S:3Sg	Mood=Cnd|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	LMSeg:შე·ჩერებ[ა]/ჩერ
+4	და	და	CCONJ	Cj_Coord	_	6	cc	_	LMSeg:და
+5	ისევ	ისევ	ADV	Adv_Sent	_	6	advmod	_	LMSeg:ისევ
+6	განაგრძობდა	განგრძობა	VERB	V_Act_Cond_Pv_S:3Sg_DO:3	Mood=Cnd|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	3	conj	_	LMSeg:გან·გრძობ[ა]/გრძ
+7	სტვენას	სტვენა	NOUN	N_VN_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	6	obj	_	LMSeg:სტვენ[ა]/სტვენ|SpaceAfter=No
+8	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dumbadze-n+me-vxedav-mzes+w83
+# text = უზარმაზარი მზე ზანტად ჩადიოდა და სოფლებს ცეცხლს უკიდებდა.
+# text-transcription = uzarmazari mze zanṭad čadioda da soplebs cecxls uḳidebda.
+1	უზარმაზარი	უზარმაზარი	ADJ	A_Nom_Att	Case=Nom	2	amod	_	LMSeg:უზარმაზარ·ი
+2	მზე	მზე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	nsubj	_	LMSeg:მზ[ე]
+3	ზანტად	ზანტად	ADV	A_Advb_Sg	_	4	advmod	_	LMSeg:ზანტად
+4	ჩადიოდა	ჩასვლა	VERB	V_MedPass_Impf_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:ჩა·სვლ[ა]/დი
+5	და	და	CCONJ	Cj_Coord	_	8	cc	_	LMSeg:და
+6	სოფლებს	სოფელი	NOUN	N_Dat_Pl_NewPl	Case=Dat|Number=Plur	8	iobj	_	LMSeg:სოფ[ე]ლ·ი
+7	ცეცხლს	ცეცხლი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	8	obj	_	LMSeg:ცეცხლ·ი
+8	უკიდებდა	კიდება	VERB	V_Act_Impf_OV_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	4	conj	_	LMSeg:*·კიდებ[ა]/კიდ|SpaceAfter=No
+9	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+
+# sent_id = dumbadze-n+me-vxedav-mzes+w96
+# text = – მოადგა ვიღაცა ჭიშკარს.
+# text-transcription = – moadga viġaca č̣išḳars.
+1	–	–	PUNCT	Punct_Dash	_	2	punct	_	LMSeg:–
+2	მოადგა	მოდგომა	VERB	V_Pass_Aor_Pv_LV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·დგომ[ა]/დგ
+3	ვიღაცა	ვიღაც	PRON	Pron_Indef_Hum_Nom_Sg	Animacy=Anim|Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	LMSeg:ვიღაც
+4	ჭიშკარს	ჭიშკარი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	2	iobj	_	LMSeg:ჭიშკ[ა]რ·ი|SpaceAfter=No
+5	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+
+# sent_id = dumbadze-n+me-vxedav-mzes+w102
+# text = ჩხართვმა სტვენა შეწყვიტა.
+# text-transcription = čxartvma sṭvena šec̣q̇viṭa.
+1	ჩხართვმა	ჩხართვი	NOUN	N_Erg_Sg	Case=Erg|Number=Sing	3	nsubj	_	LMSeg:ჩხართვ·ი
+2	სტვენა	სტვენა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	3	obj	_	LMSeg:სტვენ[ა]/სტვენ
+3	შეწყვიტა	შეწყვეტა	VERB	V_Act_Aor_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:შე·წყვეტ[ა]/წყვიტ|SpaceAfter=No
+4	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dumbadze-n+me-vxedav-mzes+w114
+# text = – ახლა მე დამიძახა სტუმარმა.
+# text-transcription = – axla me damiʒaxa sṭumarma.
+1	–	–	PUNCT	Punct_Dash	_	4	punct	_	LMSeg:–
+2	ახლა	ახლა	ADV	Adv_Temp	AdvType=Tim	4	advmod	_	LMSeg:ახლა
+3	მე	მე	PRON	Pron_Pers_1_Dat_Sg	Case=Dat|Number=Sing|PronType=Prs	4	iobj	_	LMSeg:მე
+4	დამიძახა	დაძახვა	VERB	V_Act_Aor_Pv_OV_S:3Sg_DO:3_IO:1Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Sing|Person[io]=1|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:და·ძახვ[ა]/ძახ
+5	სტუმარმა	სტუმარი	NOUN	N_Hum_Erg_Sg	Animacy=Anim|Case=Erg|Number=Sing	4	nsubj	_	LMSeg:სტუმ[ა]რ·ი|SpaceAfter=No
+6	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+
+# sent_id = dumbadze-n+me-vxedav-mzes+w118
+# text = – მობრძანდი!
+# text-transcription = – mobrʒandi!
+1	–	–	PUNCT	Punct_Dash	_	2	punct	_	LMSeg:–
+2	მობრძანდი	მობრძანება	VERB	V_Pass_Impv_Pv_S:2Sg	Mood=Imp|Number[subj]=Sing|Person[subj]=2|VerbForm=Fin	0	root	_	LMSeg:მო·ბრძანებ[ა]/ბრძან|SpaceAfter=No
+3	!	!	PUNCT	Punct_ExclPoint	_	2	punct	_	LMSeg:!
+
 # sent_id = dzhavaxishvili-m+kvachi+w1700
 # text = იმ წელს, პირველ აპრილს, სამტრედიაში უცნაური და იშვიათი დარი დადგა.
 # text-transcription = im c̣els, ṗirvel aṗrils, samṭrediaši ucnauri da išviati dari dadga.
@@ -8433,6 +8500,16 @@
 11	დახლს	დახლი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	8	orphan	_	LMSeg:დახლ·ი|SpaceAfter=No
 12	.	.	PUNCT	Punct_Period	_	5	punct	_	LMSeg:.
 
+# sent_id = dzhavaxishvili-m+kvachi+w401700
+# text = კვაჭის საკუთარი პაწაწინა ოთახი ჰქონდა.
+# text-transcription = ḳvač̣is saḳutari ṗac̣ac̣ina otaxi hkonda.
+1	კვაჭის	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	5	nsubj	_	LMSeg:კვაჭი
+2	საკუთარი	საკუთარი	ADJ	A_Nom_Att	Case=Nom	4	amod	_	LMSeg:საკუთ[ა]რ·ი
+3	პაწაწინა	პაწაწინა	ADJ	A_Nom_Att	Case=Nom	4	amod	_	LMSeg:პაწაწინა
+4	ოთახი	ოთახი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	5	obj	_	LMSeg:ოთახ·ი
+5	ჰქონდა	ქონა	VERB	V_MedPass_Inv_Impf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin|Voice=Inv	0	root	_	LMSeg:ქონ[ა]/ქონ|SpaceAfter=No
+6	.	.	PUNCT	Punct_Period	_	5	punct	_	LMSeg:.
+
 # sent_id = dzhavaxishvili-m+kvachi+w402800
 # text = მისი ოთახი და საერთო დიდი ოთახი თხელი ფიცრულით იყო გადაღობილი, ამიტომ ორივე ოთახში ყოველი სიტყვა, ჭრაჭუნი და ფუსფუსიც კი ისმოდა.
 # text-transcription = misi otaxi da saerto didi otaxi txeli picrulit iq̇o gadaġobili, amiṭom orive otaxši q̇oveli siṭq̇va, č̣rač̣uni da puspusic ḳi ismoda.
@@ -8460,6 +8537,717 @@
 22	კი	კი	ADV	Adv_Disc	_	21	advmod	_	LMSeg:კი
 23	ისმოდა	სმენა	VERB	V_Pass_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	10	parataxis	_	LMSeg:სმენ[ა]/სმ|SpaceAfter=No
 24	.	.	PUNCT	Punct_Period	_	10	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w404700
+# text = ბუდუ შოლია თავის დახლს იშვიათად ჰშორდებოდა.
+# text-transcription = budu šolia tavis daxls išviatad hšordeboda.
+1	ბუდუ	ბუდუ	PROPN	N_Prop_Anthr_FirstName_Nom_Att	Case=Nom|NameType=Prs	2	nmod:name	_	LMSeg:ბუდუ
+2	შოლია	შოლია	PROPN	N_Prop_Anthr_LastName_Nom	Case=Nom|NameType=Prs	6	nsubj	_	LMSeg:შოლია
+3	თავის	თავისი	PRON	Pron_Poss_Refl_Poss3Sg_Dat_Att	Case=Dat|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	LMSeg:თავის·ი
+4	დახლს	დახლი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	6	iobj	_	LMSeg:დახლ·ი
+5	იშვიათად	იშვიათად	ADV	A_Advb_Sg	_	6	advmod	_	LMSeg:იშვიათად
+6	ჰშორდებოდა	შორება	VERB	V_Pass_Impf_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:*·შორებ[ა]/შორ|SpaceAfter=No
+7	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w405300
+# text = იმ საღამოს კვაჭი ბულვარიდან დაბრუნდა, ცოტაოდენი გადიკითხა და დაწვა.
+# text-transcription = im saġamos ḳvač̣i bulvaridan dabrunda, coṭaodeni gadiḳitxa da dac̣va.
+1	იმ	ის	PRON	Pron_Dem_Dat_Att	Case=Dat|PronType=Dem	2	det	_	LMSeg:ის
+2	საღამოს	საღამო	NOUN	N_Temp_Dat_Sg	Case=Dat|Number=Sing	6	obl	_	LMSeg:საღამო
+3	კვაჭი	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	6	nsubj	_	LMSeg:კვაჭი
+4	ბულვარი	ბულვარი	NOUN	N_Inst_Sg_PP_PP:დან	Case=Ins|Number=Sing	6	obl	_	LMSeg:ბულვარ·ი|SpaceAfter=No
+5	დან	_დან	ADP	Pp	_	4	case	_	LMSeg:_დან
+6	დაბრუნდა	დაბრუნება	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:და·ბრუნებ[ა]/ბრუნ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
+8	ცოტაოდენი	ცოტაოდენი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	9	obj	_	LMSeg:ცოტაოდენ·ი
+9	გადიკითხა	გადკითხვა	VERB	V_MedAct_Aor_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	6	conj	_	LMSeg:გად·კითხვ[ა]/კითხ
+10	და	და	CCONJ	Cj_Coord	_	11	cc	_	LMSeg:და
+11	დაწვა	დაწვა	VERB	V_Act_Aor_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	6	conj	_	LMSeg:და·წვ[ა]/წვ|SpaceAfter=No
+12	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w406400
+# text = ცვირიმ კვაჭიკოს ოთახში რაღაც მიალაგ-მოალაგა, მერმე ლამფა ჩაუქრო, სიბნელეში ტახტზე ჩამოუჯდა კვაჭის და ხუმრობა დაუწყო.
+# text-transcription = cvirim ḳvač̣iḳos otaxši raġac mialag-moalaga, merme lampa čaukro, sibneleši ṭaxṭze čamouǯda ḳvač̣is da xumroba dauc̣q̇o.
+1	ცვირიმ	ცვირი	PROPN	N_Prop_Anthr_FirstName_Erg	Case=Erg|NameType=Prs	6	nsubj	_	LMSeg:ცვირი
+2	კვაჭიკოს	კვაჭიკო	PROPN	N_Prop_Anthr_FirstName_Gen	Case=Gen|NameType=Prs	3	nmod	_	LMSeg:კვაჭიკო
+3	ოთახ	ოთახი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	6	obl	_	LMSeg:ოთახ·ი|SpaceAfter=No
+4	ში	_ში	ADP	Pp	_	3	case	_	LMSeg:_ში
+5	რაღაც	რაღაც	PRON	Pron_Indef_Nonhum_Nom_Sg	Case=Nom|Number=Sing|PronType=Ind	6	obj	_	LMSeg:რაღაც
+6	მიალაგ-მოალაგა	მილაგება=მოლაგება	VERB	V_Act_Aor_Pv_Redup_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მილაგება=მო·ლაგებ[ა]/ლაგ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	10	punct	_	LMSeg:,
+8	მერმე	მერმე	ADV	Adv_Temp	AdvType=Tim	10	advmod	_	LMSeg:მერმე
+9	ლამფა	ლამფა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	10	obj	_	LMSeg:ლამფ[ა]
+10	ჩაუქრო	ჩაქრობა	VERB	V_Act_Aor_Pv_OV_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	6	conj	_	LMSeg:ჩა·ქრობ[ა]/ქრ|SpaceAfter=No
+11	,	,	PUNCT	Punct_Comma	_	16	punct	_	LMSeg:,
+12	სიბნელე	სიბნელე	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	16	obl	_	LMSeg:სიბნელ[ე]|SpaceAfter=No
+13	ში	_ში	ADP	Pp	_	12	case	_	LMSeg:_ში
+14	ტახტ	ტახტი	NOUN	N_Dat_Sg_PP_PP:ზე	Case=Dat|Number=Sing	16	obl	_	LMSeg:ტახტ·ი|SpaceAfter=No
+15	ზე	_ზე	ADP	Pp	_	14	case	_	LMSeg:_ზე
+16	ჩამოუჯდა	ჩამოჯდომა	VERB	V_Pass_Aor_Pv_OV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	6	conj	_	LMSeg:ჩამო·ჯდომ[ა]/ჯდ
+17	კვაჭის	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	16	iobj	_	LMSeg:კვაჭი
+18	და	და	CCONJ	Cj_Coord	_	20	cc	_	LMSeg:და
+19	ხუმრობა	ხუმრობა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	20	obj	_	LMSeg:ხუმრობ[ა]/ხუმრ
+20	დაუწყო	დაწყება	VERB	V_Act_Aor_Pv_OV_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	6	conj	_	LMSeg:და·წყებ[ა]/წყ|SpaceAfter=No
+21	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w417300
+# text = მეორე დღიდან ცვირიმ ალერსი და მზრუნველობა გააათკეცა, კვაჭიკოს ხელში ვერცხლის მანეთიანი ჩაუდო და ჩასჩურჩულა:
+# text-transcription = meore dġidan cvirim alersi da mzrunveloba gaaatḳeca, ḳvač̣iḳos xelši vercxlis manetiani čaudo da časčurčula:
+1	მეორე	მეორე	NUM	Num_Ord_Alpha_Inst_Att	Case=Ins|NumType=Ord	2	nummod	_	LMSeg:მეორ[ე]
+2	დღი	დღე	NOUN	N_Temp_Inst_Sg_PP_PP:დან	Case=Ins|Number=Sing	8	nmod	_	LMSeg:დღ[ე]|SpaceAfter=No
+3	დან	_დან	ADP	Pp	_	2	case	_	LMSeg:_დან
+4	ცვირიმ	ცვირი	PROPN	N_Prop_Anthr_FirstName_Erg	Case=Erg|NameType=Prs	8	nsubj	_	LMSeg:ცვირი
+5	ალერსი	ალერსი	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	8	obj	_	LMSeg:ალერს·ი/ალერს
+6	და	და	CCONJ	Cj_Coord	_	7	cc	_	LMSeg:და
+7	მზრუნველობა	მზრუნველობა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	5	conj	_	LMSeg:მზრუნველობ[ა]/მზრუნველ
+8	გააათკეცა	გაათკეცება	VERB	V_Act_Aor_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:გა·ათკეცებ[ა]/ათკეც|SpaceAfter=No
+9	,	,	PUNCT	Punct_Comma	_	15	punct	_	LMSeg:,
+10	კვაჭიკოს	კვაჭიკო	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	15	iobj	_	LMSeg:კვაჭიკო
+11	ხელ	ხელი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	15	obl	_	LMSeg:ხელ·ი|SpaceAfter=No
+12	ში	_ში	ADP	Pp	_	11	case	_	LMSeg:_ში
+13	ვერცხლის	ვერცხლი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	14	nmod	_	LMSeg:ვერცხლ·ი
+14	მანეთიანი	მანეთიანი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	15	obj	_	LMSeg:მანეთიან·ი
+15	ჩაუდო	ჩადება	VERB	V_Act_Aor_Pv_OV_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	8	conj	_	LMSeg:ჩა·დებ[ა]/დ
+16	და	და	CCONJ	Cj_Coord	_	17	cc	_	LMSeg:და
+17	ჩასჩურჩულა	ჩაჩურჩულება	VERB	V_MedAct_Aor_Pv_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	8	conj	_	LMSeg:ჩა·ჩურჩულებ[ა]/ჩურჩულ|SpaceAfter=No
+18	:	:	PUNCT	Punct_Colon	_	17	punct	_	LMSeg::
+
+# sent_id = dzhavaxishvili-m+kvachi+w418800
+# text = იყიდე რამე, მარა სიტყვა არსად არ დასძრა, თვარა ორივენი დევიღუპებით.
+# text-transcription = iq̇ide rame, mara siṭq̇va arsad ar dasʒra, tvara oriveni deviġuṗebit.
+1	იყიდე	ყიდვა	VERB	V_MedAct_Impv_S:2Sg_DO:3	Mood=Imp|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|VerbForm=Fin	0	root	_	LMSeg:ყიდვ[ა]/ყიდ
+2	რამე	რამე	PRON	Pron_SIndef_Nonhum_Nom	Case=Nom	1	obj	_	LMSeg:რამ[ე]|SpaceAfter=No
+3	,	,	PUNCT	Punct_Comma	_	8	punct	_	LMSeg:,
+4	მარა	მარა	CCONJ	Cj_Coord	_	8	cc	_	LMSeg:მარა
+5	სიტყვა	სიტყვა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	8	obj	_	LMSeg:სიტყვ[ა]
+6	არსად	არსი	NOUN	N_Advb_Sg	Case=Ess|Number=Sing	8	obl	_	LMSeg:არს·ი
+7	არ	არ	ADV	Adv_Neg	_	8	advmod:neg	_	LMSeg:არ
+8	დასძრა	დაძვრა	VERB	V_Act_Aor_Pv_S:3Sg_DO:3_NonStand	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	1	conj	_	LMSeg:და·ძვრ[ა]/ძრ|SpaceAfter=No
+9	,	,	PUNCT	Punct_Comma	_	12	punct	_	LMSeg:,
+10	თვარა	თვარა	CCONJ	Cj_Coord	_	12	cc	_	LMSeg:თვარა
+11	ორივენი	ორვე	NUM	Num_Card_Alpha_Nom_Pl_OldPl	Case=Nom|NumType=Card	12	nsubj	_	LMSeg:ორვე
+12	დევიღუპებით	დაღუპვა	VERB	V_Pass_Fut_Pv_S:1Pl_Dialect	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Fut|VerbForm=Fin	8	conj	_	LMSeg:და·ღუპვ[ა]/ღუპ|SpaceAfter=No
+13	.	.	PUNCT	Punct_Period	_	1	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w420200
+# text = გაფრთხილება საჭირო არ იყო.
+# text-transcription = gaprtxileba sač̣iro ar iq̇o.
+1	გაფრთხილება	გაფრთხილება	NOUN	N_VN_Pv_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	2	nsubj	_	LMSeg:გა·ფრთხილებ[ა]/ფრთხილ
+2	საჭირო	საჭირო	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	0	root	_	LMSeg:საჭირო
+3	არ	არ	ADV	Adv_Neg	_	2	advmod:neg	_	LMSeg:არ
+4	იყო	ყოფნა	AUX	V_Pass_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	2	cop	_	LMSeg:ყოფნ[ა]/ყ[ავ]|SpaceAfter=No
+5	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w420800
+# text = კვაჭიკო ისედაც გაჩუმდებოდა ამ მანეთის შესახებ, თუმცა დანარჩენის გაჩუმებაზე არც კვაჭი და არც მისი ამხანაგები ნიძლავად ერთ შაურსაც არ დასდებდნენ.
+# text-transcription = ḳvač̣iḳo isedac gačumdeboda am manetis šesaxeb, tumca danarčenis gačumebaze arc ḳvač̣i da arc misi amxanagebi niʒlavad ert šaursac ar dasdebdnen.
+1	კვაჭიკო	კვაჭიკო	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	3	nsubj	_	LMSeg:კვაჭიკო
+2	ისედაც	ისედაც	ADV	Adv_Sent	_	3	advmod	_	LMSeg:ისედაც
+3	გაჩუმდებოდა	გაჩუმება	VERB	V_Pass_Cond_Pv_S:3Sg	Mood=Cnd|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	LMSeg:გა·ჩუმებ[ა]/ჩუმ
+4	ამ	ეს	PRON	Pron_Dem_Gen_Att	Case=Gen|PronType=Dem	5	det	_	LMSeg:ეს
+5	მანეთის	მანეთი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	3	obl	_	LMSeg:მანეთ·ი
+6	შესახებ	შესახებ	ADP	Pp	_	5	case	_	LMSeg:შესახებ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	22	punct	_	LMSeg:,
+8	თუმცა	თუმცა	SCONJ	Cj_Sub	_	22	mark	_	LMSeg:თუმცა
+9	დანარჩენის	დანარჩენი	ADJ	A_Part_PastPart_Pv_PastPart:ნა_Gen_Sg	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	10	nmod	_	LMSeg:და·ნარჩენ·ი/რჩენ
+10	გაჩუმება	გაჩუმება	NOUN	N_VN_Pv_Dat_Sg_PP_PP:ზე	Case=Dat|Number=Sing|VerbForm=Vnoun	22	obl	_	LMSeg:გა·ჩუმებ[ა]/ჩუმ|SpaceAfter=No
+11	ზე	_ზე	ADP	Pp	_	10	case	_	LMSeg:_ზე
+12	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	13	advmod:neg	_	LMSeg:არ
+13	კვაჭი	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	22	nsubj	_	LMSeg:კვაჭი
+14	და	და	CCONJ	Cj_Coord	_	17	cc	_	LMSeg:და
+15	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	17	advmod:neg	_	LMSeg:არ
+16	მისი	მისი	PRON	Pron_Poss_Poss3Sg_Nom_Att	Case=Nom|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	LMSeg:მის·ი
+17	ამხანაგები	ამხანაგი	NOUN	N_Hum_Nom_Pl_NewPl	Animacy=Anim|Case=Nom|Number=Plur	13	conj	_	LMSeg:ამხანაგ·ი
+18	ნიძლავად	ნიძლავი	NOUN	N_Advb_Sg_Guess	Case=Ess|Number=Sing	22	obl	_	LMSeg:ნიძლავ·ი
+19	ერთ	ერთი	NUM	Num_Card_Alpha_Dat_Att	Case=Dat|NumType=Card	20	nummod	_	LMSeg:ერთ·ი
+20	შაურსაც	შაური	NOUN	N_Dat_Sg_Old_Encl:ც_Foc	Case=Dat|Encl=C|Number=Sing	22	obj	_	LMSeg:შაურ·ი
+21	არ	არ	ADV	Adv_Neg	_	22	advmod:neg	_	LMSeg:არ
+22	დასდებდნენ	დადება	VERB	V_Act_ConjFut_Pv_S:3Pl_DO:3_NonStand	Mood=Sub|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Fut|VerbForm=Fin	3	advcl	_	LMSeg:და·დებ[ა]/დ|SpaceAfter=No
+23	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w422900
+# text = ასე იშოვნა კვაჭი კვაჭანტირაძემ ოფლითა და შრომით პირველი მანეთი.
+# text-transcription = ase išovna ḳvač̣i ḳvač̣anṭiraʒem oplita da šromit ṗirveli maneti.
+1	ასე	ასე	ADV	Adv_Mann	_	2	advmod	_	LMSeg:ასე
+2	იშოვნა	შოვნა	VERB	V_MedAct_Aor_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:შოვნ[ა]/შოვნ
+3	კვაჭი	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Erg_Att	Case=Erg|NameType=Prs	4	nmod:name	_	LMSeg:კვაჭი
+4	კვაჭანტირაძემ	კვაჭანტირაძე	PROPN	N_Prop_Anthr_LastName_Erg	Case=Erg|NameType=Prs	2	nsubj	_	LMSeg:კვაჭანტირაძ[ე]
+5	ოფლითა	ოფლი	NOUN	N_Inst_Sg_L	Case=Ins|Number=Sing	2	obl	_	LMSeg:ოფლ·ი
+6	და	და	CCONJ	Cj_Coord	_	7	cc	_	LMSeg:და
+7	შრომით	შრომა	NOUN	N_Inst_Sg	Case=Ins|Number=Sing	5	conj	_	LMSeg:შრომ[ა]
+8	პირველი	პირველი	NUM	Num_Ord_Alpha_Nom_NonStand_Att	Case=Nom|NumType=Ord	9	nummod	_	LMSeg:პირველი
+9	მანეთი	მანეთი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	obj	_	LMSeg:მანეთ·ი|SpaceAfter=No
+10	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w424500
+# text = ის მანეთი ტკბილი, ადვილი და მსუბუქი გამოდგა.
+# text-transcription = is maneti ṭḳbili, advili da msubuki gamodga.
+1	ის	ის	PRON	Pron_Dem_Nom_Att	Case=Nom|PronType=Dem	2	det	_	LMSeg:ის
+2	მანეთი	მანეთი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	8	nsubj	_	LMSeg:მანეთ·ი
+3	ტკბილი	ტკბილი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	8	xcomp	_	LMSeg:ტკბილ·ი|SpaceAfter=No
+4	,	,	PUNCT	Punct_Comma	_	5	punct	_	LMSeg:,
+5	ადვილი	ადვილი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	3	conj	_	LMSeg:ადვილ·ი
+6	და	და	CCONJ	Cj_Coord	_	7	cc	_	LMSeg:და
+7	მსუბუქი	მსუბუქი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	3	conj	_	LMSeg:მსუბუქ·ი
+8	გამოდგა	გამოდგომა	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:გამო·დგომ[ა]/დგ|SpaceAfter=No
+9	.	.	PUNCT	Punct_Period	_	8	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w426200
+# text = რაკი კვაჭიმ გზა გაიკვლია და ერთხელ იგემა ასე ადვილად ნაშოვნი მანეთიანი, მალე პირველს მეორეც მოჰყვა, მეორეს – მესამე და მესამეს – მეათე.
+# text-transcription = raḳi ḳvač̣im gza gaiḳvlia da ertxel igema ase advilad našovni manetiani, male ṗirvels meorec mohq̇va, meores – mesame da mesames – meate.
+1	რაკი	რაკი	SCONJ	Cj_Sub	_	4	mark	_	LMSeg:რაკი
+2	კვაჭიმ	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Erg	Case=Erg|NameType=Prs	4	nsubj	_	LMSeg:კვაჭი
+3	გზა	გზა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	obj	_	LMSeg:გზ[ა]
+4	გაიკვლია	გაკვლევა	VERB	V_Act_Aor_Pv_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	16	advcl	_	LMSeg:გა·კვლევ[ა]/კვლ[ევ]
+5	და	და	CCONJ	Cj_Coord	_	7	cc	_	LMSeg:და
+6	ერთხელ	ერთხელ	ADV	Adv_Num_Repet	_	7	advmod	_	LMSeg:ერთხელ
+7	იგემა	გემება	VERB	V_MedAct_Aor_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	4	conj	_	LMSeg:გემებ[ა]/გემ
+8	ასე	ასე	ADV	Adv_Mann	_	9	advmod	_	LMSeg:ასე
+9	ადვილად	ადვილად	ADV	A_Advb_Sg	_	10	advmod	_	LMSeg:ადვილად
+10	ნაშოვნი	ნაშოვნი	ADJ	A_Part_PastPart_PastPart:ნა_Nom_Att	Case=Nom|Tense=Past|VerbForm=Part	11	amod	_	LMSeg:ნაშოვნ·ი/შოულ
+11	მანეთიანი	მანეთიანი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	7	obj	_	LMSeg:მანეთიან·ი|SpaceAfter=No
+12	,	,	PUNCT	Punct_Comma	_	16	punct	_	LMSeg:,
+13	მალე	მალე	ADV	Adv_Temp	AdvType=Tim	16	advmod	_	LMSeg:მალე
+14	პირველს	პირველი	NUM	Num_Ord_Alpha_Dat_Sg_NonStand	Case=Dat|NumType=Ord	16	iobj	_	LMSeg:პირველი
+15	მეორეც	მეორე	NUM	Num_Ord_Alpha_Nom_Sg_Encl:ც_Foc	Case=Nom|Encl=C|NumType=Ord	16	nsubj	_	LMSeg:მეორ[ე]
+16	მოჰყვა	მოყოლა	VERB	V_Pass_Aor_Pv_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·ყოლ[ა]/ყ[ე]ვ|SpaceAfter=No
+17	,	,	PUNCT	Punct_Comma	_	18	punct	_	LMSeg:,
+18	მეორეს	მეორე	NUM	Num_Ord_Alpha_Dat_Sg	Case=Dat|NumType=Ord	16	conj	_	LMSeg:მეორ[ე]
+19	–	–	PUNCT	Punct_Dash	_	20	punct	_	LMSeg:–
+20	მესამე	მესამე	NUM	Num_Ord_Alpha_Nom_Sg	Case=Nom|NumType=Ord	18	orphan	_	LMSeg:მესამ[ე]
+21	და	და	CCONJ	Cj_Coord	_	22	cc	_	LMSeg:და
+22	მესამეს	მესამე	NUM	Num_Ord_Alpha_Dat_Sg	Case=Dat|NumType=Ord	16	conj	_	LMSeg:მესამ[ე]
+23	–	–	PUNCT	Punct_Dash	_	24	punct	_	LMSeg:–
+24	მეათე	მეათე	NUM	Num_Ord_Alpha_Nom_Sg	Case=Nom|NumType=Ord	22	orphan	_	LMSeg:მეათ[ე]|SpaceAfter=No
+25	.	.	PUNCT	Punct_Period	_	16	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w427400
+# text = ცვირი მალე დარწმუნდა, რომ საკუთარი მამლის გაზრდა და შენახვა ძალიან ძვირად უღირდა, მაგრამ გვიანღა იყო სინანული და თითზე კბენანი.
+# text-transcription = cviri male darc̣munda, rom saḳutari mamlis gazrda da šenaxva ʒalian ʒvirad uġirda, magram gvianġa iq̇o sinanuli da titze ḳbenani.
+1	ცვირი	ცვირი	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	3	nsubj	_	LMSeg:ცვირი
+2	მალე	მალე	ADV	Adv_Temp	AdvType=Tim	3	advmod	_	LMSeg:მალე
+3	დარწმუნდა	დარწმუნება	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:და·რწმუნებ[ა]/რწმუნ|SpaceAfter=No
+4	,	,	PUNCT	Punct_Comma	_	13	punct	_	LMSeg:,
+5	რომ	რომ	SCONJ	Cj_Sub	_	13	mark	_	LMSeg:რომ
+6	საკუთარი	საკუთარი	ADJ	A_Gen_Att	Case=Gen	7	amod	_	LMSeg:საკუთ[ა]რ·ი
+7	მამლის	მამალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	8	nmod	_	LMSeg:მამ[ა]ლ·ი
+8	გაზრდა	გაზრდა	NOUN	N_VN_Pv_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	13	nsubj	_	LMSeg:გა·ზრდ[ა]/ზრდ
+9	და	და	CCONJ	Cj_Coord	_	10	cc	_	LMSeg:და
+10	შენახვა	შენახვა	NOUN	N_VN_Pv_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	8	conj	_	LMSeg:შე·ნახვ[ა]/ნახ
+11	ძალიან	ძალიან	ADV	Adv_Deg	_	12	advmod	_	LMSeg:ძალიან
+12	ძვირად	ძვირად	ADV	A_Advb_Sg	_	13	advmod	_	LMSeg:ძვირად
+13	უღირდა	ღირება	VERB	V_MedAct_Impf_OV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	3	advcl	_	LMSeg:ღირებ[ა]/ღირ|SpaceAfter=No
+14	,	,	PUNCT	Punct_Comma	_	16	punct	_	LMSeg:,
+15	მაგრამ	მაგრამ	CCONJ	Cj_Coord	_	16	cc	_	LMSeg:მაგრამ
+16	გვიანღა	გვიან	ADV	Adv_Temp_Encl:ღა_Foc	AdvType=Tim	13	advmod	_	LMSeg:გვიან
+17	იყო	ყოფნა	AUX	V_Pass_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	16	cop	_	LMSeg:ყოფნ[ა]/ყ[ავ]
+18	სინანული	სინანული	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	16	nsubj	_	LMSeg:სინანულ·ი
+19	და	და	CCONJ	Cj_Coord	_	22	cc	_	LMSeg:და
+20	თით	თითი	NOUN	N_Dat_Sg_PP_PP:ზე	Case=Dat|Number=Sing	22	nmod	_	LMSeg:თით·ი|SpaceAfter=No
+21	ზე	_ზე	ADP	Pp	_	20	case	_	LMSeg:_ზე
+22	კბენანი	კბენა	NOUN	N_VN_Nom_Pl_OldPl	Case=Nom|Number=Plur|VerbForm=Vnoun	18	conj	_	LMSeg:კბენ[ა]/კბინ|SpaceAfter=No
+23	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w429600
+# text = ცვირის ძილი გაუფრთხა და სულის სიმშვიდე დაეკარგა, რადგან მისი მამალი დაუდეგარი და გაუმაძღარი გამოდგა: ჭამით ცვირის ნაკმაზსა სჭამდა და იმავ დროს სხვა ეზოებშიაც დაეხეტებოდა და იქ სხვა დედლებსაც უწევდა მამლობას.
+# text-transcription = cviris ʒili gauprtxa da sulis simšvide daeḳarga, radgan misi mamali daudegari da gaumaʒġari gamodga: č̣amit cviris naḳmazsa sč̣amda da imav dros sxva ezoebšiac daexeṭeboda da ik sxva dedlebsac uc̣evda mamlobas.
+1	ცვირის	ცვირი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	3	iobj	_	LMSeg:ცვირი
+2	ძილი	ძილი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	3	nsubj	_	LMSeg:ძილ·ი
+3	გაუფრთხა	გაფრთხობა	VERB	V_Pass_Aor_Pv_OV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:გა·ფრთხობ[ა]/ფრთხ
+4	და	და	CCONJ	Cj_Coord	_	7	cc	_	LMSeg:და
+5	სულის	სული	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	6	nmod	_	LMSeg:სულ·ი
+6	სიმშვიდე	სიმშვიდე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	7	nsubj	_	LMSeg:სიმშვიდ[ე]
+7	დაეკარგა	დაკარგვა	VERB	V_Pass_Aor_Pv_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	3	conj	_	LMSeg:და·კარგვ[ა]/კარგ|SpaceAfter=No
+8	,	,	PUNCT	Punct_Comma	_	15	punct	_	LMSeg:,
+9	რადგან	რადგან	SCONJ	Cj_Sub	_	15	mark	_	LMSeg:რადგან
+10	მისი	მისი	PRON	Pron_Poss_Poss3Sg_Nom_Att	Case=Nom|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	LMSeg:მის·ი
+11	მამალი	მამალი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	15	nsubj	_	LMSeg:მამ[ა]ლ·ი
+12	დაუდეგარი	დაუდეგარი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	15	xcomp	_	LMSeg:დაუდეგ[ა]რ·ი
+13	და	და	CCONJ	Cj_Coord	_	14	cc	_	LMSeg:და
+14	გაუმაძღარი	გაუმაძღარი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	12	conj	_	LMSeg:გაუმაძღარ·ი
+15	გამოდგა	გამოდგომა	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	3	advcl	_	LMSeg:გამო·დგომ[ა]/დგ|SpaceAfter=No
+16	:	:	PUNCT	Punct_Colon	_	15	punct	_	LMSeg::
+17	ჭამით	ჭამა	NOUN	N_VN_Inst_Sg	Case=Ins|Number=Sing|VerbForm=Vnoun	20	obl	_	LMSeg:ჭამ[ა]/ჭამ
+18	ცვირის	ცვირი	PROPN	N_Prop_Anthr_FirstName_Gen	Case=Gen|NameType=Prs	19	nmod	_	LMSeg:ცვირი
+19	ნაკმაზსა	ნაკმაზი	NOUN	N_Dat_Sg_L_Old	Case=Dat|Number=Sing	20	obj	_	LMSeg:ნაკმაზ·ი
+20	სჭამდა	ჭამა	VERB	V_Act_Impf_S:3Sg_DO:3_NonStand	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	15	parataxis	_	LMSeg:ჭამ[ა]/ჭამ
+21	და	და	CCONJ	Cj_Coord	_	27	cc	_	LMSeg:და
+22	იმავ	იგი	PRON	Pron_Dem_Dat_Att_Encl:ვე_Foc	Case=Dat|Encl=Ve|PronType=Dem	23	det	_	LMSeg:იგი
+23	დროს	დრო	NOUN	N_Temp_Dat_Sg	Case=Dat|Number=Sing	27	obl	_	LMSeg:დრო
+24	სხვა	სხვა	ADJ	A_Dat_Att	Case=Dat	25	amod	_	LMSeg:სხვ[ა]
+25	ეზოებ	ეზო	NOUN	N_Dat_Pl_NewPl_PP_PP:ში_Encl:ც_Foc	Case=Dat|Encl=C|Number=Plur	27	obl	_	LMSeg:ეზო|SpaceAfter=No
+26	შიაც	_ში	ADP	Pp	_	25	case	_	LMSeg:_ში
+27	დაეხეტებოდა	დახეტება	VERB	V_Pass_Impf_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	20	conj	_	LMSeg:და·ხეტებ[ა]/ხეტ
+28	და	და	CCONJ	Cj_Coord	_	32	cc	_	LMSeg:და
+29	იქ	იქ	ADV	Adv_Loc	AdvType=Loc	32	advmod	_	LMSeg:იქ
+30	სხვა	სხვა	ADJ	A_Dat_Att	Case=Dat	31	amod	_	LMSeg:სხვ[ა]
+31	დედლებსაც	დედალი	NOUN	N_Dat_Pl_NewPl_Encl:ც_Foc	Case=Dat|Encl=C|Number=Plur	32	iobj	_	LMSeg:დედ[ა]ლ·ი
+32	უწევდა	წევა	VERB	V_Act_Impf_OV_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	27	conj	_	LMSeg:*·წევ[ა]/წ[ევ]
+33	მამლობას	მამლობა	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	32	obj	_	LMSeg:მამლობ[ა]|SpaceAfter=No
+34	.	.	PUNCT	Punct_Period	_	20	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w432800
+# text = ასე ჰფიქრობდა და ასე უსაყვედურებდა ცვირი კვაჭიკოს.
+# text-transcription = ase hpikrobda da ase usaq̇vedurebda cviri ḳvač̣iḳos.
+1	ასე	ასე	ADV	Adv_Mann	_	2	advmod	_	LMSeg:ასე
+2	ჰფიქრობდა	ფიქრი	VERB	V_MedAct_Impf_S:3Sg_NonStand	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:ფიქრ·ი/ფიქრ
+3	და	და	CCONJ	Cj_Coord	_	5	cc	_	LMSeg:და
+4	ასე	ასე	ADV	Adv_Mann	_	5	advmod	_	LMSeg:ასე
+5	უსაყვედურებდა	საყვედური	VERB	V_MedAct_Impf_OV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	2	conj	_	LMSeg:საყვედურ·ი/საყვედურ
+6	ცვირი	ცვირი	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	5	nsubj	_	LMSeg:ცვირი
+7	კვაჭიკოს	კვაჭიკო	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	5	iobj	_	LMSeg:კვაჭიკო|SpaceAfter=No
+8	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w433800
+# text = მაგრამ ცვირი ისევ სცდებოდა: სხვების საქათმეშიც ეყარა ვერცხლისა და ოქროს ნაკმაზი.
+# text-transcription = magram cviri isev scdeboda: sxvebis sakatmešic eq̇ara vercxlisa da okros naḳmazi.
+1	მაგრამ	მაგრამ	CCONJ	Cj_Coord	_	4	cc	_	LMSeg:მაგრამ
+2	ცვირი	ცვირი	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	4	nsubj	_	LMSeg:ცვირი
+3	ისევ	ისევ	ADV	Adv_Sent	_	4	advmod	_	LMSeg:ისევ
+4	სცდებოდა	ცდენა	VERB	V_Pass_Impf_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:*·ცდენ[ა]/ცდ|SpaceAfter=No
+5	:	:	PUNCT	Punct_Colon	_	4	punct	_	LMSeg::
+6	სხვების	სხვა	ADJ	A_Gen_Pl_NewPl	Case=Gen|Number=Plur	7	nmod	_	LMSeg:სხვ[ა]
+7	საქათმე	საქათმე	NOUN	N_Dat_Sg_PP_PP:ში_Encl:ც_Foc	Case=Dat|Encl=C|Number=Sing	9	obl	_	LMSeg:საქათმ[ე]|SpaceAfter=No
+8	შიც	_ში	ADP	Pp	_	7	case	_	LMSeg:_ში
+9	ეყარა	ყრა	VERB	V_PassState_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	4	parataxis	_	LMSeg:ყრ[ა]/ყარ
+10	ვერცხლისა	ვერცხლი	NOUN	N_Gen_Sg_L	Case=Gen|Number=Sing	13	nmod	_	LMSeg:ვერცხლ·ი
+11	და	და	CCONJ	Cj_Coord	_	12	cc	_	LMSeg:და
+12	ოქროს	ოქრო	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	10	conj	_	LMSeg:ოქრო
+13	ნაკმაზი	ნაკმაზი	NOUN	N_Nom_Sg_Old	Case=Nom|Number=Sing	9	nsubj	_	LMSeg:ნაკმაზ·ი|SpaceAfter=No
+14	.	.	PUNCT	Punct_Period	_	9	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w435100
+# text = ჯიბრი და ქიშპობა ძნელი იყო და მეტად ძვირადაც უჯდებოდა, ამიტომ ცვირიმ კვაჭის დასაკუთრებაზე მალე აიღო ხელი, ბედს შეურიგდა, სასიყვარულო რიგში ჩადგა და გაიფიქრა: ყვავს კაკალი გააგდებინე, ეგეც კარგიაო.
+# text-transcription = ǯibri da kišṗoba ʒneli iq̇o da meṭad ʒviradac uǯdeboda, amiṭom cvirim ḳvač̣is dasaḳutrebaze male aiġo xeli, beds šeurigda, sasiq̇varulo rigši čadga da gaipikra: q̇vavs ḳaḳali gaagdebine, egec ḳargiao.
+1	ჯიბრი	ჯიბრი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	nsubj	_	LMSeg:ჯიბრ·ი
+2	და	და	CCONJ	Cj_Coord	_	3	cc	_	LMSeg:და
+3	ქიშპობა	ქიშპობა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	1	conj	_	LMSeg:ქიშპობ[ა]/ქიშპ
+4	ძნელი	ძნელი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	0	root	_	LMSeg:ძნელ·ი
+5	იყო	ყოფნა	AUX	V_Pass_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	4	cop	_	LMSeg:ყოფნ[ა]/ყ[ავ]
+6	და	და	CCONJ	Cj_Coord	_	9	cc	_	LMSeg:და
+7	მეტად	მეტად	ADV	A_Quant_Advb_Sg	_	8	advmod	_	LMSeg:მეტად
+8	ძვირადაც	ძვირადაც	ADV	A_Advb_Sg_Encl:ც_Foc	_	9	advmod	_	LMSeg:ძვირადაც
+9	უჯდებოდა	ჯდომა	VERB	V_MedPass_Cond_OV_S:3Sg_IO:3	Mood=Cnd|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	4	conj	_	LMSeg:ჯდომ[ა]/ჯდ|SpaceAfter=No
+10	,	,	PUNCT	Punct_Comma	_	17	punct	_	LMSeg:,
+11	ამიტომ	ამიტომ	ADV	Adv_Causal	_	17	advmod	_	LMSeg:ამიტომ
+12	ცვირიმ	ცვირი	PROPN	N_Prop_Anthr_FirstName_Erg	Case=Erg|NameType=Prs	17	nsubj	_	LMSeg:ცვირი
+13	კვაჭის	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Gen	Case=Gen|NameType=Prs	14	nmod	_	LMSeg:კვაჭი
+14	დასაკუთრება	დასაკუთრება	NOUN	N_VN_Pv_Dat_Sg_PP_PP:ზე	Case=Dat|Number=Sing|VerbForm=Vnoun	17	obl	_	LMSeg:და·საკუთრებ[ა]/საკუთრ|SpaceAfter=No
+15	ზე	_ზე	ADP	Pp	_	14	case	_	LMSeg:_ზე
+16	მალე	მალე	ADV	Adv_Temp	AdvType=Tim	17	advmod	_	LMSeg:მალე
+17	აიღო	აღება	VERB	V_Act_Aor_Pv_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	4	conj	_	LMSeg:ა·ღებ[ა]/ღ
+18	ხელი	ხელი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	17	obj	_	LMSeg:ხელ·ი|SpaceAfter=No
+19	,	,	PUNCT	Punct_Comma	_	21	punct	_	LMSeg:,
+20	ბედს	ბედი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	21	iobj	_	LMSeg:ბედ·ი
+21	შეურიგდა	შერიგება	VERB	V_Pass_Aor_Pv_OV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	17	conj	_	LMSeg:შე·რიგებ[ა]/რიგ|SpaceAfter=No
+22	,	,	PUNCT	Punct_Comma	_	26	punct	_	LMSeg:,
+23	სასიყვარულო	სასიყვარულო	ADJ	A_Dat_Att	Case=Dat	24	amod	_	LMSeg:სასიყვარულო
+24	რიგ	რიგი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	26	obl	_	LMSeg:რიგ·ი|SpaceAfter=No
+25	ში	_ში	ADP	Pp	_	24	case	_	LMSeg:_ში
+26	ჩადგა	ჩადგომა	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	17	conj	_	LMSeg:ჩა·დგომ[ა]/დგ
+27	და	და	CCONJ	Cj_Coord	_	28	cc	_	LMSeg:და
+28	გაიფიქრა	გაფიქრება	VERB	V_Act_Aor_Pv_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	17	conj	_	LMSeg:გა·ფიქრებ[ა]/ფიქრ|SpaceAfter=No
+29	:	:	PUNCT	Punct_Colon	_	28	punct	_	LMSeg::
+30	ყვავს	ყვავი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	32	iobj	_	LMSeg:ყვავ·ი
+31	კაკალი	კაკალი	ADJ	A_Nom_Sg_NonStand	Case=Nom|Number=Sing	32	obj	_	LMSeg:კაკ[ა]ლ·ი
+32	გააგდებინე	გაგდებინება	VERB	V_Caus_Impv_Pv_S:2Sg_DO:3_IO:3	Mood=Imp|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=2|VerbForm=Fin|Voice=Cau	28	ccomp:speech	_	LMSeg:გა·გდებინებ[ა]/გდ|SpaceAfter=No
+33	,	,	PUNCT	Punct_Comma	_	35	punct	_	LMSeg:,
+34	ეგეც	ეგ	PRON	Pron_Dem_Nom_Sg_Encl:ც_Foc	Case=Nom|Encl=C|Number=Sing|PronType=Dem	35	nsubj	_	LMSeg:ეგ
+35	კარგი	კარგი	ADJ	A_Nom_Sg_Encl:Aux_Encl:IndSp3	Case=Nom|Number=Sing	32	parataxis	_	LMSeg:კარგ·ი|SpaceAfter=No
+36	ა	ყოფნა	AUX	V_MedPass_Pres_S:3Sg_Encl	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	35	cop	_	LMSeg:ყოფნ[ა]/არ|SpaceAfter=No
+37	ო	_ო	PART	Prt_IndSp3	Evident=Nfh	32	mark	_	LMSeg:_ო|SpaceAfter=No
+38	.	.	PUNCT	Punct_Period	_	32	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w438500
+# text = ან რა უნდა ექნა საწყალ ცვირის?
+# text-transcription = an ra unda ekna sac̣q̇al cviris?
+1	ან	ან	CCONJ	Cj_Coord	_	4	cc	_	LMSeg:ან
+2	რა	რა	PRON	Pron_Int_Nonhum_Nom	Case=Nom	4	obj	_	LMSeg:რ[ა]
+3	უნდა	უნდა	AUX	Modal	_	4	aux	_	LMSeg:უნდა
+4	ექნა	ქმნა	VERB	V_Act_PluPerf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pqp|VerbForm=Fin	0	root	_	LMSeg:ქმნ[ა]/ქ[ე]ნ
+5	საწყალ	საწყალი	ADJ	A_Part_FutPart_Dat_Att	Case=Dat|Tense=Fut|VerbForm=Part	6	amod	_	LMSeg:საწყ[ა]ლ·ი/წყალ
+6	ცვირის	ცვირი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	4	nsubj	_	LMSeg:ცვირი|SpaceAfter=No
+7	?	?	PUNCT	Punct_IntMark	_	4	punct	_	LMSeg:?
+
+# sent_id = dzhavaxishvili-m+kvachi+w439400
+# text = ყველას თავის ჯერი და წილი ჰქონია.
+# text-transcription = q̇velas tavis ǯeri da c̣ili hkonia.
+1	ყველას	ყველა	DET	A_Quant_Dat_Sg	Case=Dat|Number=Sing	6	nsubj	_	LMSeg:ყველა
+2	თავის	თავი	PRON	Pron_Refl_Gen	Case=Gen	3	nmod	_	LMSeg:თავ·ი
+3	ჯერი	ჯერი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	obj	_	LMSeg:ჯერ·ი
+4	და	და	CCONJ	Cj_Coord	_	5	cc	_	LMSeg:და
+5	წილი	წილი	ADJ	A_Nom_Sg_Dialect	Case=Nom|Number=Sing	3	conj	_	LMSeg:წილ·ი
+6	ჰქონია	ქონა	VERB	V_MedPass_Inv_Perf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=PastPerf|VerbForm=Fin|Voice=Inv	0	root	_	LMSeg:ქონ[ა]/ქონ|SpaceAfter=No
+7	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w439900
+# text = ნასუფრალი არც ისე დასაძრახისი ყოფილა, როგორც პირველად ეგონა ცვირის, ხოლო ამ ქვეყნად ლამაზ ვაჟკაცსა და დედაკაცსაც თურმე ისე ინაწილებენ ძლიერნი, როგორც სხვა ქონებას და ბედნიერებას.
+# text-transcription = nasuprali arc ise dasaʒraxisi q̇opila, rogorc ṗirvelad egona cviris, xolo am kveq̇nad lamaz važḳacsa da dedaḳacsac turme ise inac̣ileben ʒlierni, rogorc sxva konebas da bednierebas.
+1	ნასუფრალი	ნასუფრალი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	nsubj	_	LMSeg:ნასუფრალ·ი
+2	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	3	advmod	_	LMSeg:არ
+3	ისე	ისე	ADV	Adv_Mann	_	4	advmod	_	LMSeg:ისე
+4	დასაძრახისი	დასაძრახისი	ADJ	A_Nom_Sg_Guess	Case=Nom|Number=Sing	0	root	_	LMSeg:დასაძრახის·ი
+5	ყოფილა	ყოფნა	AUX	V_Pass_Perf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=PastPerf|VerbForm=Fin	4	cop	_	LMSeg:ყოფნ[ა]/ყოფ|SpaceAfter=No
+6	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
+7	როგორც	როგორც	ADP	Cj_Compar	_	9	mark	_	LMSeg:როგორც
+8	პირველად	პირველად	ADV	Adv_Mann	_	9	advmod	_	LMSeg:პირველად
+9	ეგონა	გონება	VERB	V_MedPass_Inv_Aor_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin|Voice=Inv	4	advcl	_	LMSeg:გონებ[ა]/გონ
+10	ცვირის	ცვირი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	9	nsubj	_	LMSeg:ცვირი|SpaceAfter=No
+11	,	,	PUNCT	Punct_Comma	_	21	punct	_	LMSeg:,
+12	ხოლო	ხოლო	CCONJ	Cj_Coord	_	21	cc	_	LMSeg:ხოლო
+13	ამ	ეს	PRON	Pron_Dem_Advb_Att	Case=Ess|PronType=Dem	14	det	_	LMSeg:ეს
+14	ქვეყნად	ქვეყანა	NOUN	N_Advb_Sg	Case=Ess|Number=Sing	21	obl	_	LMSeg:ქვეყ[ა]ნ[ა]
+15	ლამაზ	ლამაზი	ADJ	A_Dat_Att	Case=Dat	16	amod	_	LMSeg:ლამაზ·ი
+16	ვაჟკაცსა	ვაჟკაცი	NOUN	N_Hum_Dat_Sg_L	Animacy=Anim|Case=Dat|Number=Sing	21	obj	_	LMSeg:ვაჟკაც·ი
+17	და	და	CCONJ	Cj_Coord	_	18	cc	_	LMSeg:და
+18	დედაკაცსაც	დედაკაცი	NOUN	N_Hum_Dat_Sg_Encl:ც_Foc	Animacy=Anim|Case=Dat|Encl=C|Number=Sing	16	conj	_	LMSeg:დედაკაც·ი
+19	თურმე	თურმე	ADV	Adv_Comm	_	21	advmod	_	LMSeg:თურმე
+20	ისე	ისე	ADV	Adv_Mann	_	21	advmod	_	LMSeg:ისე
+21	ინაწილებენ	ნაწილება	VERB	V_Act_Pres_SV_S:3Pl_DO:3	Mood=Ind|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	4	conj	_	LMSeg:*·ნაწილებ[ა]/ნაწილ
+22	ძლიერნი	ძლიერი	NOUN	N_Nom_Pl_OldPl_Dialect	Case=Nom|Number=Plur	21	nsubj	_	LMSeg:ძლიერ·ი|SpaceAfter=No
+23	,	,	PUNCT	Punct_Comma	_	26	punct	_	LMSeg:,
+24	როგორც	როგორც	ADP	Cj_Compar	_	26	mark	_	LMSeg:როგორც
+25	სხვა	სხვა	ADJ	A_Dat_Att	Case=Dat	26	amod	_	LMSeg:სხვ[ა]
+26	ქონებას	ქონება	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	20	advcl	_	LMSeg:ქონებ[ა]
+27	და	და	CCONJ	Cj_Coord	_	28	cc	_	LMSeg:და
+28	ბედნიერებას	ბედნიერება	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	26	conj	_	LMSeg:ბედნიერებ[ა]|SpaceAfter=No
+29	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w444200
+# text = სამიოდე წელიწადი კიდევ გავიდა.
+# text-transcription = samiode c̣elic̣adi ḳidev gavida.
+1	სამიოდე	სამიოდე	NUM	Num_Card_Alpha_Nom_Att_Approx	Case=Nom|NumType=Card	2	nummod	_	LMSeg:სამიოდე
+2	წელიწადი	წელიწადი	NOUN	N_Temp_Nom_Sg	Case=Nom|Number=Sing	4	nsubj	_	LMSeg:წელიწად·ი
+3	კიდევ	კიდევ	ADV	Adv_Deg	_	4	advmod	_	LMSeg:კიდევ
+4	გავიდა	გასვლა	VERB	V_MedPass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:გა·სვლ[ა]/ვ{ი}დ|SpaceAfter=No
+5	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w444700
+# text = ცვირიმ რაღაც გეში აიღო, შეშინდა და მეზობლის ვარინკა დროზე დააშორა კვაჭიკოს.
+# text-transcription = cvirim raġac geši aiġo, šešinda da mezoblis varinḳa droze daašora ḳvač̣iḳos.
+1	ცვირიმ	ცვირი	PROPN	N_Prop_Anthr_FirstName_Erg	Case=Erg|NameType=Prs	4	nsubj	_	LMSeg:ცვირი
+2	რაღაც	რაღაც	PRON	Pron_Indef_Nonhum_Att	PronType=Ind	3	det	_	LMSeg:რაღაც
+3	გეში	გეში	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	obj	_	LMSeg:გეშ·ი
+4	აიღო	აღება	VERB	V_Act_Aor_Pv_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:ა·ღებ[ა]/ღ|SpaceAfter=No
+5	,	,	PUNCT	Punct_Comma	_	6	punct	_	LMSeg:,
+6	შეშინდა	შეშინება	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	4	conj	_	LMSeg:შე·შინებ[ა]/შინ
+7	და	და	CCONJ	Cj_Coord	_	12	cc	_	LMSeg:და
+8	მეზობლის	მეზობელი	NOUN	N_Hum_Gen_Sg	Animacy=Anim|Case=Gen|Number=Sing	9	nmod	_	LMSeg:მეზობ[ე]ლ·ი
+9	ვარინკა	ვარინკა	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	12	obj	_	LMSeg:ვარინკა
+10	დრო	დრო	NOUN	N_Temp_Dat_Sg_PP_PP:ზე	Case=Dat|Number=Sing	12	obl	_	LMSeg:დრო|SpaceAfter=No
+11	ზე	_ზე	ADP	Pp	_	10	case	_	LMSeg:_ზე
+12	დააშორა	დაშორება	VERB	V_Act_Aor_Pv_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	4	conj	_	LMSeg:და·შორებ[ა]/შორ
+13	კვაჭიკოს	კვაჭიკო	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	12	iobj	_	LMSeg:კვაჭიკო|SpaceAfter=No
+14	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w446200
+# text = ცვირი ორთა შორის გარდუვალ კედლად აიტუზა, ეჭვით აივსო და კვაჭის უფრო მაგრად ჩაეჭიდა, თუმცა წინანდებურად ისევ ნასუფრალით იკვებებოდა.
+# text-transcription = cviri orta šoris garduval ḳedlad aiṭuza, eč̣vit aivso da ḳvač̣is upro magrad čaeč̣ida, tumca c̣inandeburad isev nasupralit iḳvebeboda.
+1	ცვირი	ცვირი	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	6	nsubj	_	LMSeg:ცვირი
+2	ორთა	ორი	NUM	Num_Card_Alpha_Dat_Pl_OldPl	Case=Dat|NumType=Card	6	obl	_	LMSeg:ორ·ი
+3	შორის	შორის	ADP	Pp	_	2	case	_	LMSeg:შორის
+4	გარდუვალ	გარდუვალი	ADJ	A_Part_NegPart_Pv_Advb_Att	Case=Ess|Polarity=Neg|Tense=Pres|VerbForm=Part	5	amod	_	LMSeg:გარდ·უვალ·ი/ვალ
+5	კედლად	კედელი	NOUN	N_Advb_Sg	Case=Ess|Number=Sing	6	obl	_	LMSeg:კედ[ე]ლ·ი
+6	აიტუზა	ატუზვა	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:ა·ტუზვ[ა]/ტუზ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
+8	ეჭვით	ეჭვი	NOUN	N_Inst_Sg	Case=Ins|Number=Sing	9	obl	_	LMSeg:ეჭვ·ი
+9	აივსო	ავსება	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	6	conj	_	LMSeg:ა·ვსებ[ა]/ვს
+10	და	და	CCONJ	Cj_Coord	_	14	cc	_	LMSeg:და
+11	კვაჭის	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	14	iobj	_	LMSeg:კვაჭი
+12	უფრო	უფრო	ADV	Adv_Deg	_	13	advmod	_	LMSeg:უფრო
+13	მაგრად	მაგრად	ADV	A_Advb_Sg	_	14	advmod	_	LMSeg:მაგრად
+14	ჩაეჭიდა	ჩაჭიდება	VERB	V_Pass_Aor_Pv_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	6	conj	_	LMSeg:ჩა·ჭიდებ[ა]/ჭიდ|SpaceAfter=No
+15	,	,	PUNCT	Punct_Comma	_	20	punct	_	LMSeg:,
+16	თუმცა	თუმცა	SCONJ	Cj_Sub	_	20	mark	_	LMSeg:თუმცა
+17	წინანდებურად	წინანდებურად	ADV	A_Advb_Sg	_	20	advmod	_	LMSeg:წინანდებურად
+18	ისევ	ისევ	ADV	Adv_Sent	_	20	advmod	_	LMSeg:ისევ
+19	ნასუფრალით	ნასუფრალი	NOUN	N_Inst_Sg	Case=Ins|Number=Sing	20	obl	_	LMSeg:ნასუფრალ·ი
+20	იკვებებოდა	გამოკვება	VERB	V_Pass_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	14	advcl	_	LMSeg:გამო·კვებ[ა]/კვებ|SpaceAfter=No
+21	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w448100
+# text = მამლის შენახვაც თანდათან ძვირდებოდა, რადგან კვაჭიც იზრდებოდა და ფასს იდებდა, ამიტომ სხვებთან ჯიბრი და ქიშპობაც ძნელდებოდა.
+# text-transcription = mamlis šenaxvac tandatan ʒvirdeboda, radgan ḳvač̣ic izrdeboda da pass idebda, amiṭom sxvebtan ǯibri da kišṗobac ʒneldeboda.
+1	მამლის	მამალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	2	nmod	_	LMSeg:მამ[ა]ლ·ი
+2	შენახვაც	შენახვა	NOUN	N_VN_Pv_Nom_Sg_Encl:ც_Foc	Case=Nom|Encl=C|Number=Sing|VerbForm=Vnoun	4	nsubj	_	LMSeg:შე·ნახვ[ა]/ნახ
+3	თანდათან	თანდათან	ADV	Adv	_	4	advmod	_	LMSeg:თანდათან
+4	ძვირდებოდა	ძვირება	VERB	V_Pass_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:*·ძვირებ[ა]/ძვირ|SpaceAfter=No
+5	,	,	PUNCT	Punct_Comma	_	8	punct	_	LMSeg:,
+6	რადგან	რადგან	SCONJ	Cj_Sub	_	8	mark	_	LMSeg:რადგან
+7	კვაჭიც	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Nom_Encl:ც_Foc	Case=Nom|Encl=C|NameType=Prs	8	nsubj	_	LMSeg:კვაჭი
+8	იზრდებოდა	ზრდა	VERB	V_Pass_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	4	advcl	_	LMSeg:*·ზრდ[ა]/ზრდ
+9	და	და	CCONJ	Cj_Coord	_	11	cc	_	LMSeg:და
+10	ფასს	ფასი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	11	obj	_	LMSeg:ფას·ი
+11	იდებდა	დება	VERB	V_Act_Impf_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	8	conj	_	LMSeg:*·დებ[ა]/დ|SpaceAfter=No
+12	,	,	PUNCT	Punct_Comma	_	19	punct	_	LMSeg:,
+13	ამიტომ	ამიტომ	ADV	Adv_Causal	_	19	advmod	_	LMSeg:ამიტომ
+14	სხვებ	სხვა	ADJ	A_Dat_Pl_NewPl_PP_PP:თან	Case=Dat|Number=Plur	19	obl	_	LMSeg:სხვ[ა]|SpaceAfter=No
+15	თან	_თან	ADP	Pp	_	14	case	_	LMSeg:_თან
+16	ჯიბრი	ჯიბრი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	19	nsubj	_	LMSeg:ჯიბრ·ი
+17	და	და	CCONJ	Cj_Coord	_	18	cc	_	LMSeg:და
+18	ქიშპობაც	ქიშპობა	NOUN	N_VN_Nom_Sg_Encl:ც_Foc	Case=Nom|Encl=C|Number=Sing|VerbForm=Vnoun	16	conj	_	LMSeg:ქიშპობ[ა]/ქიშპ
+19	ძნელდებოდა	გაძნელება	VERB	V_Pass_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	4	conj	_	LMSeg:გა·ძნელებ[ა]/ძნელ|SpaceAfter=No
+20	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w450200
+# text = ერთხელ ცვირის კვაჭის მცირედი უსიამოვნება მოუვიდათ.
+# text-transcription = ertxel cviris ḳvač̣is mciredi usiamovneba mouvidat.
+1	ერთხელ	ერთხელ	ADV	Adv_Num_Repet	_	6	advmod	_	LMSeg:ერთხელ
+2	ცვირის	ცვირი	PROPN	N_Prop_Anthr_FirstName_Dat	Case=Dat|NameType=Prs	6	iobj	_	LMSeg:ცვირი
+3	კვაჭის	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Gen	Case=Gen|NameType=Prs	5	nmod	_	LMSeg:კვაჭი
+4	მცირედი	მცირედი	ADJ	A_Nom_Att	Case=Nom	5	amod	_	LMSeg:მცირედ·ი
+5	უსიამოვნება	უსიამოვნება	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	nsubj	_	LMSeg:უსიამოვნებ[ა]
+6	მოუვიდათ	მოსვლა	VERB	V_MedPass_Aor_Pv_OV_S:3Sg_IO:3Pl	Mood=Ind|Number[io]=Plur|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·სვლ[ა]/ვ{ი}დ|SpaceAfter=No
+7	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w452500
+# text = ცვირიმ გაიცინა და უთხრა:
+# text-transcription = cvirim gaicina da utxra:
+1	ცვირიმ	ცვირი	PROPN	N_Prop_Anthr_FirstName_Erg	Case=Erg|NameType=Prs	2	nsubj	_	LMSeg:ცვირი
+2	გაიცინა	გაცინება	VERB	V_MedAct_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:გა·ცინებ[ა]/ცინ
+3	და	და	CCONJ	Cj_Coord	_	4	cc	_	LMSeg:და
+4	უთხრა	თქმა	VERB	V_Act_Aor_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	2	conj	_	LMSeg:თქმ[ა]/თხ[ა]რ|SpaceAfter=No
+5	:	:	PUNCT	Punct_Colon	_	4	punct	_	LMSeg::
+
+# sent_id = dzhavaxishvili-m+kvachi+w453100
+# text = – დიდი სულელი ყოფილხარ, ჩემო კვაჭიკო, თუ ჰფიქრობ რომე ამ ფულს საჩუქრად გაძლევ.
+# text-transcription = – didi suleli q̇opilxar, čemo ḳvač̣iḳo, tu hpikrob rome am puls sačukrad gaʒlev.
+1	–	–	PUNCT	Punct_Dash	_	3	punct	_	LMSeg:–
+2	დიდი	დიდი	ADJ	A_Nom_Att	Case=Nom	3	amod	_	LMSeg:დიდ·ი
+3	სულელი	სულელი	ADJ	A_Nom_Sg	Case=Nom|Number=Sing	0	root	_	LMSeg:სულელ·ი
+4	ყოფილხარ	ყოფნა	AUX	V_Pass_Perf_S:2Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=PastPerf|VerbForm=Fin	3	cop	_	LMSeg:ყოფნ[ა]/ყოფ|SpaceAfter=No
+5	,	,	PUNCT	Punct_Comma	_	7	punct	_	LMSeg:,
+6	ჩემო	ჩემი	PRON	Pron_Poss_Poss1Sg_Voc_Att	Case=Voc|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	LMSeg:ჩემ·ი
+7	კვაჭიკო	კვაჭიკო	PROPN	N_Prop_Anthr_FirstName_Voc	Case=Voc|NameType=Prs	3	vocative	_	LMSeg:კვაჭიკო|SpaceAfter=No
+8	,	,	PUNCT	Punct_Comma	_	10	punct	_	LMSeg:,
+9	თუ	თუ	SCONJ	Cj_Sub	_	10	mark	_	LMSeg:თუ
+10	ჰფიქრობ	ფიქრი	VERB	V_MedAct_Pres_S:2Sg_DO:3_NonStand	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Tense=Pres|VerbForm=Fin	3	advcl	_	LMSeg:ფიქრ·ი/ფიქრ
+11	რომე	რომე	SCONJ	Cj_Sub	_	15	mark	_	LMSeg:რომე
+12	ამ	ეს	PRON	Pron_Dem_Dat_Att	Case=Dat|PronType=Dem	13	det	_	LMSeg:ეს
+13	ფულს	ფული	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	15	obj	_	LMSeg:ფულ·ი
+14	საჩუქრად	საჩუქარი	NOUN	N_Advb_Sg	Case=Ess|Number=Sing	15	obl	_	LMSeg:საჩუქ[ა]რ·ი
+15	გაძლევ	მი-ცემა	VERB	V_Act_Pres_S:1Sg_DO:3_IO:2Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Sing|Person[io]=2|Person[obj]=3|Person[subj]=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	LMSeg:მი-ცემ[ა]/ძლ[ევ]|SpaceAfter=No
+16	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w454600
+# text = სწავლას გაათავებ, ფულს მეიგებ და დამიბრუნებ.
+# text-transcription = sc̣avlas gaataveb, puls meigeb da damibruneb.
+1	სწავლას	სწავლა	NOUN	N_VN_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	2	obj	_	LMSeg:სწავლ[ა]/სწავლ
+2	გაათავებ	გათავება	VERB	V_Act_Fut_Pv_S:2Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Tense=Fut|VerbForm=Fin	0	root	_	LMSeg:გა·თავებ[ა]/თავ|SpaceAfter=No
+3	,	,	PUNCT	Punct_Comma	_	5	punct	_	LMSeg:,
+4	ფულს	ფული	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	5	obj	_	LMSeg:ფულ·ი
+5	მეიგებ	მოგება	VERB	V_Act_Fut_Pv_SV_S:2Sg_DO:3_Dialect	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Tense=Fut|VerbForm=Fin	2	conj	_	LMSeg:მო·გებ[ა]/გ
+6	და	და	CCONJ	Cj_Coord	_	7	cc	_	LMSeg:და
+7	დამიბრუნებ	დაბრუნება	VERB	V_Act_Fut_Pv_OV_S:2Sg_DO:3_IO:1Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Sing|Person[io]=1|Person[obj]=3|Person[subj]=2|Tense=Fut|VerbForm=Fin	2	conj	_	LMSeg:და·ბრუნებ[ა]/ბრუნ|SpaceAfter=No
+8	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w455500
+# text = ნუ ხარ ბაღანა, ეიღე.
+# text-transcription = nu xar baġana, eiġe.
+1	ნუ	ნუ	ADV	Adv_Neg_Imp	_	3	advmod:neg	_	LMSeg:ნუ
+2	ხარ	ყოფნა	AUX	V_MedPass_Pres_S:2Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|VerbForm=Fin	3	cop	_	LMSeg:ყოფნ[ა]/არ
+3	ბაღანა	ბაღანა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	0	root	_	LMSeg:ბაღ[ა]ნ[ა]|SpaceAfter=No
+4	,	,	PUNCT	Punct_Comma	_	5	punct	_	LMSeg:,
+5	ეიღე	აღება	VERB	V_Act_Impv_Pv_SV_S:2Sg_DO:3_Dialect	Mood=Imp|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|VerbForm=Fin	3	parataxis	_	LMSeg:ა·ღებ[ა]/ღ|SpaceAfter=No
+6	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w456000
+# text = კვაჭმა მოიფიქრა და უპასუხა:
+# text-transcription = ḳvač̣ma moipikra da uṗasuxa:
+1	კვაჭმა	კვაჭი	NOUN	N_Hum_Erg_Sg_NonStand	Animacy=Anim|Case=Erg|Number=Sing	2	nsubj	_	LMSeg:კვაჭ·ი
+2	მოიფიქრა	მოფიქრება	VERB	V_Act_Aor_Pv_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·ფიქრებ[ა]/ფიქრ
+3	და	და	CCONJ	Cj_Coord	_	4	cc	_	LMSeg:და
+4	უპასუხა	პასუხობა	VERB	V_MedAct_Aor_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	2	conj	_	LMSeg:პასუხობ[ა]/პასუხ|SpaceAfter=No
+5	:	:	PUNCT	Punct_Colon	_	4	punct	_	LMSeg::
+
+# sent_id = dzhavaxishvili-m+kvachi+w457700
+# text = უსარგებლოდ ფულს გავასესხებ?
+# text-transcription = usargeblod puls gavasesxeb?
+1	უსარგებლოდ	უსარგებლოდ	ADV	A_Advb_Sg	_	3	advmod	_	LMSeg:უსარგებლოდ
+2	ფულს	ფული	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	3	obj	_	LMSeg:ფულ·ი
+3	გავასესხებ	გასესხება	VERB	V_Act_Fut_Pv_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Fut|VerbForm=Fin	0	root	_	LMSeg:გა·სესხებ[ა]/სესხ|SpaceAfter=No
+4	?	?	PUNCT	Punct_IntMark	_	3	punct	_	LMSeg:?
+
+# sent_id = dzhavaxishvili-m+kvachi+w458000
+# text = ამაზე მორიგდნენ.
+# text-transcription = amaze morigdnen.
+1	ამაზე	ამაზე	ADV	Adv	_	2	advmod	_	LMSeg:ამაზე
+2	მორიგდნენ	მორიგება	VERB	V_Pass_Aor_Pv_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·რიგებ[ა]/რიგ|SpaceAfter=No
+3	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w458400
+# text = ადამიანის გული ბნელია.
+# text-transcription = adamianis guli bnelia.
+1	ადამიანის	ადამიანი	NOUN	N_Hum_Gen_Sg	Animacy=Anim|Case=Gen|Number=Sing	2	nmod	_	LMSeg:ადამიან·ი
+2	გული	გული	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	3	nsubj	_	LMSeg:გულ·ი
+3	ბნელი	ბნელი	ADJ	A_Nom_Sg_Encl:Aux	Case=Nom|Number=Sing	0	root	_	LMSeg:ბნელ·ი|SpaceAfter=No
+4	ა	ყოფნა	AUX	V_MedPass_Pres_S:3Sg_Encl	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	3	cop	_	LMSeg:ყოფნ[ა]/არ|SpaceAfter=No
+5	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w461200
+# text = ის კი მართალია, რომ ცვირი შოლიას კვაჭიკოზე დახარჯული ფული არასოდეს არ დაუთვლია, არც ჩაუწერია და არც ვალად ჩაუთვლია.
+# text-transcription = is ḳi martalia, rom cviri šolias ḳvač̣iḳoze daxarǯuli puli arasodes ar dautvlia, arc čauc̣eria da arc valad čautvlia.
+1	ის	ის	PRON	Pron_Pers_3_Nom_Sg	Case=Nom|Number=Sing|PronType=Prs	3	nsubj	_	LMSeg:ის
+2	კი	კი	ADV	Adv_Disc	_	1	advmod	_	LMSeg:კი
+3	მართალი	მართალი	ADJ	A_Nom_Sg_Encl:Aux	Case=Nom|Number=Sing	0	root	_	LMSeg:მართ[ა]ლ·ი|SpaceAfter=No
+4	ა	ყოფნა	AUX	V_MedPass_Pres_S:3Sg_Encl	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	3	cop	_	LMSeg:ყოფნ[ა]/არ|SpaceAfter=No
+5	,	,	PUNCT	Punct_Comma	_	15	punct	_	LMSeg:,
+6	რომ	რომ	SCONJ	Cj_Sub	_	15	mark	_	LMSeg:რომ
+7	ცვირი	ცვირი	PROPN	N_Prop_Anthr_FirstName_Gen_Att	Case=Gen|NameType=Prs	8	nmod:name	_	LMSeg:ცვირი
+8	შოლიას	შოლია	PROPN	N_Prop_Anthr_LastName_Gen	Case=Gen|NameType=Prs	15	nsubj	_	LMSeg:შოლია
+9	კვაჭიკო	კვაჭიკო	PROPN	N_Prop_Anthr_FirstName_Dat_PP_PP:ზე	Case=Dat|NameType=Prs	11	obl	_	LMSeg:კვაჭიკო|SpaceAfter=No
+10	ზე	_ზე	ADP	Pp	_	9	case	_	LMSeg:_ზე
+11	დახარჯული	დახარჯული	ADJ	A_Part_PastPart_Pv_Nom_Att	Case=Nom|Tense=Past|VerbForm=Part	12	amod	_	LMSeg:და·ხარჯულ·ი/ხარჯ
+12	ფული	ფული	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	15	obj	_	LMSeg:ფულ·ი
+13	არასოდეს	არასოდეს	ADV	Adv_Neg_Temp	AdvType=Tim	15	advmod	_	LMSeg:არასოდეს
+14	არ	არ	ADV	Adv_Neg	_	15	advmod:neg	_	LMSeg:არ
+15	დაუთვლია	დათვლა	VERB	V_Act_Perf_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=PastPerf|VerbForm=Fin	1	advcl	_	LMSeg:და·თვლ[ა]/თვლ|SpaceAfter=No
+16	,	,	PUNCT	Punct_Comma	_	18	punct	_	LMSeg:,
+17	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	18	advmod:neg	_	LMSeg:არ
+18	ჩაუწერია	ჩაწერა	VERB	V_Act_Perf_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=PastPerf|VerbForm=Fin	15	conj	_	LMSeg:ჩა·წერ[ა]/წერ
+19	და	და	CCONJ	Cj_Coord	_	22	cc	_	LMSeg:და
+20	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	22	advmod:neg	_	LMSeg:არ
+21	ვალად	ვალი	NOUN	N_Advb_Sg	Case=Ess|Number=Sing	22	xcomp	_	LMSeg:ვალ·ი
+22	ჩაუთვლია	ჩათვლა	VERB	V_Act_Perf_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=PastPerf|VerbForm=Fin	15	conj	_	LMSeg:ჩა·თვლ[ა]/თვლ|SpaceAfter=No
+23	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w463500
+# text = კვაჭი თავის ტოლ-ამხანაგებში არა მალავდა, რომ მას ქალების ბაზარში მრავალი მუშტარი ჰყავდა, მაგრამ ფასის შესახებ ლაპარაკს ერიდებოდა და მხოლოდ ზოგჯერ იტყოდა ხოლმე გაკვრით:
+# text-transcription = ḳvač̣i tavis ṭol-amxanagebši ara malavda, rom mas kalebis bazarši mravali mušṭari hq̇avda, magram pasis šesaxeb laṗaraḳs erideboda da mxolod zogǯer iṭq̇oda xolme gaḳvrit:
+1	კვაჭი	კვაჭი	PROPN	N_Prop_Anthr_FirstName_Nom	Case=Nom|NameType=Prs	6	nsubj	_	LMSeg:კვაჭი
+2	თავის	თავისი	PRON	Pron_Poss_Refl_Poss3Sg_Dat_Att	Case=Dat|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	LMSeg:თავის·ი
+3	ტოლ-ამხანაგებ	ტოლ-ამხანაგი	NOUN	N_Dat_Pl_NewPl_PP_PP:ში	Case=Dat|Number=Plur	6	obl	_	LMSeg:ტოლ-ამხანაგ·ი|SpaceAfter=No
+4	ში	_ში	ADP	Pp	_	3	case	_	LMSeg:_ში
+5	არა	არ	ADV	Adv_Neg_L	_	6	advmod:neg	_	LMSeg:არ
+6	მალავდა	მალვა	VERB	V_Act_Impf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:*·მალვ[ა]/მალ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	15	punct	_	LMSeg:,
+8	რომ	რომ	SCONJ	Cj_Sub	_	15	mark	_	LMSeg:რომ
+9	მას	ის	PRON	Pron_Pers_3_Dat_Sg	Case=Dat|Number=Sing|PronType=Prs	15	nsubj	_	LMSeg:ის
+10	ქალების	ქალი	NOUN	N_Hum_Gen_Pl_NewPl	Animacy=Anim|Case=Gen|Number=Plur	11	nmod	_	LMSeg:ქალ·ი
+11	ბაზარ	ბაზარი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	15	obl	_	LMSeg:ბაზ[ა]რ·ი|SpaceAfter=No
+12	ში	_ში	ADP	Pp	_	11	case	_	LMSeg:_ში
+13	მრავალი	მრავალი	DET	A_Quant_Nom_Att	Case=Nom	14	det	_	LMSeg:მრავ[ა]ლ·ი
+14	მუშტარი	მუშტარი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	15	obj	_	LMSeg:მუშტ[ა]რ·ი
+15	ჰყავდა	ყოლა	VERB	V_MedPass_Inv_Impf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin|Voice=Inv	6	advcl	_	LMSeg:ყოლ[ა]/ყავ|SpaceAfter=No
+16	,	,	PUNCT	Punct_Comma	_	21	punct	_	LMSeg:,
+17	მაგრამ	მაგრამ	CCONJ	Cj_Coord	_	21	cc	_	LMSeg:მაგრამ
+18	ფასის	ფასი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	21	obl	_	LMSeg:ფას·ი
+19	შესახებ	შესახებ	ADP	Pp	_	18	case	_	LMSeg:შესახებ
+20	ლაპარაკს	ლაპარაკი	NOUN	N_VN_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	21	iobj	_	LMSeg:ლაპარაკ·ი/ლაპარაკ
+21	ერიდებოდა	რიდება	VERB	V_Pass_Impf_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	6	conj	_	LMSeg:*·რიდებ[ა]/რიდ
+22	და	და	CCONJ	Cj_Coord	_	25	cc	_	LMSeg:და
+23	მხოლოდ	მხოლოდ	ADV	Adv_Deg	_	24	advmod	_	LMSeg:მხოლოდ
+24	ზოგჯერ	ზოგჯერ	ADV	Adv_Repet	_	25	advmod	_	LMSeg:ზოგჯერ
+25	იტყოდა	თქმა	VERB	V_MedAct_Cond_S:3Sg_DO:3	Mood=Cnd|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	21	conj	_	LMSeg:თქმ[ა]/ტყ
+26	ხოლმე	ხოლმე	ADV	Adv_Iter	_	25	advmod	_	LMSeg:ხოლმე
+27	გაკვრით	გაკვრით	ADV	Adv	_	25	advmod	_	LMSeg:გაკვრით|SpaceAfter=No
+28	:	:	PUNCT	Punct_Colon	_	25	punct	_	LMSeg::
+
+# sent_id = dzhavaxishvili-m+kvachi+w466700
+# text = ან კიდევ: ნასწავლსა და ახალგაზრდა ქალიშვილებს მხოლოდ ტუტუცები და პოეტები დასდევენ.
+# text-transcription = an ḳidev: nasc̣avlsa da axalgazrda kališvilebs mxolod ṭuṭucebi da ṗoeṭebi dasdeven.
+1	ან	ან	CCONJ	Cj_Coord	_	2	cc	_	LMSeg:ან
+2	კიდევ	კიდევ	ADV	Adv_Deg	_	0	root	_	LMSeg:კიდევ|SpaceAfter=No
+3	:	:	PUNCT	Punct_Colon	_	2	punct	_	LMSeg::
+4	ნასწავლსა	ნასწავლი	NOUN	N_Dat_Sg_L	Case=Dat|Number=Sing	12	iobj	_	LMSeg:ნასწავლ·ი
+5	და	და	CCONJ	Cj_Coord	_	7	cc	_	LMSeg:და
+6	ახალგაზრდა	ახალგაზრდა	ADJ	A_Dat_Att	Case=Dat	7	amod	_	LMSeg:ახალგაზრდ[ა]
+7	ქალიშვილებს	ქალიშვილი	NOUN	N_Hum_Dat_Pl_NewPl	Animacy=Anim|Case=Dat|Number=Plur	4	conj	_	LMSeg:ქალიშვილ·ი
+8	მხოლოდ	მხოლოდ	ADV	Adv_Deg	_	9	advmod	_	LMSeg:მხოლოდ
+9	ტუტუცები	ტუტუცი	ADJ	A_Nom_Pl_NewPl	Case=Nom|Number=Plur	12	nsubj	_	LMSeg:ტუტუც·ი
+10	და	და	CCONJ	Cj_Coord	_	11	cc	_	LMSeg:და
+11	პოეტები	პოეტი	NOUN	N_Hum_Nom_Pl_NewPl	Animacy=Anim|Case=Nom|Number=Plur	9	conj	_	LMSeg:პოეტ·ი
+12	დასდევენ	დადევნა	VERB	V_Act_Pres_Pv_S:3Pl_IO:3	Mood=Ind|Number[subj]=Plur|Person[io]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	LMSeg:და·დევნ[ა]/დ[ევ]|SpaceAfter=No
+13	.	.	PUNCT	Punct_Period	_	12	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w468600
+# text = ხიფათიც ნაკლებია, თავისუფლებაც შეგრჩება, არც ბევრი დრო დაგეხარჯება და არც ფული.
+# text-transcription = xipatic naḳlebia, tavisuplebac šegrčeba, arc bevri dro dagexarǯeba da arc puli.
+1	ხიფათიც	ხიფათი	NOUN	N_Nom_Sg_Encl:ც_Foc	Case=Nom|Encl=C|Number=Sing	2	nsubj	_	LMSeg:ხიფათ·ი
+2	ნაკლები	ნაკლები	ADJ	A_Nom_Sg_Encl:Aux	Case=Nom|Number=Sing	0	root	_	LMSeg:ნაკლებ·ი|SpaceAfter=No
+3	ა	ყოფნა	AUX	V_MedPass_Pres_S:3Sg_Encl	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	2	cop	_	LMSeg:ყოფნ[ა]/არ|SpaceAfter=No
+4	,	,	PUNCT	Punct_Comma	_	6	punct	_	LMSeg:,
+5	თავისუფლებაც	თავისუფლება	NOUN	N_Nom_Sg_Encl:ც_Foc	Case=Nom|Encl=C|Number=Sing	6	nsubj	_	LMSeg:თავისუფლებ[ა]
+6	შეგრჩება	შერჩენა	VERB	V_Pass_Fut_Pv_S:3Sg_IO:2Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Sing|Person[io]=2|Person[subj]=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	LMSeg:შე·რჩენ[ა]/რჩ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	11	punct	_	LMSeg:,
+8	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	10	advmod:neg	_	LMSeg:არ
+9	ბევრი	ბევრი	DET	A_Quant_Nom_Att	Case=Nom	10	det	_	LMSeg:ბევრ·ი
+10	დრო	დრო	NOUN	N_Temp_Nom_Sg	Case=Nom|Number=Sing	11	nsubj	_	LMSeg:დრო
+11	დაგეხარჯება	დახარჯვა	VERB	V_Pass_Fut_Pv_S:3Sg_IO:2Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Sing|Person[io]=2|Person[subj]=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	LMSeg:და·ხარჯვ[ა]/ხარჯ
+12	და	და	CCONJ	Cj_Coord	_	14	cc	_	LMSeg:და
+13	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	14	advmod:neg	_	LMSeg:არ
+14	ფული	ფული	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	10	conj	_	LMSeg:ფულ·ი|SpaceAfter=No
+15	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w472200
+# text = – ჭკვა მოიკრიფეთ, ცხოვრებას დააკვირდით, ყოლიფერი ასწონ-დასწონეთ და გაზომეთ.
+# text-transcription = – č̣ḳva moiḳripet, cxovrebas daaḳvirdit, q̇oliperi asc̣on-dasc̣onet da gazomet.
+1	–	–	PUNCT	Punct_Dash	_	3	punct	_	LMSeg:–
+2	ჭკვა	ჭკვა	NOUN	N_Nom_Sg_NonStand	Case=Nom|Number=Sing	3	obj	_	LMSeg:ჭკვ[ა]
+3	მოიკრიფეთ	მოკრეფა	VERB	V_Act_Impv_Pv_SV_S:2Pl_DO:3	Mood=Imp|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|VerbForm=Fin	0	root	_	LMSeg:მო·კრეფ[ა]/კრიფ|SpaceAfter=No
+4	,	,	PUNCT	Punct_Comma	_	6	punct	_	LMSeg:,
+5	ცხოვრებას	ცხოვრება	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	6	iobj	_	LMSeg:ცხოვრებ[ა]
+6	დააკვირდით	დაკვირვება	VERB	V_Pass_Impv_Pv_LV_S:2Pl_IO:3	Mood=Imp|Number[subj]=Plur|Person[io]=3|Person[subj]=2|VerbForm=Fin	3	conj	_	LMSeg:და·კვირვებ[ა]/კვირ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
+8	ყოლიფერი	ყოლიფერი	DET	A_Quant_Nom_Sg_NonStand	Case=Nom|Number=Sing	9	obj	_	LMSeg:ყოლიფ[ე]რ·ი
+9	ასწონ-დასწონეთ	აწონა=დაწონა	VERB	V_Act_Impv_Pv_Redup_S:2Pl_DO:3_IO:3	Mood=Imp|Number[subj]=Plur|Person[io]=3|Person[obj]=3|Person[subj]=2|VerbForm=Fin	3	conj	_	LMSeg:აწონა=და·წონ[ა]/წონ
+10	და	და	CCONJ	Cj_Coord	_	11	cc	_	LMSeg:და
+11	გაზომეთ	გაზომვა	VERB	V_Act_Impv_Pv_S:2Pl_DO:3	Mood=Imp|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|VerbForm=Fin	3	conj	_	LMSeg:გა·ზომვ[ა]/ზომ|SpaceAfter=No
+12	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+
+# sent_id = dzhavaxishvili-m+kvachi+w473300
+# text = არ მესმის, ქალმა რავა უნდა გამაგიჟოს და გამიტაცოს ისთე, რომე გონება დავკარგო და ხუთმეტი წლის კაროჟნას შევწირო ჩემი თავისუფლება, ახალგაზრდობა, მომავალი და სიცოცხლეც?
+# text-transcription = ar mesmis, kalma rava unda gamagižos da gamiṭacos iste, rome goneba davḳargo da xutmeṭi c̣lis ḳarožnas ševc̣iro čemi tavisupleba, axalgazrdoba, momavali da sicocxlec?
+1	არ	არ	ADV	Adv_Neg	_	2	advmod:neg	_	LMSeg:არ
+2	მესმის	სმენა	VERB	V_MedPass_Inv_Pres_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Pres|VerbForm=Fin|Voice=Inv	0	root	_	LMSeg:სმენ[ა]/სმ|SpaceAfter=No
+3	,	,	PUNCT	Punct_Comma	_	7	punct	_	LMSeg:,
+4	ქალმა	ქალი	NOUN	N_Hum_Erg_Sg	Animacy=Anim|Case=Erg|Number=Sing	7	nsubj	_	LMSeg:ქალ·ი
+5	რავა	რავა	ADV	Adv_Int_Mann	_	7	advmod	_	LMSeg:რავა
+6	უნდა	უნდა	AUX	Modal	_	7	aux	_	LMSeg:უნდა
+7	გამაგიჟოს	გაგიჟება	VERB	V_Act_Opt_Pv_S:3Sg_DO:1Sg	Mood=Sub|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Tense=Past|VerbForm=Fin	2	ccomp	_	LMSeg:გა·გიჟებ[ა]/გიჟ
+8	და	და	CCONJ	Cj_Coord	_	9	cc	_	LMSeg:და
+9	გამიტაცოს	გატაცება	VERB	V_Act_Opt_Pv_SV_S:3Sg_DO:1Sg	Mood=Sub|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Tense=Past|VerbForm=Fin	7	conj	_	LMSeg:გა·ტაცებ[ა]/ტაც
+10	ისთე	ისთე	ADV	Adv	_	9	advmod	_	LMSeg:ისთე|SpaceAfter=No
+11	,	,	PUNCT	Punct_Comma	_	14	punct	_	LMSeg:,
+12	რომე	რომე	SCONJ	Cj_Sub	_	14	mark	_	LMSeg:რომე
+13	გონება	გონება	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	14	obj	_	LMSeg:გონებ[ა]/გონ
+14	დავკარგო	დაკარგვა	VERB	V_Act_Opt_Pv_S:1Sg_DO:3	Mood=Sub|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	10	advcl	_	LMSeg:და·კარგვ[ა]/კარგ
+15	და	და	CCONJ	Cj_Coord	_	19	cc	_	LMSeg:და
+16	ხუთმეტი	თხუთმეტი	NUM	Num_Card_Alpha_Gen_Att	Case=Gen|NumType=Card	17	nummod	_	LMSeg:თხუთმეტ·ი
+17	წლის	წელი	NOUN	N_Temp_Gen_Sg	Case=Gen|Number=Sing	18	nmod	_	LMSeg:წ[ე]ლ·ი
+18	კაროჟნას	კაროჟნა	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	19	iobj	_	LMSeg:კაროჟნა
+19	შევწირო	შეწირვა	VERB	V_Act_Opt_Pv_S:1Sg_DO:3_IO:3_NonStand	Mood=Sub|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	14	conj	_	LMSeg:შე·წირვ[ა]/წირ
+20	ჩემი	ჩემი	PRON	Pron_Poss_Poss1Sg_Nom_Att	Case=Nom|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	LMSeg:ჩემ·ი
+21	თავისუფლება	თავისუფლება	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	19	obj	_	LMSeg:თავისუფლებ[ა]|SpaceAfter=No
+22	,	,	PUNCT	Punct_Comma	_	23	punct	_	LMSeg:,
+23	ახალგაზრდობა	ახალგაზრდობა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	21	conj	_	LMSeg:ახალგაზრდობ[ა]|SpaceAfter=No
+24	,	,	PUNCT	Punct_Comma	_	25	punct	_	LMSeg:,
+25	მომავალი	მომავალი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	21	conj	_	LMSeg:მომავ[ა]ლ·ი
+26	და	და	CCONJ	Cj_Coord	_	27	cc	_	LMSeg:და
+27	სიცოცხლეც	სიცოცხლე	NOUN	N_Nom_Sg_Encl:ც_Foc	Case=Nom|Encl=C|Number=Sing	21	conj	_	LMSeg:სიცოცხლ[ე]|SpaceAfter=No
+28	?	?	PUNCT	Punct_IntMark	_	2	punct	_	LMSeg:?
+
+# sent_id = dzhavaxishvili-m+kvachi+w477300
+# text = მიიღე მისგან რაიც მისაღები გაქვს და, თუ გინდა, მადლობა უთხარი და შენი გზით წადი.
+# text-transcription = miiġe misgan raic misaġebi gakvs da, tu ginda, madloba utxari da šeni gzit c̣adi.
+1	მიიღე	მიღება	VERB	V_Act_Impv_Pv_SV_S:2Sg_DO:3	Mood=Imp|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|VerbForm=Fin	0	root	_	LMSeg:მი·ღებ[ა]/ღ
+2	მის	ის	PRON	Pron_Pers_3_Gen_Sg_PP_PP:გან	Case=Gen|Number=Sing|PronType=Prs	1	obl	_	LMSeg:ის|SpaceAfter=No
+3	გან	_გან	ADP	Pp	_	2	case	_	LMSeg:_გან
+4	რაიც	რა	PRON	Pron_Rel_Nonhum_Nom_NonStand_Rel:ც	Case=Nom|PronType=Rel	6	obj	_	LMSeg:რ[ა]
+5	მისაღები	მისაღები	ADJ	A_Part_FutPart_Pv_Nom_Sg	Case=Nom|Number=Sing|Tense=Fut|VerbForm=Part	6	xcomp	_	LMSeg:მი·საღებ·ი/ღ
+6	გაქვს	ქონა	VERB	V_MedPass_Inv_Pres_LV_S:2Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Tense=Pres|VerbForm=Fin|Voice=Inv	1	ccomp	_	LMSeg:ქონ[ა]/ქვ
+7	და	და	CCONJ	Cj_Coord	_	13	cc	_	LMSeg:და|SpaceAfter=No
+8	,	,	PUNCT	Punct_Comma	_	13	punct	_	LMSeg:,
+9	თუ	თუ	SCONJ	Cj_Sub	_	10	mark	_	LMSeg:თუ
+10	გინდა	ნდომა	VERB	V_MedPass_Inv_Pres_OV_S:2Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Tense=Pres|VerbForm=Fin|Voice=Inv	13	advcl	_	LMSeg:ნდომ[ა]/ნდ|SpaceAfter=No
+11	,	,	PUNCT	Punct_Comma	_	13	punct	_	LMSeg:,
+12	მადლობა	მადლობა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	13	obj	_	LMSeg:მადლობ[ა]/მადლ
+13	უთხარი	თქმა	VERB	V_Act_Impv_S:2Sg_DO:3_IO:3	Mood=Imp|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=2|VerbForm=Fin	6	conj	_	LMSeg:თქმ[ა]/თხ[ა]რ
+14	და	და	CCONJ	Cj_Coord	_	17	cc	_	LMSeg:და
+15	შენი	შენი	PRON	Pron_Poss_Poss2Sg_Inst_Att	Case=Ins|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	16	det:poss	_	LMSeg:შენ·ი
+16	გზით	გზა	NOUN	N_Inst_Sg	Case=Ins|Number=Sing	17	obl	_	LMSeg:გზ[ა]
+17	წადი	წასვლა	VERB	V_MedPass_Impv_Pv_S:2Sg	Mood=Imp|Number[subj]=Sing|Person[subj]=2|VerbForm=Fin	13	conj	_	LMSeg:წა·სვლ[ა]/დი|SpaceAfter=No
+18	.	.	PUNCT	Punct_Period	_	1	punct	_	LMSeg:.
 
 # sent_id = gamsaxurdia-k+didostatis-mardzhvena+w3400
 # text = დასვენების დღეს, როცა ტფილისელები კომფორტაბელური ავტოებით მიემგზავრებიან ქალაქგარედ, ჩვეულებსამებრ ჰიპოდრომზე მივდივარ ხოლმე.

@@ -66,7 +66,7 @@ The Georgian treebank and the tools used to create it have been developed by Pau
 # Changelog
 
 * 2025-11-15 v2.17
-  * Added sentences to a total of 1772 sentences
+  * Added sentences to a total of 1818 sentences
   * Added Mood=Ind, other smaller changes
 
 * 2025-05-15 v2.16
