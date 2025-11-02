@@ -2000,3 +2000,4 @@
 3	იწვოდა	წვა	VERB	V_Pass_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:*·წვ[ა]/წვ
 4	ქვეყანა	ქვეყანა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	3	nsubj	_	LMSeg:ქვეყ[ა]ნ[ა]|SpaceAfter=No
 5	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+

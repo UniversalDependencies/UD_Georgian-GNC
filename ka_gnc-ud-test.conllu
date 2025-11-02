@@ -13535,3 +13535,4 @@
 5	ზე	_ზე	ADP	Pp	_	4	case	_	LMSeg:_ზე
 6	ყოფილა	ყოფნა	VERB	V_Pass_Perf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=PastPerf|VerbForm=Fin	0	root	_	LMSeg:ყოფნ[ა]/ყოფ|SpaceAfter=No
 7	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
+
