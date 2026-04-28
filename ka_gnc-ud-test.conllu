@@ -2627,7 +2627,7 @@
 # text-transcription = turme tavxedebad imdenni ar ibadebian, ramdennic mere xdebian.
 1	თურმე	თურმე	ADV	Adv_Comm	_	5	advmod	_	LMSeg:თურმე
 2	თავხედებად	თავხედი	ADJ	A_Advb_Pl_NewPl	Case=Ess|Number=Plur	5	advmod	_	LMSeg:თავხედ·ი
-3	იმდენნი	იმდენი	ADJ	A_Nom_Pl_OldPl	Case=Nom|Number=Plur	5	nsubj	_	LMSeg:იმდენ·ი
+3	იმდენნი	იმდენი	NOUN	N_Nom_Pl_OldPl_Guess	Case=Nom|Number=Plur	5	nsubj	_	LMSeg:იმდენ·ი
 4	არ	არ	ADV	Adv_Neg	_	5	advmod:neg	_	LMSeg:არ
 5	იბადებიან	დაბადება	VERB	V_Pass_Pres_S:3Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	LMSeg:და·ბადებ[ა]/ბად|SpaceAfter=No
 6	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
@@ -3189,19 +3189,19 @@
 1	გამომძიებლის	გამომძიებელი	ADJ	A_Part_PresPart_Pv_Gen_Sg	Case=Gen|Number=Sing|Tense=Pres|VerbForm=Part	2	nmod	_	LMSeg:გამო·მძიებ[ე]ლ·ი/ძი
 2	განმარტება	განმარტება	NOUN	N_VN_Pv_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	LMSeg:გან·მარტებ[ა]/მარტ|SpaceAfter=No
 3	:	:	PUNCT	Punct_Colon	_	2	punct	_	LMSeg::
-4	გამოძიების	გამოძიება	NOUN	N_VN_Pv_Gen_Sg	Case=Gen|Number=Sing|VerbForm=Vnoun	6	obl	_	LMSeg:გამო·ძიებ[ა]/ძი
+4	გამოძიების	გამოძიება	NOUN	N_VN_Pv_Gen_Sg	Case=Gen|Number=Sing|VerbForm=Vnoun	9	obl	_	LMSeg:გამო·ძიებ[ა]/ძი
 5	წინაშე	წინაშე	ADP	Pp	_	4	case	_	LMSeg:წინაშე
-6	არის	ყოფნა	VERB	V_MedPass_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	LMSeg:ყოფნ[ა]/არ
+6	არის	ყოფნა	AUX	V_MedPass_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	9	cop	_	LMSeg:ყოფნ[ა]/არ
 7	დანაშაულის	დანაშაული	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	9	nmod	_	LMSeg:დანაშაულ·ი
 8	ობიექტური	ობიექტური	ADJ	A_Nom_Att	Case=Nom	9	amod	_	LMSeg:ობიექტურ·ი
-9	მხარე	მხარე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	nsubj	_	LMSeg:მხარ[ე]
+9	მხარე	მხარე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	2	parataxis	_	LMSeg:მხარ[ე]
 10	ანუ	ანუ	CCONJ	Cj_Coord	_	11	cc	_	LMSeg:ანუ
 11	ფაქტი	ფაქტი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	9	conj	_	LMSeg:ფაქტ·ი|SpaceAfter=No
-12	:	:	PUNCT	Punct_Colon	_	6	punct	_	LMSeg::
+12	:	:	PUNCT	Punct_Colon	_	9	punct	_	LMSeg::
 13	მძიმედ	მძიმედ	ADV	A_Advb_Sg	_	14	advmod	_	LMSeg:მძიმედ
 14	დაჭრილი	დაჭრილი	ADJ	A_Part_PastPart_Pv_Nom_Att	Case=Nom|Tense=Past|VerbForm=Part	16	amod	_	LMSeg:და·ჭრილ·ი/ჭრ
 15	გადამდგარი	გადამდგარი	ADJ	A_Part_PastPart_Pv_Nom_Att	Case=Nom|Tense=Past|VerbForm=Part	16	amod	_	LMSeg:გადა·მდგარ·ი/დგ
-16	ოფიცერი	ოფიცერი	NOUN	N_Hum_Nom_Sg	Animacy=Anim|Case=Nom|Number=Sing	2	parataxis	_	LMSeg:ოფიც[ე]რ·ი|SpaceAfter=No
+16	ოფიცერი	ოფიცერი	NOUN	N_Hum_Nom_Sg	Animacy=Anim|Case=Nom|Number=Sing	9	parataxis	_	LMSeg:ოფიც[ე]რ·ი|SpaceAfter=No
 17	,	,	PUNCT	Punct_Comma	_	20	punct	_	LMSeg:,
 18	თავისუფალი	თავისუფალი	ADJ	A_Gen_Att	Case=Gen	19	amod	_	LMSeg:თავისუფ[ა]ლ·ი
 19	პროფესიის	პროფესია	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	20	nmod	_	LMSeg:პროფესი[ა]
@@ -3209,7 +3209,7 @@
 21	,	,	PUNCT	Punct_Comma	_	23	punct	_	LMSeg:,
 22	ტახტის	ტახტი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	23	nmod	_	LMSeg:ტახტ·ი
 23	აზნაური	აზნაური	NOUN	N_Hum_Nom_Sg_Old	Animacy=Anim|Case=Nom|Number=Sing	16	conj	_	LMSeg:აზნაურ·ი|SpaceAfter=No
-24	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+24	.	.	PUNCT	Punct_Period	_	9	punct	_	LMSeg:.
 
 # sent_id = amiredzhibi-ch+data-tutashxia+w329300
 # text = ჟანდარმერიის სამმართველო, არსებული კანონების საფუძველზე, ვალდებულია, აღძრას სისხლის სამართლის საქმე ჭრილობის მიმყენებლის წინააღმდეგ.
@@ -3235,8 +3235,8 @@
 19	.	.	PUNCT	Punct_Period	_	9	punct	_	LMSeg:.
 
 # sent_id = amiredzhibi-ch+data-tutashxia+w331200
-# text = დანაშაულის სუბიექტურ მხარეს, ანუ ჩადენის მოტივებს, სასამართლო გამოარკვევს და შემამსუბუქებელ გარემოებებს, თუკი ასეთები აღმოჩნდება, განაჩენის გამოტანისას მიიღებს მხედველობაში.
-# text-transcription = današaulis subiekṭur mxares, anu čadenis moṭivebs, sasamartlo gamoarḳvevs da šemamsubukebel garemoebebs, tuḳi asetebi aġmočndeba, ganačenis gamoṭanisas miiġebs mxedvelobaši.
+# text = დანაშაულის სუბიექტურ მხარეს, ანუ ჩადენის მოტივებს, სასამართლო გამოარკვევს და შემამსუბუქებელ გარემოებებს, თუკი ასეთები აღმოჩნდება, მიიღებს მხედველობაში.
+# text-transcription = današaulis subiekṭur mxares, anu čadenis moṭivebs, sasamartlo gamoarḳvevs da šemamsubukebel garemoebebs, tuḳi asetebi aġmočndeba, miiġebs mxedvelobaši.
 1	დანაშაულის	დანაშაული	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	3	nmod	_	LMSeg:დანაშაულ·ი
 2	სუბიექტურ	სუბიექტური	ADJ	A_Dat_Att	Case=Dat	3	amod	_	LMSeg:სუბიექტურ·ი
 3	მხარეს	მხარე	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	10	obj	_	LMSeg:მხარ[ე]|SpaceAfter=No
@@ -3247,20 +3247,18 @@
 8	,	,	PUNCT	Punct_Comma	_	10	punct	_	LMSeg:,
 9	სასამართლო	სასამართლო	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	10	nsubj	_	LMSeg:სასამართლო
 10	გამოარკვევს	გამორკვევა	VERB	V_Act_Fut_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Fut|VerbForm=Fin	0	root	_	LMSeg:გამო·რკვევ[ა]/რკვ
-11	და	და	CCONJ	Cj_Coord	_	21	cc	_	LMSeg:და
+11	და	და	CCONJ	Cj_Coord	_	19	cc	_	LMSeg:და
 12	შემამსუბუქებელ	შემამსუბუქებელი	ADJ	A_Part_PresPart_Pv_Dat_Att	Case=Dat|Tense=Pres|VerbForm=Part	13	amod	_	LMSeg:შე·მამსუბუქებ[ე]ლ·ი/მსუბუქ
-13	გარემოებებს	გარემოება	NOUN	N_Dat_Pl_NewPl	Case=Dat|Number=Plur	21	obj	_	LMSeg:გარემოებ[ა]|SpaceAfter=No
+13	გარემოებებს	გარემოება	NOUN	N_Dat_Pl_NewPl	Case=Dat|Number=Plur	19	obj	_	LMSeg:გარემოებ[ა]|SpaceAfter=No
 14	,	,	PUNCT	Punct_Comma	_	17	punct	_	LMSeg:,
 15	თუკი	თუკი	SCONJ	Cj_Sub	_	17	mark	_	LMSeg:თუკი
 16	ასეთები	ასეთი	PRON	Pron_Indef_Prox_Nom_Pl_NewPl	Case=Nom|Number=Plur|PronType=Ind	17	nsubj	_	LMSeg:ასეთ·ი
-17	აღმოჩნდება	აღმოჩენა	VERB	V_Pass_Fut_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Fut|VerbForm=Fin	21	advcl	_	LMSeg:აღმო·ჩენ[ა]/ჩნ|SpaceAfter=No
-18	,	,	PUNCT	Punct_Comma	_	21	punct	_	LMSeg:,
-19	განაჩენის	განაჩენი	ADJ	A_Gen_Sg_Old	Case=Gen|Number=Sing	20	nmod	_	LMSeg:განაჩენ·ი
-20	გამოტანისას	გამოტანა	VERB	N_VN_Pv_Converb	VerbForm=Vnoun	21	advcl	_	LMSeg:გამო·ტან[ა]/ტან
-21	მიიღებს	მიღება	VERB	V_Act_Fut_Pv_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Fut|VerbForm=Fin	10	conj	_	LMSeg:მი·ღებ[ა]/ღ
-22	მხედველობა	მხედველობა	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	21	obl	_	LMSeg:მხედველობ[ა]|SpaceAfter=No
-23	ში	_ში	ADP	Pp	_	22	case	_	LMSeg:_ში|SpaceAfter=No
-24	.	.	PUNCT	Punct_Period	_	10	punct	_	LMSeg:.
+17	აღმოჩნდება	აღმოჩენა	VERB	V_Pass_Fut_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Fut|VerbForm=Fin	19	advcl	_	LMSeg:აღმო·ჩენ[ა]/ჩნ|SpaceAfter=No
+18	,	,	PUNCT	Punct_Comma	_	19	punct	_	LMSeg:,
+19	მიიღებს	მიღება	VERB	V_Act_Fut_Pv_SV_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Fut|VerbForm=Fin	10	conj	_	LMSeg:მი·ღებ[ა]/ღ
+20	მხედველობა	მხედველობა	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	19	obl	_	LMSeg:მხედველობ[ა]|SpaceAfter=No
+21	ში	_ში	ADP	Pp	_	20	case	_	LMSeg:_ში|SpaceAfter=No
+22	.	.	PUNCT	Punct_Period	_	10	punct	_	LMSeg:.
 
 # sent_id = amiredzhibi-ch+data-tutashxia+w333200
 # text = ამჟამად ბოროტმოქმედი დათა თუთაშხია პასუხისგებას თავს არიდებს.
@@ -3366,56 +3364,48 @@
 12	.	.	PUNCT	Punct_Period	_	11	punct	_	LMSeg:.
 
 # sent_id = amiredzhibi-ch+data-tutashxia+w340700
-# text = დაზარალებულის კითხვა:
-# text-transcription = dazaralebulis ḳitxva:
+# text = დაზარალებულის კითხვა: დაკმაყოფილებულ იქნება თუ არა ჩემი წერილობითი თხოვნა თუთაშხიას მიმართ სისხლის სამართლის საქმის შეწყვეტის თაობაზე?
+# text-transcription = dazaralebulis ḳitxva: daḳmaq̇opilebul ikneba tu ara čemi c̣erilobiti txovna tutašxias mimart sisxlis samartlis sakmis šec̣q̇veṭis taobaze?
 1	დაზარალებულის	დაზარალებული	ADJ	A_Part_PastPart_Pv_Gen_Sg	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	2	nmod	_	LMSeg:და·ზარალებულ·ი/ზარალ
 2	კითხვა	კითხვა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	LMSeg:კითხვ[ა]/კითხ|SpaceAfter=No
 3	:	:	PUNCT	Punct_Colon	_	2	punct	_	LMSeg::
-
-# sent_id = amiredzhibi-ch+data-tutashxia+w340900
-# text = დაკმაყოფილებულ იქნება თუ არა ჩემი წერილობითი თხოვნა თუთაშხიას მიმართ სისხლის სამართლის საქმის შეწყვეტის თაობაზე?
-# text-transcription = daḳmaq̇opilebul ikneba tu ara čemi c̣erilobiti txovna tutašxias mimart sisxlis samartlis sakmis šec̣q̇veṭis taobaze?
-1	დაკმაყოფილებულ	დაკმაყოფილებული	VERB	A_Part_PastPart_Pv_Abs	Case=Nom|Tense=Past|VerbForm=Part	0	root	_	LMSeg:და·კმაყოფილებულ·ი/კმაყოფილ
-2	იქნება	ყოფნა	AUX	V_Pass_Fut_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Fut|VerbForm=Fin	1	aux	_	LMSeg:ყოფნ[ა]/ქნ
-3	თუ	თუ	CCONJ	Cj_Coord	ExtPos=SCONJ	1	mark	_	LMSeg:თუ
-4	არა	არ	ADV	Adv_Neg_L	_	3	fixed	_	LMSeg:არ
-5	ჩემი	ჩემი	PRON	Pron_Poss_Poss1Sg_Nom_Att	Case=Nom|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	LMSeg:ჩემ·ი
-6	წერილობითი	წერილობითი	ADJ	A_Nom_Att	Case=Nom	7	amod	_	LMSeg:წერილობით·ი
-7	თხოვნა	თხოვნა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	1	csubj	_	LMSeg:თხოვნ[ა]/თხოვ
-8	თუთაშხიას	თუთაშხია	PROPN	N_Prop_Anthr_LastName_Gen	Case=Gen|NameType=Prs	1	obl	_	LMSeg:თუთაშხია
-9	მიმართ	მიმართ	ADP	Pp	_	8	case	_	LMSeg:მიმართ
-10	სისხლის	სისხლი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	11	nmod	_	LMSeg:სისხლ·ი
-11	სამართლის	სამართალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	12	nmod	_	LMSeg:სამართ[ა]ლ·ი
-12	საქმის	საქმე	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	13	nmod	_	LMSeg:საქმ[ე]
-13	შეწყვეტის	შეწყვეტა	NOUN	N_VN_Pv_Gen_Sg	Case=Gen|Number=Sing|VerbForm=Vnoun	8	obl	_	LMSeg:შე·წყვეტ[ა]/წყვეტ
-14	თაობაზე	თაობაზე	ADP	Pp	_	13	case	_	LMSeg:თაობაზე|SpaceAfter=No
-15	?	?	PUNCT	Punct_IntMark	_	1	punct	_	LMSeg:?
+4	დაკმაყოფილებულ	დაკმაყოფილებული	VERB	A_Part_PastPart_Pv_Abs	Case=Nom|Tense=Past|VerbForm=Part	2	parataxis	_	LMSeg:და·კმაყოფილებულ·ი/კმაყოფილ
+5	იქნება	ყოფნა	AUX	V_Pass_Fut_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Fut|VerbForm=Fin	4	aux	_	LMSeg:ყოფნ[ა]/ქნ
+6	თუ	თუ	CCONJ	Cj_Coord	ExtPos=SCONJ	4	mark	_	LMSeg:თუ
+7	არა	არ	ADV	Adv_Neg_L	_	6	fixed	_	LMSeg:არ
+8	ჩემი	ჩემი	PRON	Pron_Poss_Poss1Sg_Nom_Att	Case=Nom|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	LMSeg:ჩემ·ი
+9	წერილობითი	წერილობითი	ADJ	A_Nom_Att	Case=Nom	10	amod	_	LMSeg:წერილობით·ი
+10	თხოვნა	თხოვნა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	4	nsubj	_	LMSeg:თხოვნ[ა]/თხოვ
+11	თუთაშხიას	თუთაშხია	PROPN	N_Prop_Anthr_LastName_Gen	Case=Gen|NameType=Prs	10	nmod	_	LMSeg:თუთაშხია
+12	მიმართ	მიმართ	ADP	Pp	_	11	case	_	LMSeg:მიმართ
+13	სისხლის	სისხლი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	14	nmod	_	LMSeg:სისხლ·ი
+14	სამართლის	სამართალი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	15	nmod	_	LMSeg:სამართ[ა]ლ·ი
+15	საქმის	საქმე	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	16	nmod	_	LMSeg:საქმ[ე]
+16	შეწყვეტის	შეწყვეტა	NOUN	N_VN_Pv_Gen_Sg	Case=Gen|Number=Sing|VerbForm=Vnoun	10	nmod	_	LMSeg:შე·წყვეტ[ა]/წყვეტ
+17	თაობაზე	თაობაზე	ADP	Pp	_	16	case	_	LMSeg:თაობაზე|SpaceAfter=No
+18	?	?	PUNCT	Punct_IntMark	_	4	punct	_	LMSeg:?
 
 # sent_id = amiredzhibi-ch+data-tutashxia+w342500
-# text = გამომძიებლის განმარტება:
-# text-transcription = gamomʒieblis ganmarṭeba:
+# text = გამომძიებლის განმარტება: ასეთი თხოვნით შეგიძლიათ, მიმართოთ სასამართლოს, რომელსაც თუთაშხიას საქმე ჩვენ უსათუოდ უნდა გადავცეთ.
+# text-transcription = gamomʒieblis ganmarṭeba: aseti txovnit šegiʒliat, mimartot sasamartlos, romelsac tutašxias sakme čven usatuod unda gadavcet.
 1	გამომძიებლის	გამომძიებელი	ADJ	A_Part_PresPart_Pv_Gen_Sg	Case=Gen|Number=Sing|Tense=Pres|VerbForm=Part	2	nmod	_	LMSeg:გამო·მძიებ[ე]ლ·ი/ძი
 2	განმარტება	განმარტება	NOUN	N_VN_Pv_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	0	root	_	LMSeg:გან·მარტებ[ა]/მარტ|SpaceAfter=No
 3	:	:	PUNCT	Punct_Colon	_	2	punct	_	LMSeg::
-
-# sent_id = amiredzhibi-ch+data-tutashxia+w343100
-# text = ასეთი თხოვნით შეგიძლიათ, მიმართოთ სასამართლოს, რომელსაც თუთაშხიას საქმე ჩვენ უსათუოდ უნდა გადავცეთ.
-# text-transcription = aseti txovnit šegiʒliat, mimartot sasamartlos, romelsac tutašxias sakme čven usatuod unda gadavcet.
-1	ასეთი	ასეთი	PRON	Pron_Indef_Prox_Inst_Att	Case=Ins|PronType=Ind	2	det	_	LMSeg:ასეთ·ი
-2	თხოვნით	თხოვნა	NOUN	N_VN_Inst_Sg	Case=Ins|Number=Sing|VerbForm=Vnoun	5	obl	_	LMSeg:თხოვნ[ა]/თხოვ
-3	შეგიძლიათ	შეძლება	AUX	V_MedPass_Inv_Pres_Pv_OV_DO:3_S:2Pl	Mood=Ind|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Tense=Pres|VerbForm=Fin|Voice=Inv	5	aux	_	LMSeg:შე·ძლებ[ა]/ძლ|SpaceAfter=No
-4	,	,	PUNCT	Punct_Comma	_	5	punct	_	LMSeg:,
-5	მიმართოთ	მიმართვა	VERB	V_Act_Opt_Pv_S:2Pl_IO:3	Mood=Sub|Number[subj]=Plur|Person[io]=3|Person[subj]=2|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მი·მართვ[ა]/მართ
-6	სასამართლოს	სასამართლო	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	5	iobj	_	LMSeg:სასამართლო|SpaceAfter=No
-7	,	,	PUNCT	Punct_Comma	_	14	punct	_	LMSeg:,
-8	რომელსაც	რომელი	PRON	Pron_Rel_Dat_Sg_Rel:ც	Case=Dat|Number=Sing|PronType=Rel	14	iobj	_	LMSeg:რომ[ე]ლ·ი
-9	თუთაშხიას	თუთაშხია	PROPN	N_Prop_Anthr_LastName_Gen	Case=Gen|NameType=Prs	10	nmod	_	LMSeg:თუთაშხია
-10	საქმე	საქმე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	14	obj	_	LMSeg:საქმ[ე]
-11	ჩვენ	ჩვენ	PRON	Pron_Pers_1_Erg_Pl	Case=Erg|Number=Plur|PronType=Prs	14	nsubj	_	LMSeg:ჩვენ
-12	უსათუოდ	უსათუოდ	ADV	A_Advb_Sg	_	14	advmod	_	LMSeg:უსათუოდ
-13	უნდა	უნდა	AUX	Modal	_	14	aux	_	LMSeg:უნდა
-14	გადავცეთ	გადაცემა	VERB	V_Act_Opt_Pv_S:1Pl_DO:3_IO:3	Mood=Sub|Number[subj]=Plur|Person[io]=3|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	6	acl:relcl	_	LMSeg:გადა·ცემ[ა]/[ე]ც|SpaceAfter=No
-15	.	.	PUNCT	Punct_Period	_	5	punct	_	LMSeg:.
+4	ასეთი	ასეთი	PRON	Pron_Indef_Prox_Inst_Att	Case=Ins|PronType=Ind	5	det	_	LMSeg:ასეთ·ი
+5	თხოვნით	თხოვნა	NOUN	N_VN_Inst_Sg	Case=Ins|Number=Sing|VerbForm=Vnoun	8	obl	_	LMSeg:თხოვნ[ა]/თხოვ
+6	შეგიძლიათ	შეძლება	AUX	V_MedPass_Inv_Pres_Pv_OV_DO:3_S:2Pl	Mood=Ind|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Tense=Pres|VerbForm=Fin|Voice=Inv	8	aux	_	LMSeg:შე·ძლებ[ა]/ძლ|SpaceAfter=No
+7	,	,	PUNCT	Punct_Comma	_	8	punct	_	LMSeg:,
+8	მიმართოთ	მიმართვა	VERB	V_Act_Opt_Pv_S:2Pl_IO:3	Mood=Sub|Number[subj]=Plur|Person[io]=3|Person[subj]=2|Tense=Past|VerbForm=Fin	2	parataxis	_	LMSeg:მი·მართვ[ა]/მართ
+9	სასამართლოს	სასამართლო	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	8	iobj	_	LMSeg:სასამართლო|SpaceAfter=No
+10	,	,	PUNCT	Punct_Comma	_	17	punct	_	LMSeg:,
+11	რომელსაც	რომელი	PRON	Pron_Rel_Dat_Sg_Rel:ც	Case=Dat|Number=Sing|PronType=Rel	17	iobj	_	LMSeg:რომ[ე]ლ·ი
+12	თუთაშხიას	თუთაშხია	PROPN	N_Prop_Anthr_LastName_Gen	Case=Gen|NameType=Prs	13	nmod	_	LMSeg:თუთაშხია
+13	საქმე	საქმე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	17	obj	_	LMSeg:საქმ[ე]
+14	ჩვენ	ჩვენ	PRON	Pron_Pers_1_Erg_Pl	Case=Erg|Number=Plur|PronType=Prs	17	nsubj	_	LMSeg:ჩვენ
+15	უსათუოდ	უსათუოდ	ADV	A_Advb_Sg	_	17	advmod	_	LMSeg:უსათუოდ
+16	უნდა	უნდა	AUX	Modal	_	17	aux	_	LMSeg:უნდა
+17	გადავცეთ	გადაცემა	VERB	V_Act_Opt_Pv_S:1Pl_DO:3_IO:3	Mood=Sub|Number[subj]=Plur|Person[io]=3|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	LMSeg:გადა·ცემ[ა]/[ე]ც|SpaceAfter=No
+18	.	.	PUNCT	Punct_Period	_	8	punct	_	LMSeg:.
 
 # sent_id = amiredzhibi-ch+data-tutashxia+w344300
 # text = გამომძიებლის კითხვა: გამოძიებას ესაჭიროება თქვენი ამომწურავი ჩვენება მომხდარი ინციდენტის გამო.
@@ -4329,7 +4319,7 @@
 1	მოდიოდა	მოსვლა	VERB	V_MedPass_Impf_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:მო·სვლ[ა]/დი
 2	და	და	CCONJ	Cj_Coord	_	5	cc	_	LMSeg:და
 3	იქაურობას	იქაურობა	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	5	obj	_	LMSeg:იქაურობ[ა]
-4	მალულად	მალულად	ADV	A_Part_PastPart_Advb_Sg	_	5	obl	_	LMSeg:მალულად
+4	მალულად	მალულად	ADV	A_Part_PastPart_Advb_Sg	_	5	advmod	_	LMSeg:მალულად
 5	ათვალიერებდა	თვალიერება	VERB	V_Act_Impf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	1	conj	_	LMSeg:*·თვალიერებ[ა]/თვალიერ|SpaceAfter=No
 6	.	.	PUNCT	Punct_Period	_	1	punct	_	LMSeg:.
 
@@ -4710,7 +4700,7 @@
 13	იზრდება	ზრდა	VERB	V_Pass_Pres_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	6	advcl	_	LMSeg:*·ზრდ[ა]/ზრდ
 14	მის	ის	PRON	Pron_Pers_3_Gen_Sg	Case=Gen|Number=Sing|PronType=Prs	16	obl:agent	_	LMSeg:ის
 15	მიერ	მიერ	ADP	Pp	_	14	case	_	LMSeg:მიერ
-16	ჩადენილ	ჩადენილი	VERB	A_Part_PastPart_Gen_Att	Case=Gen|Tense=Past|VerbForm=Part	17	nmod	_	LMSeg:ჩადენილ·ი/დენ
+16	ჩადენილ	ჩადენილი	ADJ	A_Part_PastPart_Gen_Att	Case=Gen|Tense=Past|VerbForm=Part	17	nmod	_	LMSeg:ჩადენილ·ი/დენ
 17	დანაშაულთა	დანაშაული	NOUN	N_Gen_Pl_OldPl	Case=Gen|Number=Plur	18	nmod	_	LMSeg:დანაშაულ·ი
 18	რიცხვი	რიცხვი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	13	nsubj	_	LMSeg:რიცხვ·ი|SpaceAfter=No
 19	.	.	PUNCT	Punct_Period	_	6	punct	_	LMSeg:.
@@ -5499,72 +5489,45 @@
 6	დავიდარაბა	დავიდარაბა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	conj	_	LMSeg:დავიდარაბ[ა]|SpaceAfter=No
 7	.	.	PUNCT	Punct_Period	_	1	punct	_	LMSeg:.
 
-# sent_id = dumbadze-n+me-vxedav-mzes+w63
-# text = ჩხართვი გაბმულად სტვენდა.
-# text-transcription = čxartvi gabmulad sṭvenda.
-1	ჩხართვი	ჩხართვი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	3	nsubj	_	LMSeg:ჩხართვ·ი
-2	გაბმულად	გაბმულად	ADV	A_Part_PastPart_Pv_Advb_Sg	_	3	advmod	_	LMSeg:გაბმულად
-3	სტვენდა	დასტვენა	VERB	V_MedAct_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:და·სტვენ[ა]/სტვენ|SpaceAfter=No
-4	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+# sent_id = dumbadze-n+me-vxedav-mzes+w6000
+# text = .
+# text-transcription = .
+1	.	.	PUNCT	Punct_Period	_	0	root	_	LMSeg:.
 
-# sent_id = dumbadze-n+me-vxedav-mzes+w67
-# text = იშვიათად თუ შეჩერდებოდა და ისევ განაგრძობდა სტვენას.
-# text-transcription = išviatad tu šečerdeboda da isev ganagrʒobda sṭvenas.
-1	იშვიათად	იშვიათად	ADV	A_Advb_Sg	_	3	advmod	_	LMSeg:იშვიათად
-2	თუ	თუ	ADV	Adv	_	3	advmod	_	LMSeg:თუ
-3	შეჩერდებოდა	შეჩერება	VERB	V_Pass_Cond_Pv_S:3Sg	Mood=Cnd|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	LMSeg:შე·ჩერებ[ა]/ჩერ
-4	და	და	CCONJ	Cj_Coord	_	6	cc	_	LMSeg:და
-5	ისევ	ისევ	ADV	Adv_Sent	_	6	advmod	_	LMSeg:ისევ
-6	განაგრძობდა	განგრძობა	VERB	V_Act_Cond_Pv_S:3Sg_DO:3	Mood=Cnd|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	3	conj	_	LMSeg:გან·გრძობ[ა]/გრძ
-7	სტვენას	სტვენა	NOUN	N_VN_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	6	obj	_	LMSeg:სტვენ[ა]/სტვენ|SpaceAfter=No
-8	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+# sent_id = dumbadze-n+me-vxedav-mzes+w6400
+# text = .
+# text-transcription = .
+1	.	.	PUNCT	Punct_Period	_	0	root	_	LMSeg:.
 
-# sent_id = dumbadze-n+me-vxedav-mzes+w83
-# text = უზარმაზარი მზე ზანტად ჩადიოდა და სოფლებს ცეცხლს უკიდებდა.
-# text-transcription = uzarmazari mze zanṭad čadioda da soplebs cecxls uḳidebda.
-1	უზარმაზარი	უზარმაზარი	ADJ	A_Nom_Att	Case=Nom	2	amod	_	LMSeg:უზარმაზარ·ი
-2	მზე	მზე	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	4	nsubj	_	LMSeg:მზ[ე]
-3	ზანტად	ზანტად	ADV	A_Advb_Sg	_	4	advmod	_	LMSeg:ზანტად
-4	ჩადიოდა	ჩასვლა	VERB	V_MedPass_Impf_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:ჩა·სვლ[ა]/დი
-5	და	და	CCONJ	Cj_Coord	_	8	cc	_	LMSeg:და
-6	სოფლებს	სოფელი	NOUN	N_Dat_Pl_NewPl	Case=Dat|Number=Plur	8	iobj	_	LMSeg:სოფ[ე]ლ·ი
-7	ცეცხლს	ცეცხლი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	8	obj	_	LMSeg:ცეცხლ·ი
-8	უკიდებდა	კიდება	VERB	V_Act_Impf_OV_S:3Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	4	conj	_	LMSeg:*·კიდებ[ა]/კიდ|SpaceAfter=No
-9	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+# sent_id = dumbadze-n+me-vxedav-mzes+w7600
+# text = .
+# text-transcription = .
+1	.	.	PUNCT	Punct_Period	_	0	root	_	LMSeg:.
 
-# sent_id = dumbadze-n+me-vxedav-mzes+w96
-# text = – მოადგა ვიღაცა ჭიშკარს.
-# text-transcription = – moadga viġaca č̣išḳars.
-1	–	–	PUNCT	Punct_Dash	_	2	punct	_	LMSeg:–
-2	მოადგა	მოდგომა	VERB	V_Pass_Aor_Pv_LV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·დგომ[ა]/დგ
-3	ვიღაცა	ვიღაც	PRON	Pron_Indef_Hum_Nom_Sg	Animacy=Anim|Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	LMSeg:ვიღაც
-4	ჭიშკარს	ჭიშკარი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	2	iobj	_	LMSeg:ჭიშკ[ა]რ·ი|SpaceAfter=No
-5	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
+# sent_id = dumbadze-n+me-vxedav-mzes+w9100
+# text = .
+# text-transcription = .
+1	.	.	PUNCT	Punct_Period	_	0	root	_	LMSeg:.
 
-# sent_id = dumbadze-n+me-vxedav-mzes+w102
-# text = ჩხართვმა სტვენა შეწყვიტა.
-# text-transcription = čxartvma sṭvena šec̣q̇viṭa.
-1	ჩხართვმა	ჩხართვი	NOUN	N_Erg_Sg	Case=Erg|Number=Sing	3	nsubj	_	LMSeg:ჩხართვ·ი
-2	სტვენა	სტვენა	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	3	obj	_	LMSeg:სტვენ[ა]/სტვენ
-3	შეწყვიტა	შეწყვეტა	VERB	V_Act_Aor_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:შე·წყვეტ[ა]/წყვიტ|SpaceAfter=No
-4	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
+# sent_id = dumbadze-n+me-vxedav-mzes+w9900
+# text = .
+# text-transcription = .
+1	.	.	PUNCT	Punct_Period	_	0	root	_	LMSeg:.
 
-# sent_id = dumbadze-n+me-vxedav-mzes+w114
-# text = – ახლა მე დამიძახა სტუმარმა.
-# text-transcription = – axla me damiʒaxa sṭumarma.
-1	–	–	PUNCT	Punct_Dash	_	4	punct	_	LMSeg:–
-2	ახლა	ახლა	ADV	Adv_Temp	AdvType=Tim	4	advmod	_	LMSeg:ახლა
-3	მე	მე	PRON	Pron_Pers_1_Dat_Sg	Case=Dat|Number=Sing|PronType=Prs	4	iobj	_	LMSeg:მე
-4	დამიძახა	დაძახვა	VERB	V_Act_Aor_Pv_OV_S:3Sg_DO:3_IO:1Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Sing|Person[io]=1|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:და·ძახვ[ა]/ძახ
-5	სტუმარმა	სტუმარი	NOUN	N_Hum_Erg_Sg	Animacy=Anim|Case=Erg|Number=Sing	4	nsubj	_	LMSeg:სტუმ[ა]რ·ი|SpaceAfter=No
-6	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
+# sent_id = dumbadze-n+me-vxedav-mzes+w10300
+# text = .
+# text-transcription = .
+1	.	.	PUNCT	Punct_Period	_	0	root	_	LMSeg:.
 
-# sent_id = dumbadze-n+me-vxedav-mzes+w118
-# text = – მობრძანდი!
-# text-transcription = – mobrʒandi!
-1	–	–	PUNCT	Punct_Dash	_	2	punct	_	LMSeg:–
-2	მობრძანდი	მობრძანება	VERB	V_Pass_Impv_Pv_S:2Sg	Mood=Imp|Number[subj]=Sing|Person[subj]=2|VerbForm=Fin	0	root	_	LMSeg:მო·ბრძანებ[ა]/ბრძან|SpaceAfter=No
-3	!	!	PUNCT	Punct_ExclPoint	_	2	punct	_	LMSeg:!
+# sent_id = dumbadze-n+me-vxedav-mzes+w11600
+# text = .
+# text-transcription = .
+1	.	.	PUNCT	Punct_Period	_	0	root	_	LMSeg:.
+
+# sent_id = dumbadze-n+me-vxedav-mzes+w11900
+# text = !
+# text-transcription = !
+1	!	!	PUNCT	Punct_ExclPoint	_	0	root	_	LMSeg:!
 
 # sent_id = dzhavaxishvili-m+kvachi+w1700
 # text = იმ წელს, პირველ აპრილს, სამტრედიაში უცნაური და იშვიათი დარი დადგა.
@@ -5784,7 +5747,7 @@
 24	ხოლო	ხოლო	CCONJ	Cj_Coord	_	27	cc	_	LMSeg:ხოლო
 25	დედამიწა	დედამიწა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	27	nsubj	_	LMSeg:დედამიწ[ა]
 26	ისე	ისე	ADV	Adv_Mann	_	27	advmod	_	LMSeg:ისე
-27	შეინძრა	შენძრევა	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	9	conj	_	LMSeg:შე·ნძრევ[ა]/ნძ[ე]რ|SpaceAfter=No
+27	შეინძრა	შენძრევა	VERB	V_Pass_Aor_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	22	conj	_	LMSeg:შე·ნძრევ[ა]/ნძ[ე]რ|SpaceAfter=No
 28	,	,	PUNCT	Punct_Comma	_	32	punct	_	LMSeg:,
 29	რომ	რომ	SCONJ	Cj_Sub	_	32	mark	_	LMSeg:რომ
 30	ზოგი	ზოგი	DET	A_Quant_Nom_Sg	Case=Nom|Number=Sing	32	nsubj	_	LMSeg:ზოგ·ი
@@ -8658,7 +8621,7 @@
 15	არც	არ	ADV	Adv_Neg_Encl:ც_Foc	Encl=C	17	advmod:neg	_	LMSeg:არ
 16	მისი	მისი	PRON	Pron_Poss_Poss3Sg_Nom_Att	Case=Nom|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	LMSeg:მის·ი
 17	ამხანაგები	ამხანაგი	NOUN	N_Hum_Nom_Pl_NewPl	Animacy=Anim|Case=Nom|Number=Plur	13	conj	_	LMSeg:ამხანაგ·ი
-18	ნიძლავად	ნიძლავი	NOUN	N_Advb_Sg_Guess	Case=Ess|Number=Sing	22	obl	_	LMSeg:ნიძლავ·ი
+18	ნიძლავად	ნიძლავი	NOUN	N_Advb_Sg	Case=Ess|Number=Sing	22	obl	_	LMSeg:ნიძლავ·ი
 19	ერთ	ერთი	NUM	Num_Card_Alpha_Dat_Att	Case=Dat|NumType=Card	20	nummod	_	LMSeg:ერთ·ი
 20	შაურსაც	შაური	NOUN	N_Dat_Sg_Old_Encl:ც_Foc	Case=Dat|Encl=C|Number=Sing	22	obj	_	LMSeg:შაურ·ი
 21	არ	არ	ADV	Adv_Neg	_	22	advmod:neg	_	LMSeg:არ
@@ -8735,11 +8698,11 @@
 9	და	და	CCONJ	Cj_Coord	_	10	cc	_	LMSeg:და
 10	შენახვა	შენახვა	NOUN	N_VN_Pv_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	8	conj	_	LMSeg:შე·ნახვ[ა]/ნახ
 11	ძალიან	ძალიან	ADV	Adv_Deg	_	12	advmod	_	LMSeg:ძალიან
-12	ძვირად	ძვირად	ADV	A_Advb_Sg	_	13	advmod	_	LMSeg:ძვირად
+12	ძვირად	ძვირად	ADV	A_Advb_Sg	_	13	xcomp	_	LMSeg:ძვირად
 13	უღირდა	ღირება	VERB	V_MedAct_Impf_OV_S:3Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	3	advcl	_	LMSeg:ღირებ[ა]/ღირ|SpaceAfter=No
 14	,	,	PUNCT	Punct_Comma	_	16	punct	_	LMSeg:,
 15	მაგრამ	მაგრამ	CCONJ	Cj_Coord	_	16	cc	_	LMSeg:მაგრამ
-16	გვიანღა	გვიან	ADV	Adv_Temp_Encl:ღა_Foc	AdvType=Tim	13	advmod	_	LMSeg:გვიან
+16	გვიანღა	გვიან	ADV	Adv_Temp_Encl:ღა_Foc	AdvType=Tim	3	conj	_	LMSeg:გვიან
 17	იყო	ყოფნა	AUX	V_Pass_Aor_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Past|VerbForm=Fin	16	cop	_	LMSeg:ყოფნ[ა]/ყ[ავ]
 18	სინანული	სინანული	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	16	nsubj	_	LMSeg:სინანულ·ი
 19	და	და	CCONJ	Cj_Coord	_	22	cc	_	LMSeg:და
@@ -10756,7 +10719,7 @@
 8	ქართველებისა	ქართველი	NOUN	N_Hum_Gen_Pl_NewPl_L	Animacy=Anim|Case=Gen|Number=Plur	11	nmod	_	LMSeg:ქართველ·ი
 9	და	და	CCONJ	Cj_Coord	_	10	cc	_	LMSeg:და
 10	ეგვიპტელების	ეგვიპტელი	NOUN	N_Hum_Gen_Pl_NewPl	Animacy=Anim|Case=Gen|Number=Plur	8	conj	_	LMSeg:ეგვიპტელ·ი
-11	ნათესაობის	ნათესაობა	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	7	obl	_	LMSeg:ნათესაობ[ა]
+11	ნათესაობის	ნათესაობა	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	7	nmod	_	LMSeg:ნათესაობ[ა]
 12	შესახებ	შესახებ	ADP	Pp	_	11	case	_	LMSeg:შესახებ
 13	ერთხელ	ერთხელ	ADV	Adv_Num_Repet	_	14	advmod	_	LMSeg:ერთხელ
 14	კიდევ	კიდევ	ADV	Adv_Deg	_	15	advmod	_	LMSeg:კიდევ
@@ -11344,9 +11307,9 @@
 5	მის	მისი	PRON	Pron_Poss_Poss3Sg_Dat_Att	Case=Dat|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	LMSeg:მის·ი
 6	ახირებულ	ახირებული	ADJ	A_Part_PastPart_Pv_Dat_Att	Case=Dat|Tense=Past|VerbForm=Part	7	amod	_	LMSeg:ა·ხირებულ·ი/ხირ
 7	ხეტიალს	ხეტიალი	NOUN	N_VN_Dat_Sg	Case=Dat|Number=Sing|VerbForm=Vnoun	3	iobj	_	LMSeg:ხეტიალ·ი/ხეტიალ
-8	ოთახი	ოთახი	NOUN	N_Inst_Sg_PP_PP:დან	Case=Ins|Number=Sing	7	obl	_	LMSeg:ოთახ·ი|SpaceAfter=No
+8	ოთახი	ოთახი	NOUN	N_Inst_Sg_PP_PP:დან	Case=Ins|Number=Sing	7	nmod	_	LMSeg:ოთახ·ი|SpaceAfter=No
 9	დან	_დან	ADP	Pp	_	8	case	_	LMSeg:_დან
-10	ოთახ	ოთახი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	7	obl	_	LMSeg:ოთახ·ი|SpaceAfter=No
+10	ოთახ	ოთახი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	7	nmod	_	LMSeg:ოთახ·ი|SpaceAfter=No
 11	ში	_ში	ADP	Pp	_	10	case	_	LMSeg:_ში
 12	და	და	CCONJ	Cj_Coord	_	15	cc	_	LMSeg:და
 13	ყურადღება	ყურადღება	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	15	obj	_	LMSeg:ყურადღებ[ა]
