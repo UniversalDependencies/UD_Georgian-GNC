@@ -10,7 +10,7 @@
 7	კ-ს	კ.	PROPN	N_Prop_Anthr_Abbrev_Dat	Abbr=Yes|Case=Dat|NameType=Prs	5	iobj	_	LMSeg:კ.|SpaceAfter=No
 8	,	,	PUNCT	Punct_Comma	_	11	punct	_	LMSeg:,
 9	რადგან	რადგან	SCONJ	Cj_Sub	_	11	mark	_	LMSeg:რადგან
-10	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing	11	obj	_	LMSeg:არაფ[ე]რ·ი
+10	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing|PronType=Neg	11	obj	_	LMSeg:არაფ[ე]რ·ი
 11	დაუშავებია	დაშავება	VERB	V_Act_Perf_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=PastPerf|VerbForm=Fin	5	advcl	_	LMSeg:და·შავებ[ა]/შავ
 12	და	და	CCONJ	Cj_Coord	_	17	cc	_	LMSeg:და
 13	ერთ	ერთი	NUM	Num_Card_Alpha_Dat_Att	Case=Dat|NumType=Card	15	nummod	_	LMSeg:ერთ·ი
@@ -171,10 +171,10 @@
 4	მიხვდებოდა	მიხვდომა	VERB	V_Pass_Cond_Pv_S:3Sg	Mood=Cnd|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	LMSeg:მი·ხვდომ[ა]/ხვდ
 5	კაცი	კაცი	NOUN	N_Hum_Nom_Sg	Animacy=Anim|Case=Nom|Number=Sing	4	nsubj	_	LMSeg:კაც·ი|SpaceAfter=No
 6	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
-7	რა	რა	PRON	Pron_Int_Nonhum_Nom_Att	Case=Nom	8	amod	_	LMSeg:რ[ა]
+7	რა	რა	PRON	Pron_Int_Nonhum_Nom_Att	Case=Nom|PronType=Int	8	amod	_	LMSeg:რ[ა]
 8	დანიშნულება	დანიშნულება	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	9	obj	_	LMSeg:დანიშნულებ[ა]
 9	ჰქონდა	ქონა	VERB	V_MedPass_Inv_Impf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin|Voice=Inv	4	ccomp	_	LMSeg:ქონ[ა]/ქონ
-10	ყოველივე	ყოველივე	DET	A_Quant_Dat_Att	Case=Dat	11	det	_	LMSeg:ყოველივე
+10	ყოველივე	ყოველივე	DET	A_Quant_Dat_Att	Case=Dat|PronType=Tot	11	det	_	LMSeg:ყოველივე
 11	ამას	ეს	PRON	Pron_Dem_Dat_Sg	Case=Dat|Number=Sing|PronType=Dem	9	nsubj	_	LMSeg:ეს|SpaceAfter=No
 12	,	,	PUNCT	Punct_Comma	_	17	punct	_	LMSeg:,
 13	მაგრამ	მაგრამ	CCONJ	Cj_Coord	_	17	cc	_	LMSeg:მაგრამ
@@ -249,7 +249,7 @@
 17	ალღოთი	ალღო	NOUN	N_Inst_Sg	Case=Ins|Number=Sing	18	obl	_	LMSeg:ალღო
 18	მიმხვდარიყო	მიხვდომა	VERB	V_Pass_PluPerf_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pqp|VerbForm=Fin	15	conj	_	LMSeg:მი·ხვდომ[ა]/ხვდ|SpaceAfter=No
 19	,	,	PUNCT	Punct_Comma	_	24	punct	_	LMSeg:,
-20	ვინ	ვინ	PRON	Pron_Int_Hum_Nom	Animacy=Anim|Case=Nom	24	nsubj	_	LMSeg:ვინ
+20	ვინ	ვინ	PRON	Pron_Int_Hum_Nom	Animacy=Anim|Case=Nom|PronType=Int	24	nsubj	_	LMSeg:ვინ
 21	უნდა	უნდა	AUX	Modal	_	24	aux	_	LMSeg:უნდა
 22	ყოფილიყო	ყოფნა	AUX	V_Pass_PluPerf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pqp|VerbForm=Fin	24	cop	_	LMSeg:ყოფნ[ა]/ყოფ
 23	ეს	ეს	PRON	Pron_Dem_Nom_Att	Case=Nom|PronType=Dem	24	det	_	LMSeg:ეს
@@ -310,7 +310,7 @@
 8	კაცი	კაცი	NOUN	N_Hum_Nom_Sg	Animacy=Anim|Case=Nom|Number=Sing	9	nsubj	_	LMSeg:კაც·ი
 9	იცინოდა	ცინება	VERB	V_MedAct_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	4	parataxis	_	LMSeg:ცინებ[ა]/ცინ
 10	თუ	თუ	CCONJ	Cj_Coord	_	11	cc	_	LMSeg:თუ
-11	რამდენიმე	რამდენიმე	DET	A_Quant_Nom_Sg	Case=Nom|Number=Sing	8	conj	_	LMSeg:რამდენიმე|SpaceAfter=No
+11	რამდენიმე	რამდენიმე	DET	A_Quant_Nom_Sg	Case=Nom|Number=Sing|PronType=Ind	8	conj	_	LMSeg:რამდენიმე|SpaceAfter=No
 12	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
 
 # sent_id = kafka-f+procesi+w28900
@@ -432,7 +432,7 @@
 13	,	,	PUNCT	Punct_Comma	_	19	punct	_	LMSeg:,
 14	ერთი	ერთი	NUM	Num_Card_Alpha_Inst_Att	Case=Ins|NumType=Card	15	nummod	_	LMSeg:ერთ·ი
 15	შეხედვით	შეხედვა	NOUN	N_VN_Pv_Inst_Sg	Case=Ins|Number=Sing|VerbForm=Vnoun	19	obl	_	LMSeg:შე·ხედვ[ა]/ხედ
-16	ყველაფერი	ყველაფერი	DET	A_Quant_Nom_Sg	Case=Nom|Number=Sing	19	nsubj	_	LMSeg:ყველაფ[ე]რ·ი
+16	ყველაფერი	ყველაფერი	DET	A_Quant_Nom_Sg	Case=Nom|Number=Sing|PronType=Tot	19	nsubj	_	LMSeg:ყველაფ[ე]რ·ი
 17	თითქმის	თითქმის	ADV	Adv_Deg	_	18	advmod	_	LMSeg:თითქმის
 18	ისე	ისე	ADV	Adv_Mann	_	19	advmod	_	LMSeg:ისე
 19	გამოიყურებოდა	გამოყურება	VERB	V_Pass_Impf_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:გამო·ყურებ[ა]/ყურ|SpaceAfter=No
@@ -482,7 +482,7 @@
 4	მაგრამ	მაგრამ	CCONJ	Cj_Coord	_	5	cc	_	LMSeg:მაგრამ
 5	გამაგებინეთ	გაგებინება	VERB	V_Caus_Aor_Pv_S:2Pl_DO:3_IO:1Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Plur|Person[io]=1|Person[obj]=3|Person[subj]=2|Tense=Past|VerbForm=Fin|Voice=Cau	2	conj	_	LMSeg:გა·გებინებ[ა]/გ|SpaceAfter=No
 6	,	,	PUNCT	Punct_Comma	_	8	punct	_	LMSeg:,
-7	რა	რა	PRON	Pron_Int_Nonhum_Nom	Case=Nom	8	obj	_	LMSeg:რ[ა]
+7	რა	რა	PRON	Pron_Int_Nonhum_Nom	Case=Nom|PronType=Int	8	obj	_	LMSeg:რ[ა]
 8	გინდათ	ნდომა	VERB	V_MedPass_Inv_Pres_OV_DO:3_S:2Pl	Mood=Ind|Number[subj]=Plur|Person[obj]=3|Person[subj]=2|Tense=Pres|VerbForm=Fin|Voice=Inv	5	ccomp	_	LMSeg:ნდომ[ა]/ნდ
 9	ჩემ	მე	PRON	Pron_Pers_1_Gen_Sg_PP_PP:გან	Case=Gen|Number=Sing|PronType=Prs	8	obl	_	LMSeg:მე|SpaceAfter=No
 10	გან	_გან	ADP	Pp	_	9	case	_	LMSeg:_გან|SpaceAfter=No
@@ -547,7 +547,7 @@
 13	უკეთ	უკეთ	ADV	Adv	_	14	advmod	_	LMSeg:უკეთ
 14	დაენახა	დანახვა	VERB	V_Act_PluPerf_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pqp|VerbForm=Fin	10	advcl	_	LMSeg:და·ნახვ[ა]/ნახ|SpaceAfter=No
 15	,	,	PUNCT	Punct_Comma	_	17	punct	_	LMSeg:,
-16	რა	რა	PRON	Pron_Int_Nonhum_Nom	Case=Nom	17	nsubj	_	LMSeg:რ[ა]
+16	რა	რა	PRON	Pron_Int_Nonhum_Nom	Case=Nom|PronType=Int	17	nsubj	_	LMSeg:რ[ა]
 17	ხდებოდა	ხდომა	VERB	V_Pass_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	14	ccomp	_	LMSeg:*·ხდომ[ა]/ხდ
 18	ოთახ	ოთახი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	17	obl	_	LMSeg:ოთახ·ი|SpaceAfter=No
 19	ში	_ში	ADP	Pp	_	18	case	_	LMSeg:_ში|SpaceAfter=No
@@ -575,7 +575,7 @@
 3	ახსნა	ახსნა	NOUN	N_VN_Pv_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	7	obj	_	LMSeg:ა·ხსნ[ა]/ხსნ
 4	ჩვენ	ჩვენ	PRON	Pron_Pers_1_Gen_Pl_PP_PP:თვის	Case=Gen|Number=Plur|PronType=Prs	7	obl:iobj	_	LMSeg:ჩვენ|SpaceAfter=No
 5	თვის	_თვის	ADP	Pp	_	4	case	_	LMSeg:_თვის
-6	არავის	არავინ	PRON	Pron_Neg_Hum_Dat	Animacy=Anim|Case=Dat	7	nsubj	_	LMSeg:არავინ
+6	არავის	არავინ	PRON	Pron_Neg_Hum_Dat	Animacy=Anim|Case=Dat|PronType=Neg	7	nsubj	_	LMSeg:არავინ
 7	დაუვალებია	დავალება	VERB	V_Act_Perf_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=PastPerf|VerbForm=Fin	0	root	_	LMSeg:და·ვალებ[ა]/ვალ|SpaceAfter=No
 8	.	.	PUNCT	Punct_Period	_	7	punct	_	LMSeg:.
 
@@ -618,7 +618,7 @@
 3	დამჯდარიყო	დაჯდომა	VERB	V_Pass_PluPerf_Pv_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pqp|VerbForm=Fin	2	ccomp	_	LMSeg:და·ჯდომ[ა]/ჯდ|SpaceAfter=No
 4	,	,	PUNCT	Punct_Comma	_	16	punct	_	LMSeg:,
 5	მაგრამ	მაგრამ	CCONJ	Cj_Coord	_	16	cc	_	LMSeg:მაგრამ
-6	მთელ	მთელი	DET	A_Quant_Dat_Att	Case=Dat	7	det	_	LMSeg:მთელ·ი
+6	მთელ	მთელი	DET	A_Quant_Dat_Att	Case=Dat|PronType=Tot	7	det	_	LMSeg:მთელ·ი
 7	ოთახ	ოთახი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	16	obl	_	LMSeg:ოთახ·ი|SpaceAfter=No
 8	ში	_ში	ADP	Pp	_	7	case	_	LMSeg:_ში
 9	ფანჯარას	ფანჯარა	NOUN	N_Dat_Sg_PP_PP:თან	Case=Dat|Number=Sing	11	obl	_	LMSeg:ფანჯ[ა]რ[ა]|SpaceAfter=No
@@ -627,7 +627,7 @@
 12	სავარძლის	სავარძელი	NOUN	N_Gen_Sg	Case=Gen|Number=Sing	16	obl	_	LMSeg:სავარძ[ე]ლ·ი
 13	გარდა	გარდა	ADP	Pp	_	12	case	_	LMSeg:გარდა
 14	დასაჯდომი	დასაჯდომი	ADJ	A_Part_FutPart_Pv_Nom_Att	Case=Nom|Tense=Fut|VerbForm=Part	15	amod	_	LMSeg:და·საჯდომ·ი/ჯდომ
-15	ვერაფერი	ვერაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg_Pot	Case=Nom|Number=Sing	16	obj	_	LMSeg:ვერაფ[ე]რ·ი
+15	ვერაფერი	ვერაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg_Pot	Case=Nom|Number=Sing|PronType=Neg	16	obj	_	LMSeg:ვერაფ[ე]რ·ი
 16	აღმოაჩინა	აღმოჩენა	VERB	V_Act_Aor_Pv_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	2	conj	_	LMSeg:აღმო·ჩენ[ა]/ჩინ|SpaceAfter=No
 17	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
 
@@ -689,7 +689,7 @@
 3	ზე	_ზე	ADP	Pp	_	2	case	_	LMSeg:_ზე
 4	ვართ	ყოფნა	AUX	V_MedPass_Pres_S:1Pl	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|VerbForm=Fin	2	cop	_	LMSeg:ყოფნ[ა]/არ|SpaceAfter=No
 5	,	,	PUNCT	Punct_Comma	_	8	punct	_	LMSeg:,
-6	მთელ	მთელი	DET	A_Quant_Dat_Att	Case=Dat	7	det	_	LMSeg:მთელ·ი
+6	მთელ	მთელი	DET	A_Quant_Dat_Att	Case=Dat|PronType=Tot	7	det	_	LMSeg:მთელ·ი
 7	ქალაქს	ქალაქი	NOUN	N_Dat_Sg	Case=Dat|Number=Sing	8	iobj	_	LMSeg:ქალაქ·ი
 8	დავყურებთ	დაყურება	VERB	V_Act_Pres_Pv_S:1Pl_IO:3	Mood=Ind|Number[subj]=Plur|Person[io]=3|Person[subj]=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	LMSeg:და·ყურებ[ა]/ყურ|SpaceAfter=No
 9	!	!	PUNCT	Punct_ExclPoint	_	2	punct	_	LMSeg:!
@@ -777,7 +777,7 @@
 # text = – რას გეუბნებიან ექიმები?
 # text-transcription = – ras geubnebian ekimebi?
 1	–	–	PUNCT	Punct_Dash	_	3	punct	_	LMSeg:–
-2	რას	რა	PRON	Pron_Int_Nonhum_Dat	Case=Dat	3	obj	_	LMSeg:რ[ა]
+2	რას	რა	PRON	Pron_Int_Nonhum_Dat	Case=Dat|PronType=Int	3	obj	_	LMSeg:რ[ა]
 3	გეუბნებიან	თქმა	VERB	V_MedPass_Pres_S:3Pl_DO:3_IO:2	Mood=Ind|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	0	root	_	LMSeg:*·თქმ[ა]/უბნ
 4	ექიმები	ექიმი	NOUN	N_Hum_Nom_Pl_NewPl	Animacy=Anim|Case=Nom|Number=Plur	3	nsubj	_	LMSeg:ექიმ·ი|SpaceAfter=No
 5	?	?	PUNCT	Punct_IntMark	_	3	punct	_	LMSeg:?
@@ -1008,7 +1008,7 @@
 3	არ	არ	ADV	Adv_Neg	_	4	advmod:neg	_	LMSeg:არ
 4	მქონდა	ქონა	VERB	V_MedPass_Inv_Impf_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Imp|VerbForm=Fin|Voice=Inv	0	root	_	LMSeg:ქონ[ა]/ქონ|SpaceAfter=No
 5	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
-6	ვინმეს	ვინმე	PRON	Pron_SIndef_Hum_Dat_PP_PP:თან	Animacy=Anim|Case=Dat	8	nmod	_	LMSeg:ვინმე|SpaceAfter=No
+6	ვინმეს	ვინმე	PRON	Pron_SIndef_Hum_Dat_PP_PP:თან	Animacy=Anim|Case=Dat|PronType=Ind	8	nmod	_	LMSeg:ვინმე|SpaceAfter=No
 7	თან	_თან	ADP	Pp	_	6	case	_	LMSeg:_თან
 8	საუბარი	საუბარი	NOUN	N_VN_Nom_Sg	Case=Nom|Number=Sing|VerbForm=Vnoun	9	obj	_	LMSeg:საუბ[ა]რ·ი/საუბრ
 9	გამება	გაბმა	VERB	V_Act_PluPerf_Pv_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Pqp|VerbForm=Fin	2	acl	_	LMSeg:გა·ბმ[ა]/ბ|SpaceAfter=No
@@ -1109,8 +1109,8 @@
 11	,	,	PUNCT	Punct_Comma	_	16	punct	_	LMSeg:,
 12	თუმცა	თუმცა	SCONJ	Cj_Sub	_	16	mark	_	LMSeg:თუმცა
 13	რადარების	რადარი	NOUN	N_Gen_Pl_NewPl	Case=Gen|Number=Plur	15	nmod	_	LMSeg:რადარ·ი
-14	ბევრი	ბევრი	DET	A_Quant_Nom_Att	Case=Nom	15	amod	_	LMSeg:ბევრ·ი
-15	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing	16	nsubj	_	LMSeg:არაფ[ე]რ·ი
+14	ბევრი	ბევრი	DET	A_Quant_Nom_Att	Case=Nom|PronType=Ind	15	amod	_	LMSeg:ბევრ·ი
+15	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing|PronType=Neg	16	nsubj	_	LMSeg:არაფ[ე]რ·ი
 16	გაეგებოდა	გაგება	VERB	V_Pass_Cond_Pv_S:3Sg_IO:3	Mood=Cnd|Number[subj]=Sing|Person[io]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	1	advcl	_	LMSeg:გა·გებ[ა]/გ|SpaceAfter=No
 17	.	.	PUNCT	Punct_Period	_	1	punct	_	LMSeg:.
 
@@ -1152,7 +1152,7 @@
 11	,	,	PUNCT	Punct_Comma	_	15	punct	_	LMSeg:,
 12	თუმცა	თუმცა	SCONJ	Cj_Sub	_	15	mark	_	LMSeg:თუმცა
 13	გარეთ	გარეთ	ADV	Adv_Loc	AdvType=Loc	15	advmod	_	LMSeg:გარეთ
-14	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing	15	nsubj	_	LMSeg:არაფ[ე]რ·ი
+14	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing|PronType=Neg	15	nsubj	_	LMSeg:არაფ[ე]რ·ი
 15	ჩანდა	ჩენა	VERB	V_MedAct_Impf_S:3Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Imp|VerbForm=Fin	10	advcl	_	LMSeg:*·ჩენ[ა]/ჩან|SpaceAfter=No
 16	,	,	PUNCT	Punct_Comma	_	21	punct	_	LMSeg:,
 17	მხოლოდ	მხოლოდ	ADV	Adv_Deg	_	21	advmod	_	LMSeg:მხოლოდ
@@ -1221,7 +1221,7 @@
 1	თვალები	თვალი	NOUN	N_Nom_Pl_NewPl	Case=Nom|Number=Plur	2	obj	_	LMSeg:თვალ·ი
 2	დავხუჭე	დახუჭვა	VERB	V_Act_Aor_Pv_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:და·ხუჭვ[ა]/ხუჭ
 3	და	და	CCONJ	Cj_Coord	_	6	cc	_	LMSeg:და
-4	თავს	თავი	PRON	Pron_Refl_Dat	Case=Dat	6	iobj	_	LMSeg:თავ·ი
+4	თავს	თავი	PRON	Pron_Refl_Dat	Case=Dat|PronType=Prs|Reflex=Yes	6	iobj	_	LMSeg:თავ·ი
 5	ძალა	ძალა	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	obj	_	LMSeg:ძალ[ა]
 6	დავატანე	დატანება	VERB	V_Act_Aor_Pv_S:1Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	2	conj	_	LMSeg:და·ტანებ[ა]/ტან|SpaceAfter=No
 7	,	,	PUNCT	Punct_Comma	_	9	punct	_	LMSeg:,
@@ -1295,7 +1295,7 @@
 # text = მე თავი მოვიმძინარე.
 # text-transcription = me tavi movimʒinare.
 1	მე	მე	PRON	Pron_Pers_1_Erg_Sg	Case=Erg|Number=Sing|PronType=Prs	3	nsubj	_	LMSeg:მე
-2	თავი	თავი	PRON	Pron_Refl_Nom	Case=Nom	3	obj	_	LMSeg:თავ·ი
+2	თავი	თავი	PRON	Pron_Refl_Nom	Case=Nom|PronType=Prs|Reflex=Yes	3	obj	_	LMSeg:თავ·ი
 3	მოვიმძინარე	მომძინარება	VERB	V_Act_Aor_Pv_SV_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·მძინარებ[ა]/მძინარ|SpaceAfter=No
 4	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
 
@@ -1426,7 +1426,7 @@
 # text = ის თავის ro-ro-ro-ს კითხულობდა.
 # text-transcription = is tavis ro-ro-ro-s ḳitxulobda.
 1	ის	ის	PRON	Pron_Pers_3_Nom_Sg	Case=Nom|Number=Sing|PronType=Prs	4	nsubj	_	LMSeg:ის
-2	თავის	თავისი	PRON	Pron_Poss_Refl_Poss3Sg_Dat_Att	Case=Dat|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	LMSeg:თავის·ი
+2	თავის	თავისი	PRON	Pron_Poss_Refl_Poss3Sg_Dat_Att	Case=Dat|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	3	det:poss	_	LMSeg:თავის·ი
 3	ro-ro-ro-ს	ro-ro-ro	PROPN	N_Prop_Foreign_Dat	Case=Dat	4	obj	_	LMSeg:ro-ro-ro
 4	კითხულობდა	კითხვა	VERB	V_MedAct_Impf_S:3Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Imp|VerbForm=Fin	0	root	_	LMSeg:*·კითხვ[ა]/კითხულ|SpaceAfter=No
 5	.	.	PUNCT	Punct_Period	_	4	punct	_	LMSeg:.
@@ -1535,7 +1535,7 @@
 11	ივან	ივან	PROPN	N_Prop_Anthr_FirstName_Dat_PP_PP:ზე	Case=Dat|NameType=Prs	15	obl	_	LMSeg:ივან|SpaceAfter=No
 12	ზე	_ზე	ADP	Pp	_	11	case	_	LMSeg:_ზე
 13	სხვა	სხვა	ADJ	A_Nom_Att	Case=Nom	14	amod	_	LMSeg:სხვ[ა]
-14	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing	15	nsubj	_	LMSeg:არაფ[ე]რ·ი
+14	არაფერი	არაფერი	PRON	Pron_Neg_Nonhum_Nom_Sg	Case=Nom|Number=Sing|PronType=Neg	15	nsubj	_	LMSeg:არაფ[ე]რ·ი
 15	ჭრის	ჭრა	VERB	V_Act_Pres_S:3Sg_DO:3_Encl:IndSp3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|VerbForm=Fin	7	conj	_	LMSeg:*·ჭრ[ა]/ჭრ|SpaceAfter=No
 16	ო	_ო	PART	Prt_IndSp3	Evident=Nfh	15	mark	_	LMSeg:_ო|SpaceAfter=No
 17	.	.	PUNCT	Punct_Period	_	3	punct	_	LMSeg:.
@@ -1611,7 +1611,7 @@
 4	რომ	რომ	SCONJ	Compl	_	5	mark	_	LMSeg:რომ
 5	დავბრუნდი	დაბრუნება	VERB	V_Pass_Aor_Pv_S:1Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Past|VerbForm=Fin	12	advcl	_	LMSeg:და·ბრუნებ[ა]/ბრუნ|SpaceAfter=No
 6	,	,	PUNCT	Punct_Comma	_	12	punct	_	LMSeg:,
-7	თავს	თავი	PRON	Pron_Refl_Dat	Case=Dat	12	obj	_	LMSeg:თავ·ი
+7	თავს	თავი	PRON	Pron_Refl_Dat	Case=Dat|PronType=Prs|Reflex=Yes	12	obj	_	LMSeg:თავ·ი
 8	უფრო	უფრო	ADV	Adv_Deg	_	9	advmod	_	LMSeg:უფრო
 9	თავისუფლად	თავისუფლად	ADV	A_Advb_Sg	_	12	advmod	_	LMSeg:თავისუფლად
 10	და	და	CCONJ	Cj_Coord	_	11	cc	_	LMSeg:და
@@ -1635,7 +1635,7 @@
 1	მან	ის	PRON	Pron_Pers_3_Erg_Sg	Case=Erg|Number=Sing|PronType=Prs	2	nsubj	_	LMSeg:ის
 2	მომახსენა	მოხსენება	VERB	V_Act_Aor_Pv_S:3Sg_DO:3_IO:1Sg	Mood=Ind|Number[io]=Sing|Number[subj]=Sing|Person[io]=1|Person[obj]=3|Person[subj]=3|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:მო·ხსენებ[ა]/ხსენ|SpaceAfter=No
 3	,	,	PUNCT	Punct_Comma	_	6	punct	_	LMSeg:,
-4	თავს	თავი	PRON	Pron_Refl_Dat	Case=Dat	6	iobj	_	LMSeg:თავ·ი
+4	თავს	თავი	PRON	Pron_Refl_Dat	Case=Dat|PronType=Prs|Reflex=Yes	6	iobj	_	LMSeg:თავ·ი
 5	ნება	ნება	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	6	obj	_	LMSeg:ნებ[ა]
 6	მივეცი	მი-ცემა	VERB	V_Act_Aor_Pv_S:1Sg_DO:3_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	2	ccomp:speech	_	LMSeg:მი-ცემ[ა]/[ე]ც|SpaceAfter=No
 7	,	,	PUNCT	Punct_Comma	_	12	punct	_	LMSeg:,
@@ -1645,7 +1645,7 @@
 11	ქაღალდები	ქაღალდი	NOUN	N_Nom_Pl_NewPl	Case=Nom|Number=Plur	12	obj	_	LMSeg:ქაღალდ·ი
 12	ამეკრიფა	აკრეფა	VERB	V_Act_PluPerf_Pv_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Pqp|VerbForm=Fin	5	acl	_	LMSeg:ა·კრეფ[ა]/კრიფ|SpaceAfter=No
 13	,	,	PUNCT	Punct_Comma	_	18	punct	_	LMSeg:,
-14	ვინმეს	ვინმე	PRON	Pron_SIndef_Hum_Dat	Animacy=Anim|Case=Dat	18	nsubj	_	LMSeg:ვინმე
+14	ვინმეს	ვინმე	PRON	Pron_SIndef_Hum_Dat	Animacy=Anim|Case=Dat|PronType=Ind	18	nsubj	_	LMSeg:ვინმე
 15	ზედ	ზედ	ADV	Adv_Loc	AdvType=Loc	18	advmod	_	LMSeg:ზედ
 16	ფეხი	ფეხი	NOUN	N_Nom_Sg	Case=Nom|Number=Sing	18	obj	_	LMSeg:ფეხ·ი
 17	არ	არ	ADV	Adv_Neg	_	18	advmod:neg	_	LMSeg:არ
@@ -1735,7 +1735,7 @@
 # sent_id = frisch-m+homo-faber+w103000
 # text = რა სულელური შეგრძნებაა!
 # text-transcription = ra suleluri šegrʒnebaa!
-1	რა	რა	PRON	Pron_Int_Nonhum_Nom_Att	Case=Nom	3	amod	_	LMSeg:რ[ა]
+1	რა	რა	PRON	Pron_Int_Nonhum_Nom_Att	Case=Nom|PronType=Int	3	amod	_	LMSeg:რ[ა]
 2	სულელური	სულელური	ADJ	A_Nom_Att	Case=Nom	3	amod	_	LMSeg:სულელურ·ი
 3	შეგრძნება	შეგრძნება	NOUN	N_Nom_Sg_Encl:Aux	Case=Nom|Number=Sing	0	root	_	LMSeg:შეგრძნებ[ა]|SpaceAfter=No
 4	ა	ყოფნა	AUX	V_MedPass_Pres_S:3Sg_Encl	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|VerbForm=Fin	3	cop	_	LMSeg:ყოფნ[ა]/არ|SpaceAfter=No
@@ -1767,7 +1767,7 @@
 12	,	,	PUNCT	Punct_Comma	_	13	punct	_	LMSeg:,
 13	მოვუყევი	მოყოლა	VERB	V_Pass_Aor_Pv_OV_S:1Sg_IO:3	Mood=Ind|Number[subj]=Sing|Person[io]=3|Person[subj]=1|Tense=Past|VerbForm=Fin	4	conj	_	LMSeg:მო·ყოლ[ა]/ყ[ე]ვ|SpaceAfter=No
 14	,	,	PUNCT	Punct_Comma	_	18	punct	_	LMSeg:,
-15	რა	რა	PRON	Pron_Int_Nonhum_Dat_Att	Case=Dat	16	amod	_	LMSeg:რ[ა]
+15	რა	რა	PRON	Pron_Int_Nonhum_Dat_Att	Case=Dat|PronType=Int	16	amod	_	LMSeg:რ[ა]
 16	დარგ	დარგი	NOUN	N_Dat_Sg_PP_PP:ში	Case=Dat|Number=Sing	18	obl	_	LMSeg:დარგ·ი|SpaceAfter=No
 17	ში	_ში	ADP	Pp	_	16	case	_	LMSeg:_ში
 18	ვმოღვაწეობდი	მოღვაწეობა	VERB	V_MedAct_Impf_S:1Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Imp|VerbForm=Fin	13	ccomp	_	LMSeg:მოღვაწეობ[ა]/მოღვაწე|SpaceAfter=No
@@ -1798,7 +1798,7 @@
 7	ვილაპარაკო	ლაპარაკი	VERB	V_MedAct_Opt_S:1Sg	Mood=Sub|Number[subj]=Sing|Person[subj]=1|Tense=Past|VerbForm=Fin	0	root	_	LMSeg:ლაპარაკ·ი/ლაპარაკ|SpaceAfter=No
 8	,	,	PUNCT	Punct_Comma	_	14	punct	_	LMSeg:,
 9	რომ	რომ	SCONJ	Cj_Sub	_	14	mark	_	LMSeg:რომ
-10	თავი	თავი	PRON	Pron_Refl_Nom	Case=Nom	14	obj	_	LMSeg:თავ·ი
+10	თავი	თავი	PRON	Pron_Refl_Nom	Case=Nom|PronType=Prs|Reflex=Yes	14	obj	_	LMSeg:თავ·ი
 11	სულ	სულ	ADV	Adv_Deg	_	12	advmod	_	LMSeg:სულ
 12	სხვა	სხვა	ADJ	A_Inst_Att	Case=Ins	13	amod	_	LMSeg:სხვ[ა]
 13	ფიქრებით	ფიქრი	NOUN	N_Inst_Pl_NewPl	Case=Ins|Number=Plur	15	obl	_	LMSeg:ფიქრ·ი
@@ -1813,7 +1813,7 @@
 2	ვიცი	ცოდნა	VERB	V_MedPass_Pres_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Pres|VerbForm=Fin	0	root	_	LMSeg:ცოდნ[ა]/ც|SpaceAfter=No
 3	,	,	PUNCT	Punct_Comma	_	7	punct	_	LMSeg:,
 4	მაშინ	მაშინ	ADV	Adv_Temp	AdvType=Tim	7	advmod	_	LMSeg:მაშინ
-5	რა	რა	PRON	Pron_Int_Nonhum_Dat_PP_PP:ზე	Case=Dat	7	obl	_	LMSeg:რ[ა]|SpaceAfter=No
+5	რა	რა	PRON	Pron_Int_Nonhum_Dat_PP_PP:ზე	Case=Dat|PronType=Int	7	obl	_	LMSeg:რ[ა]|SpaceAfter=No
 6	ზე	_ზე	ADP	Pp	_	5	case	_	LMSeg:_ზე
 7	ვფიქრობდი	ფიქრი	VERB	V_MedAct_Impf_S:1Sg	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Imp|VerbForm=Fin	2	ccomp	_	LMSeg:ფიქრ·ი/ფიქრ|SpaceAfter=No
 8	.	.	PUNCT	Punct_Period	_	2	punct	_	LMSeg:.
@@ -1976,7 +1976,7 @@
 # sent_id = frisch-m+homo-faber+w131200
 # text = რა დამემართა, არ ვიცი, ხელები უცებ გამიოფლიანდა, თუმცა საპირფარეშოში გრილოდა.
 # text-transcription = ra damemarta, ar vici, xelebi uceb gamioplianda, tumca saṗirparešoši griloda.
-1	რა	რა	PRON	Pron_Int_Nonhum_Nom	Case=Nom	2	obj	_	LMSeg:რ[ა]
+1	რა	რა	PRON	Pron_Int_Nonhum_Nom	Case=Nom|PronType=Int	2	obj	_	LMSeg:რ[ა]
 2	დამემართა	დამართება	VERB	V_MedPass_Inv_Aor_Pv_S:1Sg_DO:3	Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Past|VerbForm=Fin|Voice=Inv	5	ccomp	_	LMSeg:და·მართებ[ა]/მართ|SpaceAfter=No
 3	,	,	PUNCT	Punct_Comma	_	5	punct	_	LMSeg:,
 4	არ	არ	ADV	Adv_Neg	_	5	advmod:neg	_	LMSeg:არ
