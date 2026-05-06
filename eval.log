@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Georgian-GNC:
-commit 2e166823e0f050d88fb11e91bd29d24e5b3c9f95
-Merge: 6a9cfa3 cdb1675
+commit 0c1bf33d8be14c4dcf494a682abbc637438c347a
+Merge: 80948dc 7137523
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ka_gnc'
 Language code (from CoNLL-U file name) = 'ka'
 Found the following data files: ka_gnc-ud-dev.conllu, ka_gnc-ud-test.conllu, ka_gnc-ud-train.conllu
-Size: counted 22547 of 22547 words (nodes).
-Size: min(0, log((N/1000)**2)) = 6.23120403880875.
+Size: counted 23425 of 23425 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.30760765624897.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -19,61 +19,25 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 13756 out of 22547 total words have one or more features.
+Features: 14270 out of 23425 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ka --max-err=10 UD_Georgian-GNC/ka_gnc-ud-dev.conllu
-[Line 13 Sent kafka-f+procesi+w1200]: [L3 Warning pron-det-without-prontype] The word 'არაფერი' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 174 Sent kafka-f+procesi+w13900]: [L3 Warning pron-det-without-prontype] The word 'რა' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 177 Sent kafka-f+procesi+w13900]: [L3 Warning pron-det-without-prontype] The word 'ყოველივე' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 252 Sent kafka-f+procesi+w19500]: [L3 Warning pron-det-without-prontype] The word 'ვინ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 313 Sent kafka-f+procesi+w25100]: [L3 Warning pron-det-without-prontype] The word 'რამდენიმე' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 435 Sent kafka-f+procesi+w41300]: [L3 Warning pron-det-without-prontype] The word 'ყველაფერი' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 485 Sent kafka-f+procesi+w49800]: [L3 Warning pron-det-without-prontype] The word 'რა' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 550 Sent kafka-f+procesi+w53900]: [L3 Warning pron-det-without-prontype] The word 'რა' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 578 Sent kafka-f+procesi+w63100]: [L3 Warning pron-det-without-prontype] The word 'არავის' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 621 Sent kafka-f+procesi+w69900]: [L3 Warning pron-det-without-prontype] The word 'მთელ' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 28
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ka --max-err=10 UD_Georgian-GNC/ka_gnc-ud-test.conllu
-[Line 88 Sent amiredzhibi-ch+data-tutashxia+w31600]: [L3 Warning pron-det-without-prontype] The word 'ყველას' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 92 Sent amiredzhibi-ch+data-tutashxia+w31600]: [L3 Warning pron-det-without-prontype] The word 'აღარავის' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 164 Sent amiredzhibi-ch+data-tutashxia+w37200]: [L3 Warning pron-det-without-prontype] The word 'ზოგი' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 263 Sent amiredzhibi-ch+data-tutashxia+w43700]: [L3 Warning pron-det-without-prontype] The word 'როგორი' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 278 Sent amiredzhibi-ch+data-tutashxia+w44600]: [L3 Warning pron-det-without-prontype] The word 'ვერავინ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 463 Sent amiredzhibi-ch+data-tutashxia+w62300]: [L3 Warning pron-det-without-prontype] The word 'რამდენი' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 503 Sent amiredzhibi-ch+data-tutashxia+w66400]: [L3 Warning pron-det-without-prontype] The word 'ყოველი' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 504 Sent amiredzhibi-ch+data-tutashxia+w66400]: [L3 Warning pron-det-without-prontype] The word 'მათგანი' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 529 Sent amiredzhibi-ch+data-tutashxia+w66800]: [L3 Warning pron-det-without-prontype] The word 'მთელი' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 600 Sent amiredzhibi-ch+data-tutashxia+w72400]: [L3 Warning pron-det-without-prontype] The word 'არავის' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 196
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ka --max-err=10 UD_Georgian-GNC/ka_gnc-ud-train.conllu
-[Line 98 Sent odisharia-g+prezidentis-kata+w388100]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'მშენებლობა') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 248 Sent odisharia-g+prezidentis-kata+w406500]: [L3 Warning pron-det-without-prontype] The word 'თავს' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 263 Sent odisharia-g+prezidentis-kata+w407800]: [L3 Warning pron-det-without-prontype] The word 'თავს' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 379 Sent odisharia-g+prezidentis-kata+w802500]: [L3 Warning pron-det-without-prontype] The word 'მთელი' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 401 Sent odisharia-g+prezidentis-kata+w803900]: [L3 Warning pron-det-without-prontype] The word 'თავ' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 534 Sent odisharia-g+prezidentis-kata+w823300]: [L3 Warning pron-det-without-prontype] The word 'რამდენიმე' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 547 Sent odisharia-g+prezidentis-kata+w824500]: [L3 Warning pron-det-without-prontype] The word 'თავს' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 736 Sent odisharia-g+prezidentis-kata+w3218800]: [L3 Warning pron-det-without-prontype] The word 'მეტი' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 737 Sent odisharia-g+prezidentis-kata+w3218800]: [L3 Warning pron-det-without-prontype] The word 'რა' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 783 Sent odisharia-g+prezidentis-kata+w3223700]: [L3 Warning pron-det-without-prontype] The word 'რამდენი' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 270
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
-(weight=0.37037037037037) * (score{size}=0.451029588277983) = 0.167047995658512
+(weight=0.37037037037037) * (score{size}=0.456559866519939) = 0.169096246859237
 (weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
 (weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
-(TOTAL score=0.572319541714372) * (availability=1) * (validity=1) = 0.572319541714372
+(TOTAL score=0.574367792915096) * (availability=1) * (validity=1) = 0.574367792915096
 STARS = 3
-UD_Georgian-GNC	0.572319541714372	3
+UD_Georgian-GNC	0.574367792915096	3
