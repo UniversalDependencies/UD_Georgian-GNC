@@ -5,146 +5,151 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1818</sentences><tokens>22547</tokens><words>22547</words><fused>0</fused></total>
-    <train><sentences>870</sentences><tokens>10798</tokens><words>10798</words><fused>0</fused></train>
+    <total><sentences>1878</sentences><tokens>23425</tokens><words>23425</words><fused>0</fused></total>
+    <train><sentences>918</sentences><tokens>11516</tokens><words>11516</words><fused>0</fused></train>
     <dev><sentences>130</sentences><tokens>1483</tokens><words>1483</words><fused>0</fused></dev>
-    <test><sentences>818</sentences><tokens>10266</tokens><words>10266</words><fused>0</fused></test>
+    <test><sentences>830</sentences><tokens>10426</tokens><words>10426</words><fused>0</fused></test>
   </size>
-  <lemmas unique="4332" /><!-- ,, ., და, ყოფნა, _ში, ის, არ, _ზე, ეს, –, რომ, :, ?, რა, _დან -->
-  <forms unique="7376" /><!-- ,, ., და, ში, ზე, –, არ, რომ, ა, :, ?, ეს, იყო, მაგრამ, დან -->
+  <lemmas unique="4447" /><!-- ,, ., და, ყოფნა, _ში, ის, არ, _ზე, ეს, –, რომ, :, ?, რა, თქმა -->
+  <forms unique="7601" /><!-- ,, ., და, ში, ზე, –, არ, რომ, ა, :, ?, ეს, იყო, მაგრამ, დან -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">1585</tag><!-- სხვა, დიდი, ახალი, პატარა, საკუთარი, ერთადერთი, ძველი, ლამაზი, თეთრი, მძიმე -->
-    <tag name="ADP">1374</tag><!-- _ში, _ზე, _დან, _თვის, _თან, _გან, შემდეგ, _ვით, როგორც, _მდე -->
-    <tag name="ADV">2263</tag><!-- არ, კი, ვერ, მხოლოდ, ხომ, ისე, ასე, მაშინ, ახლა, კიდევ -->
-    <tag name="AUX">552</tag><!-- ყოფნა, უნდა, ქონა, შეიძლება, შეძლება, ქმნა, ყოლა -->
-    <tag name="CCONJ">1060</tag><!-- და, მაგრამ, ან, თუ, ხოლო, ანუ, არამედ, თორემ, თვარა, ოღონდ -->
-    <tag name="DET">191</tag><!-- ყველა, მთელი, ყველაფერი, ზოგი, რამდენიმე, ყოველი, ბევრი, მეტი, მრავალი, ყოველივე -->
+    <tag name="ADJ">1638</tag><!-- სხვა, დიდი, ახალი, პატარა, საკუთარი, ძველი, ერთადერთი, ლამაზი, დანარჩენი, თეთრი -->
+    <tag name="ADP">1427</tag><!-- _ში, _ზე, _დან, _თვის, _თან, შემდეგ, _გან, _ვით, როგორც, _მდე -->
+    <tag name="ADV">2363</tag><!-- არ, კი, ვერ, მხოლოდ, მაშინ, ხომ, ასე, ისე, კიდევ, ახლა -->
+    <tag name="AUX">573</tag><!-- ყოფნა, უნდა, ქონა, შეიძლება, შეძლება, ქმნა, ყოლა -->
+    <tag name="CCONJ">1106</tag><!-- და, მაგრამ, ან, თუ, ხოლო, ანუ, არამედ, თორემ, თვარა, ოღონდ -->
+    <tag name="DET">199</tag><!-- ყველა, მთელი, ყველაფერი, ზოგი, რამდენიმე, ყოველი, ბევრი, მეტი, მრავალი, ყოველივე -->
     <tag name="INTJ">29</tag><!-- აბა, რა, კარგი, ოჰ, ა, აა, ახ, აჰა, გამარჯობა, გეთაყვა -->
-    <tag name="NOUN">4820</tag><!-- დედა, დრო, ადამიანი, ხელი, ოთახი, კითხვა, წელი, სახლი, თვალი, კაცი -->
-    <tag name="NUM">249</tag><!-- ერთი, მეორე, ორი, სამი, პირველი, ოცი, ხუთი, ოთხი, ათასი, მესამე -->
-    <tag name="PART">85</tag><!-- _ო, _-მეთქი -->
-    <tag name="PRON">1627</tag><!-- ის, ეს, რა, მისი, რომელი, იგი, მე, თავისი, ჩემი, ვინ -->
-    <tag name="PROPN">823</tag><!-- სოფი, ერიკა, თუთაშხია, სილიბისტრო, კვაჭი, დათა, კვაჭიკო, ვარდენ, კვაჭანტირაძე, ცვირი -->
-    <tag name="PUNCT">4157</tag><!-- ,, ., –, :, ?, !, „, ”, (, ) -->
-    <tag name="SCONJ">442</tag><!-- რომ, თუ, როცა, თუმცა, როგორც, რადგან, თითქოს, რათა, როდესაც, ვიდრე -->
-    <tag name="VERB">3290</tag><!-- თქმა, ქონა, ცოდნა, ყოფნა, დგომა, კითხვა, გასვლა, მისვლა, ფიქრი, გრძნობა -->
+    <tag name="NOUN">5001</tag><!-- დედა, ადამიანი, დრო, ხელი, ოთახი, წელი, კითხვა, სახლი, თვალი, კაცი -->
+    <tag name="NUM">253</tag><!-- ერთი, მეორე, ორი, სამი, პირველი, ოცი, ხუთი, ოთხი, ათასი, მესამე -->
+    <tag name="PART">86</tag><!-- _ო, _-მეთქი -->
+    <tag name="PRON">1685</tag><!-- ის, ეს, რა, მისი, რომელი, მე, იგი, თავისი, ჩემი, ვინ -->
+    <tag name="PROPN">856</tag><!-- სოფი, ერიკა, თუთაშხია, სილიბისტრო, კვაჭი, დათა, ვარდენ, კვაჭიკო, კვაჭანტირაძე, ცვირი -->
+    <tag name="PUNCT">4320</tag><!-- ,, ., –, :, ?, !, „, ”, (, ) -->
+    <tag name="SCONJ">465</tag><!-- რომ, თუ, როცა, თუმცა, რადგან, როგორც, თითქოს, როდესაც, რათა, ვიდრე -->
+    <tag name="VERB">3424</tag><!-- თქმა, ქონა, ცოდნა, ყოფნა, დგომა, გასვლა, კითხვა, დაწყება, მისვლა, ნდომა -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="68">
+  <feats unique="73">
     <feat name="Abbr" value="Yes" upos="NOUN,PROPN">16</feat><!-- კ-მ, ბ-ნ, კ-ს, დ., კ., რ., ს. -->
-    <feat name="AdvType" value="Loc" upos="ADV">178</feat><!-- იქ, აქ, სად, შინ, გარეთ, უკან, საიდან, აქედან, შორს, აქამდე -->
+    <feat name="AdvType" value="Loc" upos="ADV">182</feat><!-- იქ, აქ, სად, შინ, უკან, გარეთ, საიდან, აქედან, შორს, აქამდე -->
     <feat name="AdvType" value="Rel" upos="ADV">13</feat><!-- სადაც, საიდანაც -->
-    <feat name="AdvType" value="Tim" upos="ADV">322</feat><!-- მაშინ, ახლა, მერე, ბოლოს, არასოდეს, შემდეგ, მაშინვე, ყოველთვის, დღეს, მალე -->
-    <feat name="Animacy" value="Anim" upos="NOUN,PRON">865</feat><!-- დედა, ვინ, კაცი, ადამიანი, დედას, არავინ, მამა, დედის, ქალი, ადამიანის -->
-    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2704</feat><!-- მას, ამ, თავის, იმ, ერთ, მის, ოთახ, დროს, თავს, ჩემს -->
-    <feat name="Case" value="Erg" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">384</feat><!-- სოფიმ, მან, მე, თუთაშხიამ, დედამ, ნოტიომ, ქალმა, ძმამ, ამ, ვინ -->
-    <feat name="Case" value="Ess" upos="ADJ,DET,NOUN,NUM,PRON">170</feat><!-- ამ, ბოლო, დღე, სანახავად, შეუმჩნევლად, ჩვეულებრივ, აზრად, ამოუღებლად, გაუვალ, გვარად -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1555</feat><!-- მის, წლის, თუთაშხიას, ამ, იმის, ამის, ხნის, თავისი, მისი, დედის -->
-    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">490</feat><!-- ერთი, ამ, თავისი, მოდი, მხრი, სახლი, იმით, სამსახური, სახით, სკოლი -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3981</feat><!-- ეს, იგი, ის, რა, დედა, ერიკა, მისი, რომელიც, სოფი, ერთი -->
-    <feat name="Case" value="Voc" upos="ADJ,NOUN,PRON,PROPN">71</feat><!-- სოფი, ჩემო, ვარდენ, ბატონო, კაცო, შე, ბატონებო, ფისო, ძვირფასო, ერიკა -->
-    <feat name="Encl" value="C" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN">237</feat><!-- არც, ისიც, ვერც, დღესაც, ახლაც, მეც, მეორეც, ამიტომაც, ერთხელაც, ზოგიც -->
+    <feat name="AdvType" value="Tim" upos="ADV">334</feat><!-- მაშინ, ახლა, მერე, ბოლოს, არასოდეს, შემდეგ, მაშინვე, ყოველთვის, დღეს, მალე -->
+    <feat name="Animacy" value="Anim" upos="NOUN,PRON">892</feat><!-- დედა, ვინ, კაცი, ადამიანი, დედას, არავინ, მამა, დედის, ქალი, ადამიანის -->
+    <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">2799</feat><!-- მას, ამ, თავის, იმ, ერთ, მის, ოთახ, დროს, თავს, ჩემს -->
+    <feat name="Case" value="Erg" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">402</feat><!-- სოფიმ, მან, მე, თუთაშხიამ, დედამ, ნოტიომ, ქალმა, ძმამ, ამ, ვინ -->
+    <feat name="Case" value="Ess" upos="ADJ,DET,NOUN,NUM,PRON">174</feat><!-- ამ, ბოლო, დღე, სანახავად, შეუმჩნევლად, ჩვეულებრივ, აზრად, ამოუღებლად, გაუვალ, გვარად -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">1613</feat><!-- მის, წლის, თუთაშხიას, ამ, იმის, ამის, თავისი, ხნის, მისი, დედის -->
+    <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">499</feat><!-- ერთი, ამ, თავისი, იმით, მოდი, მხრი, სახლი, ღიმილით, თვალებით, სამსახური -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">4128</feat><!-- ეს, ის, იგი, რა, დედა, ერიკა, მისი, რომელიც, მე, სოფი -->
+    <feat name="Case" value="Voc" upos="ADJ,NOUN,PRON,PROPN">75</feat><!-- სოფი, ვარდენ, ჩემო, კაცო, შე, ბატონო, ბატონებო, ფისო, ძვირფასო, ერიკა -->
+    <feat name="Encl" value="C" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN">248</feat><!-- არც, ისიც, ვერც, დღესაც, ამიტომაც, ახლაც, მეც, თვითონაც, მეორეც, ერთხელაც -->
     <feat name="Encl" value="Ve" upos="ADV,NOUN,NUM,PRON">42</feat><!-- იმავე, ორივე, იმავ, იქვე, ამავე, დილი, შენსავე, ამწუთშივე, ბავშვობი, დანახვის -->
-    <feat name="Evident" value="Fh" upos="PART">10</feat><!-- -მეთქი -->
+    <feat name="Evident" value="Fh" upos="PART">11</feat><!-- -მეთქი -->
     <feat name="Evident" value="Nfh" upos="PART">75</feat><!-- ო -->
     <feat name="ExtPos" value="ADV" upos="ADV,PRON">22</feat><!-- ჯერ, რა, ესე, ის, არც, ეს -->
     <feat name="ExtPos" value="INTJ" upos="INTJ">1</feat><!-- კარგი -->
-    <feat name="ExtPos" value="SCONJ" upos="CCONJ,PRON,SCONJ">22</feat><!-- თუ, როგორც, რაც, თუმცა -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">143</feat><!-- იქნებოდა, გავიდოდა, იტყოდა, განაგებდა, დათბებოდა, დაიძრებოდა, იცნობდით, შედგებოდა, შეძვრებოდა, წამოვიდოდა -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">59</feat><!-- მომეცი, შეხედე, ასახელე, ასწონ-დასწონეთ, აღიჭურვეთ, გააბედნიერე, გააგდებინე, გააკეთეთ, გააღე, გადაეცით -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">3249</feat><!-- ა, იყო, არის, ჰქონდა, თქვა, იდგა, ხარ, აქვს, უთხრა, მქონდა -->
-    <feat name="Mood" value="Sub" upos="AUX,VERB">209</feat><!-- იყოს, ჰქონდეს, თქვას, ავიღოთ, გავიგოთ, გამოვიყენო, გახდეს, დაექვემდებაროს, დავუშვათ, ვიცხოვროთ -->
-    <feat name="NameType" value="Geo" upos="PROPN">92</feat><!-- სამტრედია, ხონის, აფხაზეთ, თბილის, საქართველოს, ფოთის, ბათომ, ბანძა, გაგრის, გურია -->
+    <feat name="ExtPos" value="SCONJ" upos="CCONJ,PRON,SCONJ">23</feat><!-- თუ, როგორც, რაც, თუმცა -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">150</feat><!-- იქნებოდა, გავიდოდა, იტყოდა, განაგებდა, დათბებოდა, დაიძრებოდა, ეჩვენებოდა, იცნობდით, შედგებოდა, შეძვრებოდა -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">61</feat><!-- დამიტოვე, მითხარი, მომეცი, შეხედე, ასახელე, ასწონ-დასწონეთ, აღიჭურვეთ, გააბედნიერე, გააგდებინე, გააკეთეთ -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">3394</feat><!-- ა, იყო, არის, ჰქონდა, იდგა, აქვს, თქვა, უთხრა, ხარ, მქონდა -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">211</feat><!-- იყოს, ჰქონდეს, თქვას, ავიღოთ, გავიგოთ, გამოვიყენო, გახდეს, დაექვემდებაროს, დავუშვათ, ვიცხოვროთ -->
+    <feat name="NameType" value="Geo" upos="PROPN">100</feat><!-- სამტრედია, საქართველოს, ხონის, აფხაზეთ, თბილის, უკრაინის, ფოთის, ბათომ, ბანძა, გაგრის -->
     <feat name="NameType" value="Oth" upos="PROPN">3</feat><!-- გაეროს, იუნესკო, სსრკ- -->
-    <feat name="NameType" value="Prs" upos="PROPN">709</feat><!-- ერიკა, სოფი, ერიკას, თუთაშხიას, დათა, სოფიმ, სოფის, სილიბისტრო, კვაჭის, თუთაშხია -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN">700</feat><!-- ჩვენ, ისინი, მათ, თქვენ, ადამიანები, თვალები, რომლებიც, ადამიანებს, კითხვებს, ფილოსოფოსები -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">5409</feat><!-- მას, იგი, ეს, მე, ის, დედა, რომელიც, შენ, ოთახ, დროს -->
+    <feat name="NameType" value="Prs" upos="PROPN">734</feat><!-- ერიკა, სოფი, ერიკას, თუთაშხიას, დათა, სოფიმ, სოფის, სილიბისტრო, ვარდენ, კვაჭის -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN">727</feat><!-- ჩვენ, ისინი, მათ, თქვენ, თვალები, ადამიანები, რომლებიც, ადამიანებს, კითხვებს, ფილოსოფოსები -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">5597</feat><!-- მას, იგი, ეს, მე, ის, დედა, რომელიც, შენ, ოთახ, დრო -->
     <feat name="Number[io]" value="Plur" upos="VERB">61</feat><!-- გახლდათ, გთხოვთ, მოგახსენებთ, გვიპასუხებდა, მოგახსენეთ, გაგვაგებინებს, გაგვიკეთებს, გაგვიხვია, გაგიღიმათ, გაკავშირებდათ -->
-    <feat name="Number[io]" value="Sing" upos="VERB">172</feat><!-- მითხრა, გითხარი, დამითხოვა, მკითხა, გაწყენინე, გეტყვი, გიშოვი, დამრჩა, მელაპარაკები, მემართებოდა -->
-    <feat name="Number[obj]" value="Plur" upos="VERB">9</feat><!-- აინტერესებდათ, გაგაფრთხილათ, გაგვაბედნიერებს, გაგვაცურა, გაიცნოთ, გვაკვირვებს, დაგვტოვა, მოგკლავთ, მოგხიბლავთ -->
+    <feat name="Number[io]" value="Sing" upos="VERB">178</feat><!-- მითხრა, გითხარი, დამითხოვა, მითხარი, მკითხა, შემომხედა, გაწყენინე, გეტყვი, გიშოვი, დამიტოვე -->
+    <feat name="Number[obj]" value="Plur" upos="VERB">10</feat><!-- აინტერესებდათ, გაგაფრთხილათ, გაგვაბედნიერებს, გაგვაცურა, გაიცნოთ, გვაკვირვებს, დაგვტოვა, მოგკლავთ, მოგხიბლავთ -->
     <feat name="Number[obj]" value="Sing" upos="VERB">46</feat><!-- ეთქვათ, დაგებრუნებინათ, მაინტერესებს, გაგაცდენ, გაგაწვალებს, გაკვირვებს, გამაგიჟოს, გამაოცა, გამაოცეთ, გამაფრთხილა -->
     <feat name="Number[psor]" value="Plur" upos="PRON">53</feat><!-- მათი, ჩვენი, თქვენი, თავიანთი, თქვენს, ჩვენმა, თავიანთ, ჩვენს, თავიანთიც, მათს -->
-    <feat name="Number[psor]" value="Sing" upos="PRON">250</feat><!-- მისი, თავის, ჩემი, მის, თავისი, ჩემს, შენი, ჩემო, შენს, მისმა -->
-    <feat name="Number[subj]" value="Plur" upos="AUX,VERB">442</feat><!-- ვართ, იყვნენ, აქვთ, არიან, ამბობდნენ, გვაქვს, გვჭირდება, ეთქვათ, ვიცით, მიდიოდნენ -->
-    <feat name="Number[subj]" value="Sing" upos="AUX,VERB">3214</feat><!-- ა, იყო, არის, ჰქონდა, თქვა, იდგა, უთხრა, ხარ, აქვს, მქონდა -->
-    <feat name="NumType" value="Card" upos="NUM">195</feat><!-- ერთი, ერთ, ორი, სამი, ორივე, ოცი, ხუთი, ათასი, ოთხი, ორიოდე -->
+    <feat name="Number[psor]" value="Sing" upos="PRON">264</feat><!-- მისი, თავის, ჩემი, თავისი, მის, ჩემს, შენი, ჩემო, შენს, მისმა -->
+    <feat name="Number[subj]" value="Plur" upos="AUX,VERB">454</feat><!-- ვართ, იყვნენ, აქვთ, არიან, ამბობდნენ, გვაქვს, გვჭირდება, ეთქვათ, ვიცით, მიდიოდნენ -->
+    <feat name="Number[subj]" value="Sing" upos="AUX,VERB">3358</feat><!-- ა, იყო, არის, ჰქონდა, იდგა, უთხრა, აქვს, თქვა, ხარ, მქონდა -->
+    <feat name="NumType" value="Card" upos="NUM">199</feat><!-- ერთი, ერთ, ორი, სამი, ორივე, ოცი, ხუთი, ათასი, ოთხი, ორიოდე -->
     <feat name="NumType" value="Frac" upos="NUM">4</feat><!-- ნახევარი, მეოთხედ -->
     <feat name="NumType" value="Ord" upos="NUM">50</feat><!-- მეორე, პირველი, პირველ, მეორეს, მეორეც, მე-15, მესამე, მესამეს, მეათე, მეოთხი -->
-    <feat name="Person" value="1" upos="PRON">81</feat><!-- ჩემი, ჩემს, ჩვენი, ჩემო, ჩვენმა, ჩვენს, ჩემმა, ჩემსა -->
+    <feat name="Person" value="1" upos="PRON">85</feat><!-- ჩემი, ჩემს, ჩვენი, ჩემო, ჩვენმა, ჩვენს, ჩემმა, ჩემსა -->
     <feat name="Person" value="2" upos="PRON">31</feat><!-- თქვენი, შენი, შენს, თქვენს, შენ, შენსავე -->
-    <feat name="Person" value="3" upos="PRON">191</feat><!-- მისი, თავის, მის, თავისი, მათი, თავიანთი, მისმა, თავიანთ, იმის, მისას -->
-    <feat name="Person[io]" value="1" upos="VERB">149</feat><!-- მითხრა, დამითხოვა, მკითხა, გვიპასუხებდა, დამრჩა, მელაპარაკები, მემართებოდა, მეუბნები, მითხარი, მიშლიდა -->
-    <feat name="Person[io]" value="2" upos="VERB">74</feat><!-- გახლდათ, გთხოვთ, გითხარი, მოგახსენებთ, გაწყენინე, გეტყვი, გიშოვი, მოგახსენეთ, მოგცემენ, აგიწვდება -->
-    <feat name="Person[io]" value="3" upos="VERB">676</feat><!-- უთხრა, ცდილობს, ჰკითხა, ეწერა, მიაღწია, მოუკვდა, ჰგავდა, დახედა, ეტყობა, ეცვა -->
+    <feat name="Person" value="3" upos="PRON">201</feat><!-- მისი, თავის, თავისი, მის, მათი, თავიანთი, მისმა, თავიანთ, იმის, მისას -->
+    <feat name="Person[io]" value="1" upos="VERB">154</feat><!-- მითხრა, დამითხოვა, მითხარი, მკითხა, შემომხედა, გვიპასუხებდა, დამიტოვე, დამიწყო, დამრჩა, მელაპარაკები -->
+    <feat name="Person[io]" value="2" upos="VERB">75</feat><!-- გახლდათ, გთხოვთ, გითხარი, მოგახსენებთ, გაწყენინე, გეტყვი, გიშოვი, მოგახსენეთ, მოგცემენ, აგიწვდება -->
+    <feat name="Person[io]" value="3" upos="VERB">703</feat><!-- უთხრა, ცდილობს, ჰგავდა, ჰკითხა, ეწერა, მიაღწია, მოუკვდა, დახედა, ეტყობა, ეცვა -->
     <feat name="Person[obj]" value="1" upos="VERB">25</feat><!-- მაინტერესებს, გაგვაბედნიერებს, გაგვაცურა, გამაგიჟოს, გამაოცა, გამაოცეთ, გამაფრთხილა, გამაჩერებდა, გამიტაცა, გამიტაცებდა -->
     <feat name="Person[obj]" value="2" upos="VERB">11</feat><!-- გაგაფრთხილათ, გაგაცდენ, გაგაწვალებს, გაკვირვებს, გიხმობს, გსჯიდა, გხედავდი, დაგსჯის, მოგკლავთ, მოგხიბლავთ -->
-    <feat name="Person[obj]" value="3" upos="AUX,VERB">1701</feat><!-- ჰქონდა, თქვა, აქვს, უთხრა, მქონდა, ვიცი, მაქვს, იცის, იცოდა, მინდა -->
-    <feat name="Person[subj]" value="1" upos="AUX,VERB">567</feat><!-- მქონდა, ვარ, ვიცი, მაქვს, ვიყავი, მინდა, ვართ, შევედი, ვიცოდი, ვკითხულობდი -->
-    <feat name="Person[subj]" value="2" upos="AUX,VERB">264</feat><!-- ხარ, ფიქრობ, გაქვს, გინდა, იცი, შეგიძლიათ, ხედავ, ასწავლი, გგონია, გნებავთ -->
-    <feat name="Person[subj]" value="3" upos="AUX,VERB">2826</feat><!-- ა, იყო, არის, ჰქონდა, თქვა, იდგა, აქვს, უთხრა, გავიდა, იქნება -->
+    <feat name="Person[obj]" value="3" upos="AUX,VERB">1781</feat><!-- ჰქონდა, აქვს, თქვა, უთხრა, მქონდა, მაქვს, ვიცი, იცის, იცოდა, მინდა -->
+    <feat name="Person[subj]" value="1" upos="AUX,VERB">605</feat><!-- მქონდა, ვარ, მაქვს, ვიცი, მინდა, ვიყავი, ვართ, შევედი, დავხუჭე, ვიცოდი -->
+    <feat name="Person[subj]" value="2" upos="AUX,VERB">273</feat><!-- ხარ, გინდა, ფიქრობ, გაქვს, იცი, მითხარი, შეგიძლიათ, ხედავ, ასწავლი, გგონია -->
+    <feat name="Person[subj]" value="3" upos="AUX,VERB">2935</feat><!-- ა, იყო, არის, ჰქონდა, იდგა, აქვს, თქვა, უთხრა, იქნება, გავიდა -->
     <feat name="Polarity" value="Neg" upos="ADJ">55</feat><!-- შეუძლებელი, შეუმჩნევლად, ამოუღებლად, გაუგებარი, გაუვალ, გაუთავებელი, მოუსვენარი, უცნობ, აუტანელი, აუღელვებლად -->
-    <feat name="Poss" value="Yes" upos="PRON">303</feat><!-- მისი, თავის, ჩემი, მის, თავისი, ჩემს, მათი, ჩვენი, თქვენი, შენი -->
-    <feat name="PronType" value="Dem" upos="PRON">399</feat><!-- ეს, ამ, იმ, ის, ამას, იმის, ამის, იმავე, იგი, იმას -->
-    <feat name="PronType" value="Ind" upos="PRON">100</feat><!-- რაღაც, ისეთი, ასეთი, ასეთ, ვიღაც, ისეთ, ასეთები, რაღაცას, რომელიღაც, ასეთთა -->
-    <feat name="PronType" value="Prs" upos="PRON">718</feat><!-- მას, მე, იგი, მისი, მის, თავის, ის, ჩემი, შენ, თავისი -->
-    <feat name="PronType" value="Rel" upos="PRON">122</feat><!-- რომელიც, რაც, რომელსაც, რასაც, ვინც, რომლებიც, რომლის, როგორიც, რომელ, ვისაც -->
-    <feat name="Tense" value="Fut" upos="ADJ,AUX,VERB">344</feat><!-- იქნება, საწყალი, შესაძლებელი, გავა, გამოვა, დაბრუნდება, ექნება, მოსალოდნელი, სანახავად, საოცარი -->
-    <feat name="Tense" value="Imp" upos="AUX,VERB">474</feat><!-- ჰქონდა, მქონდა, იცოდა, იზრდებოდა, ჩანდა, ჰგავდა, ჰყავდა, ამბობდა, გახლდათ, ვიცოდი -->
-    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">1842</feat><!-- იყო, თქვა, იდგა, უთხრა, გავიდა, მოხდა, ვიყავი, გაჩნდა, დაიწყო, ეწერა -->
-    <feat name="Tense" value="PastPerf" upos="AUX,VERB">79</feat><!-- ყოფილა, მიუღია, აუკიდებია, აურჩევია, აუყვანიათ, გადამდგარა, გავცილებივარ, გამიგონია, გამივლია, გამოჩენილა -->
-    <feat name="Tense" value="Pqp" upos="AUX,VERB">113</feat><!-- ყოფილიყო, ეთქვათ, დაგებრუნებინათ, ენახა, ექნა, ქცეულიყო, ჰქონოდა, აელოკა, ამეკრიფა, არეოდა -->
-    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">1301</feat><!-- ა, არის, ხარ, აქვს, ვარ, ვიცი, მაქვს, იცის, იქნებოდა, მინდა -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3660</feat><!-- ა, იყო, არის, ჰქონდა, თქვა, იდგა, უთხრა, ხარ, აქვს, მქონდა -->
-    <feat name="VerbForm" value="Part" upos="ADJ,VERB">552</feat><!-- დარწმუნებული, დანარჩენი, შეუძლებელი, გამომძიებლის, განკუთვნილი, საწყალი, შესაძლებელი, ცნობილი, გამოგზავნილი, გატენილი -->
-    <feat name="VerbForm" value="Vnoun" upos="AUX,NOUN,VERB">553</feat><!-- კითხვა, თქმა, გონება, კითხვას, კითხვებს, შეკითხვა, გაგება, გაცემა, კითხვები, მზერას -->
+    <feat name="Poss" value="Yes" upos="PRON">317</feat><!-- მისი, თავის, ჩემი, თავისი, მის, ჩემს, მათი, ჩვენი, თქვენი, შენი -->
+    <feat name="PronType" value="Dem" upos="PRON">416</feat><!-- ეს, ამ, იმ, ის, ამას, იმის, ამის, იგი, იმავე, იმას -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">216</feat><!-- რაღაც, ისეთი, რამდენიმე, ასეთი, ზოგი, ბევრი, ვინმეს, ასეთ, მეტი, მრავალი -->
+    <feat name="PronType" value="Int" upos="PRON">144</feat><!-- რა, ვინ, რას, ვის, როგორი, რამდენი, რის, რომელი, რამ, რაღა -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">73</feat><!-- არავინ, არაფერი, ვერაფერი, არავის, არავითარ, აღარაფერი, ვერავინ, ვერაფერს, არაფერს, არაფრით -->
+    <feat name="PronType" value="Prs" upos="PRON">786</feat><!-- მას, მე, მისი, იგი, მის, თავის, ის, ჩემი, თავისი, შენ -->
+    <feat name="PronType" value="Rcp" upos="PRON">9</feat><!-- ერთმანეთს, ერთმანეთის, ერთიმეორე -->
+    <feat name="PronType" value="Rel" upos="PRON">125</feat><!-- რომელიც, რაც, რომელსაც, რასაც, ვინც, რომლებიც, რომლის, ვისაც, როგორიც, რომელ -->
+    <feat name="PronType" value="Tot" upos="DET">115</feat><!-- მთელი, ყველა, ყველაფერი, ყველას, მთელ, ყველაფერს, ყოველივე, ყოველ, ყოველი, ყველანი -->
+    <feat name="Reflex" value="Yes" upos="PRON">124</feat><!-- თავის, თავისი, თავს, თავი, თავ, თავიანთი, თავიანთ, თავიანთიც, თავისას, თავისსავე -->
+    <feat name="Tense" value="Fut" upos="ADJ,AUX,VERB">353</feat><!-- იქნება, საოცარი, საწყალი, შესაძლებელი, გავა, გამოვა, დაბრუნდება, ექნება, მოსალოდნელი, სანახავად -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">503</feat><!-- ჰქონდა, მქონდა, იცოდა, ჰგავდა, ამბობდა, იზრდებოდა, ფიქრობდა, ჩანდა, ჰყავდა, გახლდათ -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">1939</feat><!-- იყო, იდგა, უთხრა, თქვა, გავიდა, მოხდა, დაიწყო, ვიყავი, ამოიღო, გაჩნდა -->
+    <feat name="Tense" value="PastPerf" upos="AUX,VERB">82</feat><!-- ყოფილა, მიუღია, აუკიდებია, აურჩევია, აუყვანიათ, გადამდგარა, გავცილებივარ, გამიგონია, გამივლია, გამოჩენილა -->
+    <feat name="Tense" value="Pqp" upos="AUX,VERB">119</feat><!-- ყოფილიყო, ეთქვათ, დაგებრუნებინათ, ეთქვა, ენახა, ექნა, ქცეულიყო, ჰქონოდა, აელოკა, ამეკრიფა -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">1329</feat><!-- ა, არის, აქვს, ხარ, ვარ, მაქვს, ვიცი, იქნებოდა, იცის, მინდა -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">3816</feat><!-- ა, იყო, არის, ჰქონდა, იდგა, უთხრა, აქვს, თქვა, ხარ, მქონდა -->
+    <feat name="VerbForm" value="Part" upos="ADJ,VERB">570</feat><!-- დარწმუნებული, დანარჩენი, შეუძლებელი, გამომძიებლის, განკუთვნილი, საოცარი, საწყალი, შესაძლებელი, ცნობილი, გამოგზავნილი -->
+    <feat name="VerbForm" value="Vnoun" upos="AUX,NOUN,VERB">573</feat><!-- კითხვა, თქმა, გონება, კითხვას, კითხვებს, შეკითხვა, გაგება, გაცემა, კითხვები, მზერას -->
     <feat name="Voice" value="Cau" upos="VERB">15</feat><!-- გაწყენინე, აგებინოს, ახმობინა, გააგდებინე, გაატანინეს, გაგვაგებინებს, გადაადგმევინა, გადმოვაღებინეთ, გათქმევინა, გამაგებინეთ -->
-    <feat name="Voice" value="Inv" upos="AUX,VERB">332</feat><!-- ჰქონდა, აქვს, მქონდა, მაქვს, მინდა, შეუძლია, აქვთ, სურს, ჰქონდეს, ჰყავდა -->
+    <feat name="Voice" value="Inv" upos="AUX,VERB">355</feat><!-- ჰქონდა, აქვს, მქონდა, მაქვს, მინდა, შეუძლია, აქვთ, გინდა, სურს, ჰქონდეს -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
-    <dep name="acl">69</dep>
-    <dep name="acl:relcl">137</dep>
-    <dep name="advcl">350</dep>
+    <dep name="acl">73</dep>
+    <dep name="acl:relcl">140</dep>
+    <dep name="advcl">366</dep>
     <dep name="advcl:relcl">4</dep>
-    <dep name="advmod">1797</dep>
-    <dep name="advmod:neg">352</dep>
-    <dep name="amod">1148</dep>
+    <dep name="advmod">1870</dep>
+    <dep name="advmod:neg">372</dep>
+    <dep name="amod">1193</dep>
     <dep name="appos">52</dep>
-    <dep name="aux">181</dep>
-    <dep name="case">1336</dep>
-    <dep name="cc">1053</dep>
-    <dep name="ccomp">213</dep>
-    <dep name="ccomp:speech">70</dep>
-    <dep name="conj">1284</dep>
-    <dep name="cop">366</dep>
+    <dep name="aux">182</dep>
+    <dep name="case">1389</dep>
+    <dep name="cc">1098</dep>
+    <dep name="ccomp">222</dep>
+    <dep name="ccomp:speech">72</dep>
+    <dep name="conj">1342</dep>
+    <dep name="cop">386</dep>
     <dep name="csubj">41</dep>
     <dep name="csubj:outer">1</dep>
-    <dep name="det">399</dep>
-    <dep name="det:poss">287</dep>
+    <dep name="det">417</dep>
+    <dep name="det:poss">301</dep>
     <dep name="discourse">27</dep>
-    <dep name="fixed">51</dep>
+    <dep name="fixed">52</dep>
     <dep name="flat">1</dep>
-    <dep name="iobj">451</dep>
-    <dep name="mark">577</dep>
-    <dep name="nmod">957</dep>
-    <dep name="nmod:agent">1</dep>
-    <dep name="nmod:iobj">3</dep>
-    <dep name="nmod:name">91</dep>
+    <dep name="iobj">462</dep>
+    <dep name="mark">602</dep>
+    <dep name="nmod">1003</dep>
+    <dep name="nmod:agent">2</dep>
+    <dep name="nmod:iobj">4</dep>
+    <dep name="nmod:name">93</dep>
     <dep name="nmod:pred">3</dep>
-    <dep name="nsubj">1825</dep>
-    <dep name="nummod">206</dep>
-    <dep name="obj">1152</dep>
-    <dep name="obl">1532</dep>
-    <dep name="obl:agent">9</dep>
+    <dep name="nsubj">1885</dep>
+    <dep name="nummod">210</dep>
+    <dep name="obj">1209</dep>
+    <dep name="obl">1580</dep>
+    <dep name="obl:agent">8</dep>
     <dep name="obl:final">29</dep>
-    <dep name="obl:iobj">22</dep>
+    <dep name="obl:iobj">23</dep>
     <dep name="orphan">13</dep>
-    <dep name="parataxis">335</dep>
-    <dep name="punct">4157</dep>
-    <dep name="root">1818</dep>
-    <dep name="vocative">41</dep>
-    <dep name="xcomp">106</dep>
+    <dep name="parataxis">347</dep>
+    <dep name="punct">4320</dep>
+    <dep name="root">1878</dep>
+    <dep name="vocative">43</dep>
+    <dep name="xcomp">110</dep>
   </deps>
 </treebank>
